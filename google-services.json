@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "16913759444",
+    "project_id": "cyborgai-d7a18",
+    "storage_bucket": "cyborgai-d7a18.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16913759444:android:b5436cbccd77fdd6ffcf41",
+        "android_client_info": {
+          "package_name": "com.ankit.cyborg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16913759444-bfbvf0uen6qrl7i4cfocfn7j57ifomna.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ankit.cyborg",
+            "certificate_hash": "23de65886664acf2ec9d6431254439e2c04f655c"
+          }
+        },
+        {
+          "client_id": "16913759444-1fh87787jsto2quspig0n8nbspenus05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHk930-B7gMUABsdctbVcuDnASdSZ4JjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16913759444-1fh87787jsto2quspig0n8nbspenus05.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "16913759444-afu5636l7l3hv4vns3cqk3b2kerukh5k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cyborg"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
