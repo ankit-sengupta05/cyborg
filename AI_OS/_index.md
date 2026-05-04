@@ -1,19 +1,19 @@
----
-aliases: []
-area: ''
-backlinks: []
-created: '2026-05-04T00:57:47.913609'
-id: '94153626'
-links: []
-modified: '2026-05-04T00:57:47.913609'
-project: ''
-source: ''
-status: active
-summary: ''
-tags:
-- index
-title: AI OS Index
-type: map
----
-
+---
+aliases: []
+area: ''
+backlinks: []
+created: '2026-05-04T01:14:59.863428'
+id: a63b5282
+links: []
+modified: '2026-05-04T01:14:59.863428'
+project: ''
+source: ''
+status: active
+summary: ''
+tags:
+- index
+title: AI OS Index
+type: map
+---
+
 The operating layer of your vault.
