@@ -1,19 +1,19 @@
----
-aliases: []
-area: ''
-backlinks: []
-created: '2026-05-04T01:14:59.859413'
-id: 87850f64
-links: []
-modified: '2026-05-04T01:14:59.859413'
-project: ''
-source: ''
-status: active
-summary: ''
-tags:
-- index
-title: April 2026 Index
-type: map
----
-
+---
+aliases: []
+area: ''
+backlinks: []
+created: '2026-05-04T01:14:59.859413'
+id: 87850f64
+links: []
+modified: '2026-05-04T01:14:59.859413'
+project: ''
+source: ''
+status: active
+summary: ''
+tags:
+- index
+title: April 2026 Index
+type: map
+---
+
 Notes for April 2026.
