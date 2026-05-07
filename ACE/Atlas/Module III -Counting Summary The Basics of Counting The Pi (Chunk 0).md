@@ -1,0 +1,44 @@
+---
+aliases: []
+area: ''
+backlinks: []
+created: '2026-05-07T20:39:31.467888'
+id: 2988d4b4
+links: []
+modified: '2026-05-07T20:39:31.467888'
+project: ''
+source: ''
+status: active
+summary: ''
+tags:
+- ingested
+- chunk
+title: Module III -Counting Summary The Basics of Counting The Pi (Chunk 0)
+type: knowledge_chunk
+---
+
+---
+chunk_id: 7b69fb4979b1
+source: FALL2025-26_MAT1003_TH_AP2025262000358_2025-09-20_Reference-Material-I.pdf
+page: 0
+title: Module III -Counting Summary The Basics of Counting The Pi (Chunk 0)
+keywords: ['Module III', 'Pigeonhole Principle', 'Permutations/Combinations', 'Binomial Coefficients', 'Generating Functions', 'Product Rule', 'Sum Rule', 'Subtraction Rule', 'Division Rule', 'Tree Diagrams', 'License Plates', 'Telephone Numbering Plan (NANP)']
+created: 2026-05-08 02:09:31
+tree_path: Maths > Page 0 > Module III -Counting Summary The Basics of Counti
+---
+
+Module III -Counting Summary The Basics of Counting The Pigeonhole Principle Permutations and Combinations Binomial Coefficients and Identities Generalized Permutations and Combinations Generating Functions and Recurrence Relations The Basics of Counting The Product Rule The Sum Rule The Subtraction Rule The Division Rule Tree Diagrams Basic Counting Principles: The Product Rule The Product Rule : A procedure can be broken down into a sequence of two tasks. There are n1ways to do the first task and n2ways to do the second task. Then there are n1∙n2ways to do the procedure. Example : How many different license plates can be made if each plate contains a sequence of three uppercase English letters followed by three digits? Solution : By the product rule, there are 26 ∙ 26 ∙ 26 ∙ 10 ∙ 10 ∙ 10 = 17,576,000 different possible license plates. Telephone Numbering Plan Example : The North American numbering plan (NANP ) specifies that a telephone number consists of 10digits, consisting of a three -digit area code, a three -digit office code, and a four -digit station code. There are some restrictions on the digits. Let Xdenote a digit from 0through 9. Let Ndenote a digit from 2through 9. Let Ydenote a digit that is 0or 1. In the old plan (in use in the 1960 s) the format was NYX -NNX -XXXX . In the new plan, the format is NXX -NXX -XXXX . How many different telephone numbers are possible under the old plan and the new plan? Solution : Use the Product Rule. There are 8 ∙2 ∙10 = 160 area codes with the format NYX. There are 8 ∙10 ∙10 = 800 area codes with the format NXX. There are 8 ∙8 ∙10 = 640 office codes with the format NNX. There are 10 ∙10 ∙10 ∙10 = 10,000 station codes with the format XXXX. Number of old plan telephone numbers: 160 ∙640 ∙10,000 = 1,024,000,000 . Number of new plan telephone numbers: 800 ∙800 ∙10,000 = 6,400,000,000 . Product Rule in Terms of Sets If A1,A2,…, Amare finite sets, then the number of elements in the Cartesian product of these sets is the product of the number of elements of each set. The task of choosing an element in the Cartesian product A1⨉ A2⨉ ∙∙∙ ⨉ Amis done by choosing an element in A1, an element in A2, …, and an element in Am. By the product rule, it follows that: |A1⨉ A2⨉ ∙∙∙ ⨉ Am|= |A1| ∙|A2|∙∙∙∙ ∙ |Am|. Basic Counting Principles: The Sum Rule The Sum Rule : If a task can be done either in one of n1ways or in one of n2, where none of the set of n1 ways is the same as any of the n2ways, then there are n1 +n2ways to do the task. Example : The mathematics department must choose either a student or a faculty member as a representative for a university committee. How many choices are there for this representative if there are 37members of the mathematics faculty and 83mathematics majors and no one is both a faculty member and a student. Solution : By the sum rule it follows that there are 37+ 83= 120possible ways to pick a representative. The Sum Rule in terms of sets. The sum rule can be phrased in terms of sets. |A∪ B|= |A| + |B| as long as Aand Bare disjoint sets. Or more generally, |A1∪ A2∪ ∙∙∙ ∪ Am|= |A1| + |A2| +∙∙∙ + |Am| when Ai∩ Aj= ∅ for all i, j. Combining the Sum and Product Rule Example : Suppose statement labels in a programming language can be either a single letter or a letter followed by a digit. Find the number of possible labels. Solution : Use the product rule. 26+ 26 ∙10= 286 Basic Counting Principles: Subtraction Rule Subtraction Rule : If a task can be done either in one of n1ways or in one of n2ways, then the total number of ways to do the task is n1 +n2minus the number of ways to do the task that are common to the two different ways. Also known as, the principle of inclusion -exclusion : Counting Bit Strings Example : How many bit strings of length eight either start with a 1bit or end with the two bits 00? Solution : Use the subtraction rule. Number of bit strings of length eight that start with a 1bit: 27= 128 Number of bit strings of length eight that end with bits 00: 26= 64 Number of bit strings of length eight that start with a 1bit and end with bits 00 : 25= 32 Hence, the number is 128 + 64 − 32 = 160. Basic Counting Principles: Division Rule Division Rule : There are n/dways to do a task if it can be done using a procedure that can be carried out in nways, and for every way w, exactly dof the nways correspond to way w. Example : How many ways are there to seat four people around a circular table, where two seatings are considered the same when each person has the same left and right neighbor? Solution : Number the seats around the table from 1to 4 proceeding clockwise. There are four ways to select the person for seat 1, 3for seat 2, 2, for seat 3, and one way for seat 4. Thus there are 4! = 24ways to order the four people. But since two seatings are the same when each person has the same left and right neighbor, for every choice for seat 1, we get the same seating. Therefore, by the division rule, there are 24/4= 6different seating arrangements. Tree Diagrams Tree Diagrams : We can solve many counting problems through the use of tree diagrams , where a branch represents a possible choice and the leaves represent possible outcomes. Example : Suppose that “I Love Discrete Math” T -shirts come in five different sizes: S,M,L,XL, and XXL. Each size comes in four colors (white, red, green, and black), except XL, which comes only in red, green, and black, and XXL, which comes only in green and black. What is the minimum number of shirts that the campus book store needs to stock to have one of each size and color available? Solution : Draw the tree diagram. The store must stock 17 T-shirts. Problems for Practice The Pigeonhole Principle The Pigeonhole Principle The Generalized Pigeonhole Principle If a flock of 13 pigeons roosts in a set of 12 pigeonholes, one of the pigeonholes must have more than 1pigeon.The Pigeonhole Principle The Pigeonhole Principle EXAMPLES: 2.1. The Generalized Pigeonhole Principle Example : Among 100people there are at least ⌈100/12⌉ = 9 who were born in the same month. The Generalized Pigeonhole Principle Example : How many cards must be selected from a standard deck of 52cards to guarantee that at least three cards of the same suit are chosen? Solution : We assume four boxes; one for each suit. Using the generalized pigeonhole principle, at least one box contains at least ⌈N/4⌉cards. At least three cards of one suit are selected if ⌈N/4⌉≥3. The smallest integer Nsuch that ⌈N/4⌉≥3 isN= 2 ∙ 4 + 1 = 9. NOTE: Problems for Practice Solution: Problems for Practice Solution: Problems for Practice IMPORTANT: Study section 6.3 (Basic Permutations and Combinations)of the textbook on your own and practice the problems in the Exercises of 6.3. Generalized Permutations and Combinations Permutations with Repetition Combinations with Repetition Permutations with Indistinguishable Objects Distributing Objects into Boxes Permutations with Repetition Combinations with Repetition EXAMPLE: Summarizing the Formulas for Counting Permutations and Combinations with and without Repetition Permutations with Indistinguishable Objects EXAMPLE Solution : There are seven possible positions for the three Ss, two Cs, one U, and one E. The three Sscan be placed in C(7,3) different ways, leaving four positions free. The two Cs can be placed in C(4,2) different ways, leaving two positions free. The U can be placed in C(2,1) different ways, leaving one position free. The E can be placed in C(1,1) way. By the product rule, the number of different strings is: Practice Problems Solution
+
+### Related Concepts
+- [[Subtraction Rule]]
+- [[License Plates]]
+- [[Division Rule]]
+- [[Module III]]
+- [[Telephone Numbering Plan (NANP)]]
+- [[Permutations/Combinations]]
+- [[Pigeonhole Principle]]
+- [[Sum Rule]]
+- [[Tree Diagrams]]
+- [[Binomial Coefficients]]
+- [[Generating Functions]]
+- [[Product Rule]]

@@ -1,0 +1,23 @@
+---
+aliases: []
+area: ''
+backlinks: []
+created: '2026-05-07T20:46:36.087097'
+id: cdc89350
+links: []
+modified: '2026-05-07T20:46:36.087097'
+project: ''
+source: ''
+status: active
+summary: ''
+tags:
+- entity
+title: contingency table
+type: note
+---
+
+# contingency table
+
+Type: entity
+
+Referenced in [[0 8. For n = 2, χ2 0.05 equals (a) 5.9 (b) 5.99 (c) 5.55 (d) (Chunk 21)]]

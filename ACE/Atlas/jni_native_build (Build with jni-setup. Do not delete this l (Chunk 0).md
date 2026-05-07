@@ -1,0 +1,35 @@
+---
+aliases: []
+area: ''
+backlinks: []
+created: '2026-05-07T20:22:58.638185'
+id: 2ec602a2
+links: []
+modified: '2026-05-07T20:22:58.638185'
+project: ''
+source: ''
+status: active
+summary: ''
+tags:
+- ingested
+- chunk
+title: jni_native_build (Build with jni:setup. Do not delete this l (Chunk 0)
+type: knowledge_chunk
+---
+
+---
+chunk_id: 59264f42466c
+source: CMakeLists.txt
+page: 0
+title: jni_native_build (Build with jni:setup. Do not delete this l (Chunk 0)
+keywords: ['CMake', 'Flutter tooling', 'JNI']
+created: 2026-05-08 01:52:58
+tree_path: src > Page 0 > jni_native_build (Build with jni:setup. Do not del
+---
+
+# jni_native_build (Build with jni:setup. Do not delete this line.) # The Flutter tooling requires that developers have CMake 3.10 or later # installed. You should not increase this version, as doing so will cause # the plugin to fail to compile for some customers of the plugin. cmake_minimum_required(VERSION 3.10) project(jni_library VERSION 0.0.1 LANGUAGES C) set(JNI_AVAILABLE FALSE) if (ANDROID) set(JNI_AVAILABLE TRUE) else() if (REQUIRE_JNI) # Standalone Dart Build: Fail strictly if JNI is missing find_package(JNI REQUIRED COMPONENTS JVM) set(JNI_AVAILABLE TRUE) else() # Flutter Plugin Build: Try to find JNI, but don't fail if missing find_package(JNI COMPONENTS JVM) if (JNI_FOUND) set(JNI_AVAILABLE TRUE) endif() endif() endif() if (JNI_AVAILABLE) add_library(jni SHARED "dartjni.c" "third_party/global_jni_env.c" "include/dart_api_dl.c" ) set_target_properties(jni PROPERTIES PUBLIC_HEADER dartjni.h OUTPUT_NAME "dartjni" ) target_compile_definitions(jni PUBLIC DART_SHARED_LIB) if(WIN32) set_target_properties(${TARGET_NAME} PROPERTIES LINK_FLAGS "/DELAYLOAD:jvm.dll") endif() if (ANDROID) target_link_libraries(jni log) target_link_options(jni PRIVATE "-Wl,-z,max-page-size=16384") else() find_package(JNI REQUIRED COMPONENTS JVM) include_directories(${JNI_INCLUDE_DIRS}) target_link_libraries(jni ${JNI_LIBRARIES}) endif() endif()
+
+### Related Concepts
+- [[JNI]]
+- [[Flutter tooling]]
+- [[CMake]]

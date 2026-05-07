@@ -1,0 +1,24 @@
+---
+aliases: []
+area: ''
+backlinks: []
+created: '2026-05-07T20:33:28.293278'
+id: 6572d673
+links: []
+modified: '2026-05-07T20:33:28.293278'
+project: ''
+source: ''
+status: active
+summary: ''
+tags:
+- entity
+- register
+title: DI
+type: note
+---
+
+# DI
+
+Type: register
+
+Extracted from [[(AX) If DF = 0, then (DI)  (DI) + 2 If DF = 1, then (DI)   (Chunk 2)]]
