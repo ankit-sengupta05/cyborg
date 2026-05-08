@@ -1640,3 +1640,12 @@ Map of your permanent knowledge.
 - [[TPR]] | Knowledge related to TPR
 - [[FPR]] | Knowledge related to FPR
 - [[Support Vector Machine Classification]] | Knowledge related to Support Vector Machine Classification
+- [[Linear Functions SVM]] | Knowledge related to Linear Functions SVM
+- [[Architecture SVM Architecture 24]] | Knowledge related to Architecture SVM Architecture 24
+- [[kernel]] | Knowledge related to kernel
+- [[Neuron]] | Knowledge related to Neuron
+- [[Dendrite]] | Knowledge related to Dendrite
+- [[Perceptron Model]] | Knowledge related to Perceptron Model
+- [[outputs]] | Knowledge related to outputs
+- [[errors]] | Knowledge related to errors
+- [[weights update]] | Knowledge related to weights update
