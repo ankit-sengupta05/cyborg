@@ -1619,3 +1619,24 @@ Map of your permanent knowledge.
 - [[The slope of the curve= 1.4 Cost function = 0 + 1 x (1.4)2 = 1.96 For Ridge Regression, l et’s assume]] | Knowledge related to The slope of the curve= 1.4 Cost function = 0 + 1 x (1.4)2 = 1.96 For Ridge Regression, l et’s assume
 - [[The slope of the curve= 0.7 Then, Cost function = 0.13 + 1 x (0.72)2 = 0.62 Ridge regression line fits the model more accurately than the linear regression line.]] | Knowledge related to The slope of the curve= 0.7 Then, Cost function = 0.13 + 1 x (0.72)2 = 0.62 Ridge regression line fits the model more accurately than the linear regression line.
 - [[K-Nearest Neighbor learning Module]] | Knowledge related to K-Nearest Neighbor learning Module
+- [[Principal Component Analysis]] | Knowledge related to Principal Component Analysis
+- [[Dimensionality Reduction and Machine Learning Method]] | Knowledge related to Dimensionality Reduction and Machine Learning Method
+- [[Unsupervised Learning Algorithm Technique]] | Knowledge related to Unsupervised Learning Algorithm Technique
+- [[PCA Example]] | Knowledge related to PCA Example
+- [[Exploring and Visualizing Data]] | Knowledge related to Exploring and Visualizing Data
+- [[PCA Why Do We Need PCA in Machine Learning?]] | Knowledge related to PCA Why Do We Need PCA in Machine Learning?
+- [[Interpretability and Minimizing Information Loss]] | Knowledge related to Interpretability and Minimizing Information Loss
+- [[Linear Combination of Varying Sequences]] | Knowledge related to Linear Combination of Varying Sequences
+- [[Why Principal Component Analysis Should Be Used in ML?]] | Knowledge related to Why Principal Component Analysis Should Be Used in ML?
+- [[Independence of Features]] | Knowledge related to Independence of Features
+- [[Fewer Features from Higher Features]] | Knowledge related to Fewer Features from Higher Features
+- [[Basic Terminologies of PCA in Machine Learning?]] | Knowledge related to Basic Terminologies of PCA in Machine Learning?
+- [[Standardizing Data]] | Knowledge related to Standardizing Data
+- [[Covariance Matrix]] | Knowledge related to Covariance Matrix
+- [[EigenValues and EigenVectors]] | Knowledge related to EigenValues and EigenVectors
+- [[Handling Missing Values in Decision Trees]] | Knowledge related to Handling Missing Values in Decision Trees
+- [[Ada]] | Knowledge related to Ada
+- [[Boost]] | Knowledge related to Boost
+- [[TPR]] | Knowledge related to TPR
+- [[FPR]] | Knowledge related to FPR
+- [[Support Vector Machine Classification]] | Knowledge related to Support Vector Machine Classification

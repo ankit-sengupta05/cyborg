@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-07T20:41:41.265177'
-id: 7603c0ce
+created: '2026-05-08T20:27:25.498210'
+id: 033db6bf
 links: []
-modified: '2026-05-07T20:41:41.265177'
+modified: '2026-05-08T20:27:25.498210'
 project: ''
 source: ''
 status: active
@@ -22,8 +22,8 @@ chunk_id: 390f32c5ece5
 source: WINSEM2025-26_CSE3008_ETH_AP2025264000479_2026-03-13_Reference-Material-I.pdf
 page: 0
 title: Module 4 (Support Vector Machine) Support Vector Machine •Su (Chunk 0)
-keywords: ['SVM', 'Classification', 'Regression', 'Decision Tree', 'Kernel functions', 'Leukemia patients']
-created: 2026-05-08 02:11:41
+keywords: ['SVM', 'Support Vector Machine Classification']
+created: 2026-05-09 01:57:25
 tree_path: ML > Page 0 > Module 4 (Support Vector Machine) Support Vector M
 ---
 
@@ -31,8 +31,4 @@ Module 4 (Support Vector Machine) Support Vector Machine •Support Vector Machi
 
 ### Related Concepts
 - [[SVM]]
-- [[Classification]]
-- [[Decision Tree]]
-- [[Leukemia patients]]
-- [[Regression]]
-- [[Kernel functions]]
+- [[Support Vector Machine Classification]]
