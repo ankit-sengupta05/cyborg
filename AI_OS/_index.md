@@ -1636,3 +1636,6 @@ The operating layer of your vault.
 - [[AI_OS\skills\email_drafting.md]] | Knowledge related to Email Drafting (type: note)
 - [[Archive\Chat_how does my miro fish work_8ff1b79a.md]] | Knowledge related to Chat_how does my miro fish work_8ff1b79a (type: chat_log)
 - [[Inbox\_process_queue.md]] | Knowledge related to _process_queue (type: note)
+- [[ACE\Atlas\Subset Selection Module.md]] | Knowledge related to Subset Selection Module (type: note)
+- [[ACE\Atlas\Partial Least squares.md]] | Knowledge related to Partial Least squares (type: note)
+- [[ACE\Atlas\Subset Selection.md]] | Knowledge related to Subset Selection (type: note)

@@ -1604,3 +1604,6 @@ Map of your permanent knowledge.
 - [[•A neural network's goal is to adjust weights so that the pr (Chunk 0)]] | Knowledge related to •A neural network's goal is to adjust weights so that the pr (Chunk 0)
 - [[•Arithmetic: Integer Arithmetic, Addition and Subtraction of (Chunk 0)]] | Knowledge related to •Arithmetic: Integer Arithmetic, Addition and Subtraction of (Chunk 0)
 - [[， 这样的形象将更具韧性和信服⼒。2025/11/28 18:16 武汉⼤学品牌声誉深度分析报告 ﬁle:///User (Chunk 1)]] | Knowledge related to ， 这样的形象将更具韧性和信服⼒。2025/11/28 18:16 武汉⼤学品牌声誉深度分析报告 ﬁle:///User (Chunk 1)
+- [[Subset Selection Module]] | Knowledge related to Subset Selection Module
+- [[Partial Least squares]] | Knowledge related to Partial Least squares
+- [[Subset Selection]] | Knowledge related to Subset Selection
