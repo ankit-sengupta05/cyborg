@@ -111,3 +111,4 @@ History of your mind.
 ## Recent Knowledge
 
 - [[Chat_how does my miro fish work_8ff1b79a]] | Knowledge related to Chat_how does my miro fish work_8ff1b79a
+- [[Chat_how does my miro fish project _8ff1b79a]] | Knowledge related to Chat_how does my miro fish project _8ff1b79a
