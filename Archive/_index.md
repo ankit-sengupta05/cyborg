@@ -112,3 +112,5 @@ History of your mind.
 
 - [[Chat_how does my miro fish work_8ff1b79a]] | Knowledge related to Chat_how does my miro fish work_8ff1b79a
 - [[Chat_how does my miro fish project _8ff1b79a]] | Knowledge related to Chat_how does my miro fish project _8ff1b79a
+- [[Chat_my ml sylabus_8ff1b79a]] | Knowledge related to Chat_my ml sylabus_8ff1b79a
+- [[Chat_my ml sylabus_4cc62678]] | Knowledge related to Chat_my ml sylabus_4cc62678

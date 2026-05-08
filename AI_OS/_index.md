@@ -1694,3 +1694,5 @@ The operating layer of your vault.
 - [[ACE\Atlas\distance matrix.md]] | Knowledge related to distance matrix (type: note)
 - [[ACE\Atlas\seed.md]] | Knowledge related to seed (type: note)
 - [[Archive\Chat_how does my miro fish project _8ff1b79a.md]] | Knowledge related to Chat_how does my miro fish project _8ff1b79a (type: chat_log)
+- [[Archive\Chat_my ml sylabus_8ff1b79a.md]] | Knowledge related to Chat_my ml sylabus_8ff1b79a (type: chat_log)
+- [[Archive\Chat_my ml sylabus_4cc62678.md]] | Knowledge related to Chat_my ml sylabus_4cc62678 (type: chat_log)
