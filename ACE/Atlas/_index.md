@@ -1607,3 +1607,15 @@ Map of your permanent knowledge.
 - [[Subset Selection Module]] | Knowledge related to Subset Selection Module
 - [[Partial Least squares]] | Knowledge related to Partial Least squares
 - [[Subset Selection]] | Knowledge related to Subset Selection
+- [[λ]] | Knowledge related to λ
+- [[Cost function]] | Knowledge related to Cost function
+- [[Loss]] | Knowledge related to Loss
+- [[λ= 1]] | Knowledge related to λ= 1
+- [[λ = 1]] | Knowledge related to λ = 1
+- [[The slope of the curve= 1.4]] | Knowledge related to The slope of the curve= 1.4
+- [[The slope of the curve = 0.7]] | Knowledge related to The slope of the curve = 0.7
+- [[Cost function = 0 + 1 x (1.4)2]] | Knowledge related to Cost function = 0 + 1 x (1.4)2
+- [[Loss = 0.32 + 0.22]] | Knowledge related to Loss = 0.32 + 0.22
+- [[The slope of the curve= 1.4 Cost function = 0 + 1 x (1.4)2 = 1.96 For Ridge Regression, l et’s assume]] | Knowledge related to The slope of the curve= 1.4 Cost function = 0 + 1 x (1.4)2 = 1.96 For Ridge Regression, l et’s assume
+- [[The slope of the curve= 0.7 Then, Cost function = 0.13 + 1 x (0.72)2 = 0.62 Ridge regression line fits the model more accurately than the linear regression line.]] | Knowledge related to The slope of the curve= 0.7 Then, Cost function = 0.13 + 1 x (0.72)2 = 0.62 Ridge regression line fits the model more accurately than the linear regression line.
+- [[K-Nearest Neighbor learning Module]] | Knowledge related to K-Nearest Neighbor learning Module
