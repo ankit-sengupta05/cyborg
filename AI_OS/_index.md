@@ -1696,3 +1696,10 @@ The operating layer of your vault.
 - [[Archive\Chat_how does my miro fish project _8ff1b79a.md]] | Knowledge related to Chat_how does my miro fish project _8ff1b79a (type: chat_log)
 - [[Archive\Chat_my ml sylabus_8ff1b79a.md]] | Knowledge related to Chat_my ml sylabus_8ff1b79a (type: chat_log)
 - [[Archive\Chat_my ml sylabus_4cc62678.md]] | Knowledge related to Chat_my ml sylabus_4cc62678 (type: chat_log)
+- [[.ai_os\.ai_os\agent.md]] | Knowledge related to agent (type: note)
+- [[Memory\Wiki\concepts\machine_learning.md]] | Knowledge related to machine_learning (type: note)
+- [[AI_OS/_index|📁 AI_OS Index]] | Map of Content for AI_OS
+- [[AI_OS\AI_OS\skills\_index.md]] | Knowledge related to _index (type: note)
+- [[AI_OS\AI_OS\me.md]] | Knowledge related to me (type: note)
+- [[AI_OS\AI_OS\vault_map.md]] | Knowledge related to vault_map (type: note)
+- [[AI_OS\AI_OS\skills\research\deep_research.md]] | Knowledge related to deep_research (type: note)

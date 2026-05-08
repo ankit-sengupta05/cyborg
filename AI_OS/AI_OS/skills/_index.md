@@ -14,3 +14,8 @@ Skills can be updated automatically based on:
 - New content availability
 - User feedback patterns
 - System configuration changes
+
+## Recent Knowledge
+
+- [[_index]] | Knowledge related to _index
+- [[research/_index|📁 research Index]] | Map of Content for research
