@@ -1649,3 +1649,9 @@ Map of your permanent knowledge.
 - [[outputs]] | Knowledge related to outputs
 - [[errors]] | Knowledge related to errors
 - [[weights update]] | Knowledge related to weights update
+- [[limitations of unsupervised learning]] | Knowledge related to limitations of unsupervised learning
+- [[parameter estimation for gaussian mixtures]] | Knowledge related to parameter estimation for gaussian mixtures
+- [[expectation maximization algorithm]] | Knowledge related to expectation maximization algorithm
+- [[Introduction]] | Knowledge related to Introduction
+- [[What is clustering?]] | Knowledge related to What is clustering?
+- [[Examples]] | Knowledge related to Examples
