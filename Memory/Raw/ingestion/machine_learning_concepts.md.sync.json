@@ -1,0 +1,27 @@
+{
+  "source_file": "Memory/Raw/ingestion/machine_learning_concepts.md",
+  "sync_version": 3,
+  "last_updated": "2026-04-29T14:32:18Z",
+  "updated_by_event": {
+    "event_id": "evt_ingestion_complete_003",
+    "event_type": "IngestionCompleteEvent",
+    "timestamp": "2026-04-29T14:32:17Z"
+  },
+  "dependencies": [],
+  "downstream_effects": [
+    "wiki synthesis triggered",
+    "vector index updated",
+    "graph nodes created"
+  ],
+  "provenance": {
+    "change_type": "ingestion",
+    "confidence": 0.94,
+    "extraction_method": "CHAT_TRANSCRIPTION",
+    "user_override": false
+  },
+  "rollback": {
+    "previous_version": 2,
+    "backup_path": ".ai_os/sync_state/backups/machine_learning_concepts.md.v2",
+    "can_rollback": true
+  }
+}

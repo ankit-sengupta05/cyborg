@@ -1,0 +1,28 @@
+{
+  "source_file": "AI_OS/skills/_index.md",
+  "sync_version": 5,
+  "last_updated": "2026-04-29T14:32:18Z",
+  "updated_by_event": {
+    "event_id": "evt_skill_registry_sync_015",
+    "event_type": "SkillRegistrySync",
+    "timestamp": "2026-04-29T14:32:17Z"
+  },
+  "dependencies": [
+    ".ai_os/skill_registry.json"
+  ],
+  "downstream_effects": [
+    "skill navigation updated",
+    "auto-complete refreshed"
+  ],
+  "provenance": {
+    "change_type": "registry_sync",
+    "confidence": 1.0,
+    "extraction_method": "REGISTRY_ANALYSIS",
+    "user_override": false
+  },
+  "rollback": {
+    "previous_version": 4,
+    "backup_path": ".ai_os/sync_state/backups/skills_index.md.v4",
+    "can_rollback": true
+  }
+}

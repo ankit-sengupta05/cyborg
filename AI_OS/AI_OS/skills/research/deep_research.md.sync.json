@@ -1,0 +1,31 @@
+{
+  "source_file": "AI_OS/skills/research/deep_research.md",
+  "sync_version": 8,
+  "last_updated": "2026-04-29T14:32:18Z",
+  "updated_by_event": {
+    "event_id": "evt_skill_metrics_update_012",
+    "event_type": "SkillMetricsUpdate",
+    "timestamp": "2026-04-29T14:32:17Z"
+  },
+  "dependencies": [
+    ".ai_os/vector_index/chunk_metadata.sqlite",
+    ".ai_os/graph_state/graph.json",
+    ".ai_os/skill_registry.json"
+  ],
+  "downstream_effects": [
+    "skill context updated",
+    "retrieval weights recalculated",
+    "performance metrics logged"
+  ],
+  "provenance": {
+    "change_type": "metrics_update",
+    "confidence": 1.0,
+    "extraction_method": "EXECUTION_LOG_ANALYSIS",
+    "user_override": false
+  },
+  "rollback": {
+    "previous_version": 7,
+    "backup_path": ".ai_os/sync_state/backups/deep_research.md.v7",
+    "can_rollback": true
+  }
+}

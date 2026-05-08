@@ -1,0 +1,31 @@
+{
+  "source_file": "ACE/Atlas/Concepts/machine_learning.md",
+  "sync_version": 42,
+  "last_updated": "2026-04-29T14:32:18Z",
+  "updated_by_event": {
+    "event_id": "evt_chat_entity_extract_789",
+    "event_type": "ChatEntityExtracted",
+    "timestamp": "2026-04-29T14:32:17Z"
+  },
+  "dependencies": [
+    "AI_OS/rag_prompts/chat_context.md",
+    ".ai_os/vector_index/chunk_metadata.sqlite",
+    ".ai_os/graph_state/graph.json"
+  ],
+  "downstream_effects": [
+    "skill:deep_research context updated",
+    "graph node centrality recalculated",
+    "embedding cache invalidated"
+  ],
+  "provenance": {
+    "change_type": "content_append",
+    "confidence": 0.96,
+    "extraction_method": "LLM_ENTITY_EXTRACTION",
+    "user_override": false
+  },
+  "rollback": {
+    "previous_version": 41,
+    "backup_path": ".ai_os/sync_state/backups/machine_learning.md.v41",
+    "can_rollback": true
+  }
+}

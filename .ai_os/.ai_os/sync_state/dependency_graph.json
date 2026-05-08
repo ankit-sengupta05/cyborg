@@ -1,0 +1,26 @@
+{
+  "version": "4.0",
+  "last_updated": "2026-04-29T14:32:18Z",
+  "nodes": {
+    "ACE/Atlas/Concepts/machine_learning.md": {
+      "dependencies": [],
+      "dependents": [".ai_os/graph_state/graph.json", ".ai_os/vector_index/chunk_metadata.sqlite"]
+    },
+    "AI_OS/me.md": {
+      "dependencies": [".ai_os/conversation_log/sessions/"],
+      "dependents": ["AI_OS/vault_map.md"]
+    }
+  },
+  "edges": [
+    {
+      "from": "ACE/Atlas/Concepts/machine_learning.md",
+      "to": ".ai_os/graph_state/graph.json",
+      "type": "content_update"
+    },
+    {
+      "from": "AI_OS/me.md",
+      "to": "AI_OS/vault_map.md",
+      "type": "navigation_update"
+    }
+  ]
+}

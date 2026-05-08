@@ -1,0 +1,30 @@
+{
+  "source_file": "AI_OS/me.md",
+  "sync_version": 15,
+  "last_updated": "2026-04-29T14:32:18Z",
+  "updated_by_event": {
+    "event_id": "evt_profile_update_001",
+    "event_type": "ProfileAutoUpdate",
+    "timestamp": "2026-04-29T14:32:17Z"
+  },
+  "dependencies": [
+    ".ai_os/conversation_log/sessions/",
+    ".ai_os/skill_registry.json"
+  ],
+  "downstream_effects": [
+    "vault_map.md updated",
+    "rag_prompts optimized",
+    "skill_context refreshed"
+  ],
+  "provenance": {
+    "change_type": "auto_update",
+    "confidence": 0.89,
+    "extraction_method": "PATTERN_ANALYSIS",
+    "user_override": false
+  },
+  "rollback": {
+    "previous_version": 14,
+    "backup_path": ".ai_os/sync_state/backups/me.md.v14",
+    "can_rollback": true
+  }
+}

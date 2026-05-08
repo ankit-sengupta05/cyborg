@@ -1,0 +1,8 @@
+{
+  "FileChangedEvent": ["graph_sync_handler", "vector_index_handler", "ui_sync_handler"],
+  "ChatMessageEvent": ["graph_sync_handler", "skill_context_handler", "provenance_handler"],
+  "IngestionCompleteEvent": ["vector_index_handler", "graph_sync_handler", "config_auto_handler"],
+  "SkillExecutedEvent": ["skill_context_handler", "observability_handler", "provenance_handler"],
+  "GraphMutatedEvent": ["vector_index_handler", "ui_sync_handler", "config_auto_handler"],
+  "ConfigAutoUpdateEvent": ["ui_sync_handler", "observability_handler"]
+}
