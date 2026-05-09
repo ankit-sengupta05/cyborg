@@ -1,22 +1,22 @@
-import pyttsx3
-from datetime import timedelta
+import pyautogui
 
 def execute(**kwargs):
     """
-    Convert text to speech using pyttsx3.
+    Converts text to speech and plays it.
 
     Parameters:
-        - text: The text you want to convert.
-        - language_code: Language code for the desired language (e.g., 'en-US' for English).
-        - rate: Speed of speaking, in words per minute.
-        - volume: Volume level between 0.0 and 1.0.
-
-    Usage:
-        >>> execute(text="Hello, world!", language_code="en-US", rate=20, volume=0.5)
+        - text (str): The text to be converted.
+        - speed (float, optional): Speed of the audio output. Default is 100.
+        - volume (int, optional): Volume level from 0-100. Default is 50.
     """
-    engine = pyttsx3.init()
-    engine.say(kwargs.get('text', ''))
-    engine.runAndWait()
+    try:
+        # Convert text to speech
+        pyautogui.speak(text=kwargs.get('text', ''))
+        
+        # Play the converted audio at specified speed and volume
+        pyautogui.playSound(kwargs.get('audio_file'), speed=kwargs.get('speed', 100), volume=kwargs.get('volume', 50))
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
-# Example usage
-execute(text="This is a test.", language_code="en-GB", rate=150, volume=0.7)
+# Example usage:
+# execute(text="Hello, this is a test.", audio_file="test.mp3", speed=200, volume=75)
