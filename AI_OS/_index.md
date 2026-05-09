@@ -1745,3 +1745,5 @@ The operating layer of your vault.
 - [[ACE\Atlas\Gradient-Based Optimization (Chunk 0).md]] | Knowledge related to Gradient-Based Optimization (Chunk 0) (type: knowledge_chunk)
 - [[AI_OS\Ontology\Ontology_Optimization_Techniques.md]] | Knowledge related to Ontology_Optimization_Techniques (type: ontology_map)
 - [[ACE\Atlas\Linear Regression (Chunk 0).md]] | Knowledge related to Linear Regression (Chunk 0) (type: knowledge_chunk)
+- [[ACE\Atlas\Subset Selection (Chunk 0).md]] | Knowledge related to Subset Selection (Chunk 0) (type: knowledge_chunk)
+- [[ACE\Atlas\Subset Selection (Chunk 1).md]] | Knowledge related to Subset Selection (Chunk 1) (type: knowledge_chunk)

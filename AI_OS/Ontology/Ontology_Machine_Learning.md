@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:04.634364'
-id: 391c2e38
+created: '2026-05-09T17:36:13.313726'
+id: 1655257b
 links: []
-modified: '2026-05-09T17:36:04.634364'
+modified: '2026-05-09T17:36:13.313726'
 project: ''
 source: ''
 status: active
@@ -20,37 +20,63 @@ type: ontology_map
 
 # Ontology: Machine Learning
 
-**Summary**: The study and implementation of algorithms that allow computers to learn from and make decisions based on data.
+**Summary**: Analyzing knowledge graph entities related to machine learning concepts.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["shopping for apples"]
-    n1["Introduction to Machine Learning"]
-    n2["Machine Learning"]
-    n3["apples"]
-    n2 -->|KEYWORD_LINK| n1
-    n1 -->|CONTAINS| n2
-    n1 -->|CONTAINS| n3
-    n2 -->|CO_OCCUR| n3
-    n2 -->|SEMANTIC_SIMILAR| n3
+    n0["λ= 1"]
+    n1["Cost function = 0 + 1 x (1.4)2"]
+    n2["Loss = 0.32 + 0.22"]
+    n3["λ"]
+    n4["λ = 1"]
+    n5["Loss"]
+    n6["Ridge Regression"]
+    n7["The slope of the curve = 0.7"]
+    n8["The slope of the curve= 1.4"]
+    n9["Lasso Regression"]
+    n3 -->|CO_OCCUR| n6
+    n3 -->|CO_OCCUR| n5
+    n3 -->|CO_OCCUR| n9
+    n6 -->|CO_OCCUR| n5
+    n6 -->|CO_OCCUR| n9
+    n5 -->|CO_OCCUR| n9
     n0 -->|KEYWORD_LINK| n3
-    n2 -->|LINKED_TO| n0
+    n0 -->|LINKED_TO| n6
+    n4 -->|KEYWORD_LINK| n3
+    n4 -->|LINKED_TO| n9
+    n8 -->|INFERRED| n6
+    n7 -->|INFERRED| n9
+    n1 -->|LINKED_TO| n6
+    n2 -->|KEYWORD_LINK| n5
+    n2 -->|INFERRED| n9
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Machine Learning]]
+- [[Ridge Regression]]
+  - *( co_occur )*
+  - [[Lasso Regression]]
+  - *( co_occur )*
+  - [[Loss]]
+- [[λ= 1]]
   - *( keyword_link )*
-  - [[Introduction to Machine Learning]]
-    - *( contains )*
-    - [[apples]]
-  - *( linked_to )*
-  - [[shopping for apples]]
+  - [[λ]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[Loss = 0.32 + 0.22]]
+- [[λ = 1]]
+- [[The slope of the curve = 0.7]]
+- [[The slope of the curve= 1.4]]
 
 ## 📋 All Core Concepts
-- [[shopping for apples]]
-- [[Introduction to Machine Learning]]
-- [[Machine Learning]]
-- [[apples]]
+- [[λ= 1]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[Loss = 0.32 + 0.22]]
+- [[λ]]
+- [[λ = 1]]
+- [[Loss]]
+- [[Ridge Regression]]
+- [[The slope of the curve = 0.7]]
+- [[The slope of the curve= 1.4]]
+- [[Lasso Regression]]
