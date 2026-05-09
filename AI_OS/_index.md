@@ -1703,3 +1703,4 @@ The operating layer of your vault.
 - [[AI_OS\AI_OS\me.md]] | Knowledge related to me (type: note)
 - [[AI_OS\AI_OS\vault_map.md]] | Knowledge related to vault_map (type: note)
 - [[AI_OS\AI_OS\skills\research\deep_research.md]] | Knowledge related to deep_research (type: note)
+- [[Archive\Chat_machine learning sylabus_399ed11a.md]] | Knowledge related to Chat_machine learning sylabus_399ed11a (type: chat_log)
