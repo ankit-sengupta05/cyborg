@@ -1,27 +1,22 @@
-import pyautogui
+import pyttsx3
+from datetime import timedelta
 
 def execute(**kwargs):
     """
-    Convert text to speech using a generic method.
+    Convert text to speech using pyttsx3.
 
     Parameters:
-    - kwargs: A dictionary containing parameters for the conversion process.
-              The keys are 'text' (str) and 'language_code' (str).
-              Additional parameters can be added as needed.
+        - text: The text you want to convert.
+        - language_code: Language code for the desired language (e.g., 'en-US' for English).
+        - rate: Speed of speaking, in words per minute.
+        - volume: Volume level between 0.0 and 1.0.
 
-    Returns:
-    - str: The converted speech message.
+    Usage:
+        >>> execute(text="Hello, world!", language_code="en-US", rate=20, volume=0.5)
     """
-    text = kwargs.get('text')
-    language_code = kwargs.get('language_code')
+    engine = pyttsx3.init()
+    engine.say(kwargs.get('text', ''))
+    engine.runAndWait()
 
-    if not text or not language_code:
-        return "Error: Missing required parameters."
-
-    # Convert the text to speech
-    pyautogui.speak(text, language_code)
-
-    return f"Speech for '{text}' in {language_code} has been generated."  # Placeholder response
-
-# Example usage (replace with actual contact and message)
-execute(contact="John Doe", message="Hello John!")
+# Example usage
+execute(text="This is a test.", language_code="en-GB", rate=150, volume=0.7)
