@@ -1,22 +1,18 @@
-import pyautogui
+import pyaudio
+import pyttsx3
 
-def execute(**kwargs):
+def convert_text_to_speech(text):
     """
-    Converts text to speech and plays it.
+    Converts text to speech using the pyttsx3 library.
 
     Parameters:
-        - text (str): The text to be converted.
-        - speed (float, optional): Speed of the audio output. Default is 100.
-        - volume (int, optional): Volume level from 0-100. Default is 50.
+        text (str): The text to be converted into speech.
+    
+    Returns:
+        None
     """
-    try:
-        # Convert text to speech
-        pyautogui.speak(text=kwargs.get('text', ''))
-        
-        # Play the converted audio at specified speed and volume
-        pyautogui.playSound(kwargs.get('audio_file'), speed=kwargs.get('speed', 100), volume=kwargs.get('volume', 50))
-    except Exception as e:
-        print(f"An error occurred: {e}")
+    engine = pyttsx3.init()
+    engine.say(text)
+    engine.runAndWait()
 
-# Example usage:
-# execute(text="Hello, this is a test.", audio_file="test.mp3", speed=200, volume=75)
+# Example usage: convert_text_to_speech("Hello, this is a test.")
