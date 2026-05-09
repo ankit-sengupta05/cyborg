@@ -38,3 +38,5 @@ Auto-generated index for Ontology
 - [[Ontology_Optimization_Techniques]] | Knowledge related to Ontology_Optimization_Techniques
 - [[Ontology_Metrics]] | Knowledge related to Ontology_Metrics
 - [[Ontology_Neural_Networks]] | Knowledge related to Ontology_Neural_Networks
+- [[Ontology_Index]] | Knowledge related to Ontology_Index
+- [[Ontology_Neuron]] | Knowledge related to Ontology_Neuron

@@ -1845,3 +1845,5 @@ The operating layer of your vault.
 - [[ACE\Atlas\finance.md]] | Knowledge related to finance (type: note)
 - [[ACE\Atlas\Guassian Mixture Models (Chunk 0).md]] | Knowledge related to Guassian Mixture Models (Chunk 0) (type: knowledge_chunk)
 - [[Archive\Chat_hi_4a7156a1.md]] | Knowledge related to Chat_hi_4a7156a1 (type: chat_log)
+- [[AI_OS\Ontology\Ontology_Index.md]] | Knowledge related to Ontology_Index (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Neuron.md]] | Knowledge related to Ontology_Neuron (type: ontology_map)

@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:30.374688'
-id: 4e67a4bd
+created: '2026-05-09T23:43:52.278597'
+id: e1b80c97
 links: []
-modified: '2026-05-09T17:37:30.374688'
+modified: '2026-05-09T23:43:52.278597'
 project: ''
 source: ''
 status: active
@@ -20,64 +20,70 @@ type: ontology_map
 
 # Ontology: Machine Learning
 
-**Summary**: A field of study that uses statistical techniques to give computers the ability to learn without being explicitly programmed.
+**Summary**: A comprehensive guide to the field of machine learning, including its subfields and applications.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Naive Bayes Classifier Algorithm"]
-    n1["Naive Bayes algorithm"]
-    n2["Gaussian Naïve Bayes"]
-    n3["Naïve Bayes with continuous variables"]
-    n4["Bayesian Classifier with Continuous Variables:  Continuous N"]
-    n5["Naive Bayesian Classifier"]
-    n6["Bayesian Classifier"]
-    n7["Continuous NB"]
-    n6 -->|CONTAINS| n6
-    n6 -->|CONTAINS| n0
-    n6 -->|CONTAINS| n1
-    n6 -->|CONTAINS| n6
-    n0 -->|CO_OCCUR| n1
-    n6 -->|LINKED_TO| n0
-    n5 -->|KEYWORD_LINK| n6
-    n6 -->|SEMANTIC_SIMILAR| n5
-    n4 -->|KEYWORD_LINK| n6
-    n4 -->|CONTAINS| n6
-    n4 -->|CONTAINS| n7
-    n4 -->|CONTAINS| n3
-    n4 -->|CONTAINS| n2
-    n6 -->|CO_OCCUR| n7
-    n6 -->|CO_OCCUR| n3
-    n6 -->|CO_OCCUR| n2
-    n7 -->|CO_OCCUR| n3
-    n7 -->|CO_OCCUR| n2
-    n3 -->|CO_OCCUR| n2
-    n6 -->|SEMANTIC_SIMILAR| n7
-    n3 -->|LINKED_TO| n2
+    n0["Machine Learning (ML)"]
+    n1["Model Selection"]
+    n2["Natural Language Processing (NLP)"]
+    n3["User"]
+    n4["Supervised Learning"]
+    n5["Unsupervised Learning"]
+    n6["Deep Learning"]
+    n7["Chat: my ml sylabus"]
+    n8["Reinforcement Learning"]
+    n9["Model Evaluation and Validation"]
+    n10["Dimensionality Reduction"]
+    n11["Assistant"]
+    n7 -->|DISCUSSES| n0
+    n7 -->|DISCUSSES| n4
+    n7 -->|DISCUSSES| n5
+    n7 -->|DISCUSSES| n8
+    n7 -->|DISCUSSES| n10
+    n7 -->|DISCUSSES| n9
+    n7 -->|DISCUSSES| n1
+    n7 -->|DISCUSSES| n6
+    n7 -->|DISCUSSES| n2
+    n0 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n4
+    n0 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n5
+    n0 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n8
+    n7 -->|DISCUSSES| n3
+    n7 -->|DISCUSSES| n11
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Bayesian Classifier]]
-  - *( co_occur )*
-  - [[Continuous NB]]
-    - *( co_occur )*
-    - [[Naïve Bayes with continuous variables]]
-      - *( co_occur )*
-      - [[Gaussian Naïve Bayes]]
-- [[Naive Bayes Classifier Algorithm]]
-  - *( co_occur )*
-  - [[Naive Bayes algorithm]]
-- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
-- [[Naive Bayesian Classifier]]
+- [[Chat: my ml sylabus]]
+  - *( discusses )*
+  - [[Machine Learning (ML)]]
+    - *( discussed/decided/assigned/linked_to )*
+    - [[Supervised Learning]]
+    - *( discussed/decided/assigned/linked_to )*
+    - [[Unsupervised Learning]]
+    - *( discussed/decided/assigned/linked_to )*
+    - [[Reinforcement Learning]]
+  - *( discusses )*
+  - [[Dimensionality Reduction]]
+- [[Model Selection]]
+- [[Natural Language Processing (NLP)]]
+- [[User]]
+- [[Deep Learning]]
+- [[Model Evaluation and Validation]]
+- [[Assistant]]
 
 ## 📋 All Core Concepts
-- [[Naive Bayes Classifier Algorithm]]
-- [[Naive Bayes algorithm]]
-- [[Gaussian Naïve Bayes]]
-- [[Naïve Bayes with continuous variables]]
-- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
-- [[Naive Bayesian Classifier]]
-- [[Bayesian Classifier]]
-- [[Continuous NB]]
+- [[Machine Learning (ML)]]
+- [[Model Selection]]
+- [[Natural Language Processing (NLP)]]
+- [[User]]
+- [[Supervised Learning]]
+- [[Unsupervised Learning]]
+- [[Deep Learning]]
+- [[Chat: my ml sylabus]]
+- [[Reinforcement Learning]]
+- [[Model Evaluation and Validation]]
+- [[Dimensionality Reduction]]
+- [[Assistant]]
