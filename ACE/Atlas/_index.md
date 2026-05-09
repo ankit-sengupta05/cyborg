@@ -131,3 +131,33 @@ Map of your permanent knowledge.
 - [[more resources required for computation]] | Knowledge related to more resources required for computation
 - [[consumes more time compared to a decision tree algorithm]] | Knowledge related to consumes more time compared to a decision tree algorithm
 - [[Ensemble learning and Random Forest (Chunk 1)]] | Knowledge related to Ensemble learning and Random Forest (Chunk 1)
+- [[Ada]] | Knowledge related to Ada
+- [[Boost]] | Knowledge related to Boost
+- [[Ada Boost (Chunk 0)]] | Knowledge related to Ada Boost (Chunk 0)
+- [[Precision]] | Knowledge related to Precision
+- [[Recall]] | Knowledge related to Recall
+- [[F1-score]] | Knowledge related to F1-score
+- [[TPR]] | Knowledge related to TPR
+- [[FPR]] | Knowledge related to FPR
+- [[Evaluation Metrics (Chunk 0)]] | Knowledge related to Evaluation Metrics (Chunk 0)
+- [[SVM]] | Knowledge related to SVM
+- [[Support Vector Machine Classification]] | Knowledge related to Support Vector Machine Classification
+- [[Kernel functions]] | Knowledge related to Kernel functions
+- [[Module 4 (Support Vector Machine) (Chunk 0)]] | Knowledge related to Module 4 (Support Vector Machine) (Chunk 0)
+- [[Linear Functions SVM]] | Knowledge related to Linear Functions SVM
+- [[Support Vectors]] | Knowledge related to Support Vectors
+- [[Architecture]] | Knowledge related to Architecture
+- [[SVM –Example (Chunk 0)]] | Knowledge related to SVM –Example (Chunk 0)
+- [[Kernels]] | Knowledge related to Kernels
+- [[SVM kernels and (Chunk 0)]] | Knowledge related to SVM kernels and (Chunk 0)
+- [[Naive Bayes Classifier Algorithm]] | Knowledge related to Naive Bayes Classifier Algorithm
+- [[Naive Bayes algorithm]] | Knowledge related to Naive Bayes algorithm
+- [[Naive Bayesian Classifier]] | Knowledge related to Naive Bayesian Classifier
+- [[Bayesian Classifier (Chunk 0)]] | Knowledge related to Bayesian Classifier (Chunk 0)
+- [[Continuous NB]] | Knowledge related to Continuous NB
+- [[Naïve Bayes with continuous variables]] | Knowledge related to Naïve Bayes with continuous variables
+- [[Gaussian Naïve Bayes]] | Knowledge related to Gaussian Naïve Bayes
+- [[Bayesian Classifier with Continuous Variables:  Continuous N (Chunk 0)]] | Knowledge related to Bayesian Classifier with Continuous Variables:  Continuous N (Chunk 0)
+- [[Neuron]] | Knowledge related to Neuron
+- [[Dendrite]] | Knowledge related to Dendrite
+- [[Cell Body (Soma)]] | Knowledge related to Cell Body (Soma)

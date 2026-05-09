@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:53.769956'
-id: 20b6dd79
+created: '2026-05-09T17:37:03.766328'
+id: 41638b9a
 links: []
-modified: '2026-05-09T17:36:53.769956'
+modified: '2026-05-09T17:37:03.766328'
 project: ''
 source: ''
 status: active
@@ -25,154 +25,105 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)"]
-    n1["Information Gain Calculation for Outlook Cont’d"]
-    n2["Rain"]
-    n3["Instability"]
-    n4["Supervised learning technique"]
-    n5["Rainy"]
-    n6["Entropy among the three branches"]
-    n7["Overcast"]
-    n8["Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0"]
-    n9["Decision Trees"]
-    n10["Tennis"]
-    n11["root node"]
-    n12["Loss Functions"]
-    n13["tree-structured classifier"]
-    n14["Probability"]
-    n15["decision node"]
-    n16["Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)"]
-    n17["leaf node"]
-    n18["Handling Missing Values in Decision Trees"]
-    n19["Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6"]
-    n20["Entropy"]
-    n21["Sunny"]
-    n22["Entropy when overcast = 0.0"]
-    n23["Decision Trees"]
-    n24["'Insights into Decision Trees, Loss"]
-    n9 -->|CONTAINS| n9
-    n9 -->|CONTAINS| n4
-    n9 -->|CONTAINS| n13
-    n9 -->|CONTAINS| n15
-    n9 -->|CONTAINS| n17
-    n4 -->|CO_OCCUR| n13
-    n4 -->|CO_OCCUR| n15
-    n4 -->|CO_OCCUR| n17
-    n13 -->|CO_OCCUR| n15
-    n13 -->|CO_OCCUR| n17
-    n15 -->|CO_OCCUR| n17
-    n9 -->|LINKED_TO| n13
-    n15 -->|SEMANTIC_SIMILAR| n11
-    n9 -->|CONTAINS| n14
-    n9 -->|CONTAINS| n20
-    n9 -->|CONTAINS| n1
-    n9 -->|CONTAINS| n2
-    n9 -->|CONTAINS| n10
-    n9 -->|CONTAINS| n21
-    n9 -->|CONTAINS| n7
-    n5 -->|KEYWORD_LINK| n2
-    n9 -->|CONTAINS| n5
-    n14 -->|CO_OCCUR| n20
+    n0["Principal Component"]
+    n1["Boost"]
+    n2["Kernel functions"]
+    n3["SVM –Example"]
+    n4["Support Vector Machine Classification"]
+    n5["📁 ML Index"]
+    n6["Kernels"]
+    n7["Module 4 (Support Vector Machine)"]
+    n8["SVM"]
+    n9["Architecture"]
+    n10["Support Vectors"]
+    n11["Ada Boost"]
+    n12["SVM kernels and"]
+    n13["Linear Discriminant Analysis (LDA)"]
+    n14["Ada"]
+    n15["Linear Functions SVM"]
+    n0 -->|IN_FOLDER| n5
+    n13 -->|IN_FOLDER| n5
+    n11 -->|IN_FOLDER| n5
+    n14 -->|KEYWORD_LINK| n11
+    n11 -->|CONTAINS| n14
+    n1 -->|KEYWORD_LINK| n11
+    n11 -->|CONTAINS| n1
     n14 -->|CO_OCCUR| n1
-    n14 -->|CO_OCCUR| n2
-    n14 -->|CO_OCCUR| n10
-    n14 -->|CO_OCCUR| n21
-    n14 -->|CO_OCCUR| n7
-    n14 -->|CO_OCCUR| n5
-    n20 -->|CO_OCCUR| n1
-    n20 -->|CO_OCCUR| n2
-    n20 -->|CO_OCCUR| n10
-    n20 -->|CO_OCCUR| n21
-    n20 -->|CO_OCCUR| n7
-    n20 -->|CO_OCCUR| n5
-    n1 -->|CO_OCCUR| n2
-    n1 -->|CO_OCCUR| n10
-    n1 -->|CO_OCCUR| n21
-    n1 -->|CO_OCCUR| n7
-    n1 -->|CO_OCCUR| n5
-    n2 -->|CO_OCCUR| n10
-    n2 -->|CO_OCCUR| n21
-    n2 -->|CO_OCCUR| n7
-    n10 -->|CO_OCCUR| n21
-    n10 -->|CO_OCCUR| n7
-    n10 -->|CO_OCCUR| n5
-    n21 -->|CO_OCCUR| n7
-    n21 -->|CO_OCCUR| n5
-    n7 -->|CO_OCCUR| n5
-    n19 -->|KEYWORD_LINK| n14
+    n14 -->|SEMANTIC_SIMILAR| n1
+    n7 -->|IN_FOLDER| n5
+    n7 -->|CONTAINS| n8
+    n7 -->|CONTAINS| n4
+    n8 -->|CO_OCCUR| n4
+    n8 -->|SEMANTIC_SIMILAR| n4
+    n8 -->|LINKED_TO| n2
+    n3 -->|IN_FOLDER| n5
+    n3 -->|KEYWORD_LINK| n8
+    n3 -->|CONTAINS| n8
+    n15 -->|KEYWORD_LINK| n8
+    n3 -->|CONTAINS| n15
+    n3 -->|CONTAINS| n10
+    n3 -->|CONTAINS| n9
+    n8 -->|CO_OCCUR| n10
+    n8 -->|CO_OCCUR| n9
+    n15 -->|CO_OCCUR| n10
+    n15 -->|CO_OCCUR| n9
+    n10 -->|CO_OCCUR| n9
+    n8 -->|SEMANTIC_SIMILAR| n15
+    n10 -->|LINKED_TO| n9
+    n5 -->|CROSS_THEME| n8
+    n12 -->|IN_FOLDER| n5
+    n12 -->|KEYWORD_LINK| n8
+    n12 -->|CONTAINS| n8
+    n6 -->|KEYWORD_LINK| n12
+    n12 -->|CONTAINS| n6
+    n8 -->|CO_OCCUR| n6
+    n8 -->|LINKED_TO| n6
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Decision Trees]]
-  - *( contains )*
-  - [[Entropy]]
-    - *( co_occur )*
-    - [[Tennis]]
-      - *( co_occur )*
-      - [[Sunny]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Overcast]]
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Rainy]]
-        - *( keyword_link )*
-    - *( co_occur )*
-    - [[Rain]]
-    - *( co_occur )*
-    - [[Information Gain Calculation for Outlook Cont’d]]
-  - *( contains )*
-  - [[Probability]]
-- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
-- [[Instability]]
-  - *( semantic_similar )*
-  - [[Decision Trees]]
-- [[Supervised learning technique]]
-  - *( co_occur )*
-  - [[decision node]]
-    - *( co_occur )*
-    - [[leaf node]]
+- [[📁 ML Index]]
+  - *( cross_theme )*
+  - [[SVM]]
     - *( semantic_similar )*
-    - [[root node]]
-  - *( co_occur )*
-  - [[tree-structured classifier]]
-- [[Entropy among the three branches]]
-- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
-  - *( linked_to )*
-  - [[Entropy when overcast = 0.0]]
-- [[Loss Functions]]
-  - *( co_occur )*
-  - [[Handling Missing Values in Decision Trees]]
-- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
-- [["Insights into Decision Trees, Loss]]
+    - [[Linear Functions SVM]]
+      - *( co_occur )*
+      - [[Support Vectors]]
+        - *( co_occur )*
+        - *( linked_to )*
+      - *( co_occur )*
+      - [[Architecture]]
+    - *( co_occur )*
+    - [[Support Vector Machine Classification]]
+- [[Principal Component]]
+- [[Boost]]
+  - *( keyword_link )*
+  - [[Ada Boost]]
+    - *( contains )*
+    - [[Ada]]
+- [[Kernel functions]]
+- [[SVM –Example]]
+- [[Kernels]]
+  - *( keyword_link )*
+  - [[SVM kernels and]]
+- [[Module 4 (Support Vector Machine)]]
+- [[Linear Discriminant Analysis (LDA)]]
 
 ## 📋 All Core Concepts
-- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
-- [[Information Gain Calculation for Outlook Cont’d]]
-- [[Rain]]
-- [[Instability]]
-- [[Supervised learning technique]]
-- [[Rainy]]
-- [[Entropy among the three branches]]
-- [[Overcast]]
-- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
-- [[Decision Trees]]
-- [[Tennis]]
-- [[root node]]
-- [[Loss Functions]]
-- [[tree-structured classifier]]
-- [[Probability]]
-- [[decision node]]
-- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
-- [[leaf node]]
-- [[Handling Missing Values in Decision Trees]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
-- [[Entropy]]
-- [[Sunny]]
-- [[Entropy when overcast = 0.0]]
-- [[Decision Trees]]
-- [["Insights into Decision Trees, Loss]]
+- [[Principal Component]]
+- [[Boost]]
+- [[Kernel functions]]
+- [[SVM –Example]]
+- [[Support Vector Machine Classification]]
+- [[📁 ML Index]]
+- [[Kernels]]
+- [[Module 4 (Support Vector Machine)]]
+- [[SVM]]
+- [[Architecture]]
+- [[Support Vectors]]
+- [[Ada Boost]]
+- [[SVM kernels and]]
+- [[Linear Discriminant Analysis (LDA)]]
+- [[Ada]]
+- [[Linear Functions SVM]]
