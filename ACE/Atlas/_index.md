@@ -111,3 +111,23 @@ Map of your permanent knowledge.
 - [[Rainy]] | Knowledge related to Rainy
 - [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]] | Knowledge related to Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6
 - [[Decision Trees (Chunk 1)]] | Knowledge related to Decision Trees (Chunk 1)
+- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]] | Knowledge related to Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)
+- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]] | Knowledge related to Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0
+- [[Entropy when overcast = 0.0]] | Knowledge related to Entropy when overcast = 0.0
+- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]] | Knowledge related to Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)
+- [[Entropy among the three branches]] | Knowledge related to Entropy among the three branches
+- [[Loss Functions]] | Knowledge related to Loss Functions
+- [[Handling Missing Values in Decision Trees]] | Knowledge related to Handling Missing Values in Decision Trees
+- [[Instability]] | Knowledge related to Instability
+- [["Insights into Decision Trees, Loss (Chunk 0)]] | Knowledge related to "Insights into Decision Trees, Loss (Chunk 0)
+- [[ensemble learning]] | Knowledge related to ensemble learning
+- [[Random Forest]] | Knowledge related to Random Forest
+- [[Ensemble learning and Random Forest (Chunk 0)]] | Knowledge related to Ensemble learning and Random Forest (Chunk 0)
+- [[decision tree algorithm]] | Knowledge related to decision tree algorithm
+- [[regression tasks]] | Knowledge related to regression tasks
+- [[classification tasks]] | Knowledge related to classification tasks
+- [[handling large datasets efficiently]] | Knowledge related to handling large datasets efficiently
+- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]] | Knowledge related to higher level of accuracy in predicting outcomes over the decision tree algorithm
+- [[more resources required for computation]] | Knowledge related to more resources required for computation
+- [[consumes more time compared to a decision tree algorithm]] | Knowledge related to consumes more time compared to a decision tree algorithm
+- [[Ensemble learning and Random Forest (Chunk 1)]] | Knowledge related to Ensemble learning and Random Forest (Chunk 1)

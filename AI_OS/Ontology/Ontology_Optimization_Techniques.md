@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:38.519340'
-id: b62afedb
+created: '2026-05-09T17:36:53.744980'
+id: 57b45117
 links: []
-modified: '2026-05-09T17:36:38.519340'
+modified: '2026-05-09T17:36:53.744980'
 project: ''
 source: ''
 status: active
@@ -25,41 +25,63 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Basic Terminologies of PCA in Machine Learning?"]
-    n1["Covariance"]
-    n2["Covariance Matrix"]
-    n3["Variance"]
-    n4["EigenValues and EigenVectors"]
-    n5["Standardizing Data"]
-    n0 -->|LINKED_TO| n3
-    n1 -->|KEYWORD_LINK| n3
-    n0 -->|LINKED_TO| n1
-    n0 -->|LINKED_TO| n5
-    n2 -->|KEYWORD_LINK| n3
+    n0["Ensemble learning and Random Forest"]
+    n1["decision tree algorithm"]
+    n2["consumes more time compared to a decision tree algorithm"]
+    n3["more resources required for computation"]
+    n4["handling large datasets efficiently"]
+    n5["Random Forest"]
+    n6["classification tasks"]
+    n7["regression tasks"]
+    n8["higher level of accuracy in predicting outcomes over the decision tree algorithm"]
+    n9["ensemble learning"]
+    n9 -->|KEYWORD_LINK| n0
+    n0 -->|CONTAINS| n9
+    n5 -->|KEYWORD_LINK| n0
+    n0 -->|CONTAINS| n5
+    n9 -->|CO_OCCUR| n5
+    n9 -->|LINKED_TO| n5
+    n0 -->|CONTAINS| n5
+    n0 -->|CONTAINS| n1
+    n5 -->|CO_OCCUR| n1
+    n5 -->|SEMANTIC_SIMILAR| n1
+    n5 -->|LINKED_TO| n7
+    n5 -->|LINKED_TO| n6
+    n5 -->|LINKED_TO| n4
+    n8 -->|KEYWORD_LINK| n1
+    n5 -->|SEMANTIC_SIMILAR| n8
+    n5 -->|LINKED_TO| n3
     n2 -->|KEYWORD_LINK| n1
-    n0 -->|LINKED_TO| n2
-    n0 -->|LINKED_TO| n4
+    n5 -->|SEMANTIC_SIMILAR| n2
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Basic Terminologies of PCA in Machine Learning?]]
+- [[Random Forest]]
+  - *( keyword_link )*
+  - [[Ensemble learning and Random Forest]]
+    - *( contains )*
+    - [[decision tree algorithm]]
+    - *( contains )*
+    - [[ensemble learning]]
   - *( linked_to )*
-  - [[Variance]]
-  - *( linked_to )*
-  - [[Covariance]]
-  - *( linked_to )*
-  - [[Covariance Matrix]]
-  - *( linked_to )*
-  - [[Standardizing Data]]
-  - *( linked_to )*
-  - [[EigenValues and EigenVectors]]
+  - [[regression tasks]]
+  - *( semantic_similar )*
+  - [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
+- [[consumes more time compared to a decision tree algorithm]]
+- [[more resources required for computation]]
+- [[handling large datasets efficiently]]
+- [[classification tasks]]
 
 ## 📋 All Core Concepts
-- [[Basic Terminologies of PCA in Machine Learning?]]
-- [[Covariance]]
-- [[Covariance Matrix]]
-- [[Variance]]
-- [[EigenValues and EigenVectors]]
-- [[Standardizing Data]]
+- [[Ensemble learning and Random Forest]]
+- [[decision tree algorithm]]
+- [[consumes more time compared to a decision tree algorithm]]
+- [[more resources required for computation]]
+- [[handling large datasets efficiently]]
+- [[Random Forest]]
+- [[classification tasks]]
+- [[regression tasks]]
+- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
+- [[ensemble learning]]

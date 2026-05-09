@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:38.525873'
-id: 824b8f7a
+created: '2026-05-09T17:36:53.757217'
+id: 8d090ea2
 links: []
-modified: '2026-05-09T17:36:38.525873'
+modified: '2026-05-09T17:36:53.757217'
 project: ''
 source: ''
 status: active
@@ -20,131 +20,101 @@ type: ontology_map
 
 # Ontology: Machine Learning
 
-**Summary**: Analyzing knowledge graph entities related to machine learning concepts.
+**Summary**: A field of study that uses statistical techniques to give computers the ability to learn without being explicitly programmed.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["function"]
-    n1["convex"]
-    n2["Neural Networks"]
-    n3["Cost Function"]
-    n4["Batch Gradient Descent"]
-    n5["Convex Function"]
-    n6["Machine Learning Models"]
-    n7["Minimizing f(x)"]
-    n8["Optimization"]
-    n9["Error Function"]
-    n10["Gradient Descent"]
-    n11["Support Vector Machines"]
-    n12["Convex Optimization"]
-    n13["Linear Programming Problem"]
-    n14["Loss Function"]
-    n15["Maximizing f(x)"]
-    n16["Objective Function"]
-    n17["Gradient-Based Optimization"]
-    n1 -->|KEYWORD_LINK| n12
-    n12 -->|CONTAINS| n1
-    n12 -->|CONTAINS| n0
-    n1 -->|CO_OCCUR| n0
-    n1 -->|SEMANTIC_SIMILAR| n0
-    n17 -->|CONTAINS| n17
-    n8 -->|KEYWORD_LINK| n12
-    n8 -->|KEYWORD_LINK| n17
-    n17 -->|CONTAINS| n8
-    n17 -->|CONTAINS| n7
-    n17 -->|CONTAINS| n15
-    n16 -->|KEYWORD_LINK| n0
-    n17 -->|CONTAINS| n16
-    n3 -->|KEYWORD_LINK| n0
-    n17 -->|CONTAINS| n3
-    n14 -->|KEYWORD_LINK| n0
-    n17 -->|CONTAINS| n14
-    n9 -->|KEYWORD_LINK| n0
-    n17 -->|CONTAINS| n9
-    n17 -->|CONTAINS| n12
-    n17 -->|CONTAINS| n13
-    n5 -->|KEYWORD_LINK| n1
-    n5 -->|KEYWORD_LINK| n0
-    n17 -->|CONTAINS| n5
-    n17 -->|CONTAINS| n6
-    n17 -->|CONTAINS| n2
-    n8 -->|CO_OCCUR| n7
-    n8 -->|CO_OCCUR| n15
-    n8 -->|CO_OCCUR| n16
-    n8 -->|CO_OCCUR| n3
-    n8 -->|CO_OCCUR| n14
-    n8 -->|CO_OCCUR| n9
-    n8 -->|CO_OCCUR| n13
-    n8 -->|CO_OCCUR| n5
-    n8 -->|CO_OCCUR| n6
-    n8 -->|CO_OCCUR| n2
-    n7 -->|CO_OCCUR| n15
-    n7 -->|CO_OCCUR| n16
-    n7 -->|CO_OCCUR| n3
-    n7 -->|CO_OCCUR| n14
-    n7 -->|CO_OCCUR| n9
-    n7 -->|CO_OCCUR| n12
-    n7 -->|CO_OCCUR| n13
-    n7 -->|CO_OCCUR| n5
-    n7 -->|CO_OCCUR| n6
-    n7 -->|CO_OCCUR| n2
-    n15 -->|CO_OCCUR| n16
-    n15 -->|CO_OCCUR| n3
-    n15 -->|CO_OCCUR| n14
-    n15 -->|CO_OCCUR| n9
+    n0["Principal Component"]
+    n1["shopping for apples"]
+    n2["Unsupervised Learning Algorithm Technique"]
+    n3["📁 ML Index"]
+    n4["Dimensionality Reduction and Machine Learning Method"]
+    n5["Machine Learning"]
+    n6["When should Principal Component Analysis be used in ML?"]
+    n7["Introduction to Machine Learning"]
+    n8["Independence of Features"]
+    n9["Fewer Features from Higher Features"]
+    n10["Coronary Heart Disease (CD)"]
+    n11["Principal Component Analysis"]
+    n12["Linear Discriminant Analysis (LDA)"]
+    n13["Logistic Regression"]
+    n14["Age"]
+    n15["apples"]
+    n7 -->|IN_FOLDER| n3
+    n5 -->|KEYWORD_LINK| n7
+    n7 -->|CONTAINS| n5
+    n7 -->|CONTAINS| n15
+    n5 -->|CO_OCCUR| n15
+    n5 -->|SEMANTIC_SIMILAR| n15
+    n1 -->|KEYWORD_LINK| n15
+    n5 -->|LINKED_TO| n1
+    n0 -->|IN_FOLDER| n3
+    n11 -->|KEYWORD_LINK| n0
+    n0 -->|CONTAINS| n11
+    n4 -->|KEYWORD_LINK| n5
+    n11 -->|LINKED_TO| n4
+    n11 -->|LINKED_TO| n2
+    n11 -->|REFERENCED_BY| n5
+    n6 -->|KEYWORD_LINK| n0
+    n6 -->|KEYWORD_LINK| n11
+    n6 -->|LINKED_TO| n8
+    n6 -->|LINKED_TO| n9
+    n13 -->|IN_FOLDER| n3
+    n13 -->|CONTAINS| n13
+    n13 -->|CONTAINS| n10
+    n13 -->|CONTAINS| n14
+    n10 -->|CO_OCCUR| n14
+    n13 -->|LINKED_TO| n10
+    n13 -->|INFERRED| n14
+    n12 -->|IN_FOLDER| n3
+    n3 -->|CROSS_THEME| n5
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Cost Function]]
-  - *( co_occur )*
-  - [[Convex Optimization]]
-    - *( co_occur )*
-    - [[Convex Function]]
-      - *( co_occur )*
-      - [[Machine Learning Models]]
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Neural Networks]]
-      - *( keyword_link )*
-      - [[function]]
-      - *( keyword_link )*
-      - [[convex]]
-    - *( co_occur )*
-    - [[Linear Programming Problem]]
+- [[📁 ML Index]]
+  - *( cross_theme )*
+  - [[Machine Learning]]
+    - *( keyword_link )*
+    - [[Introduction to Machine Learning]]
+      - *( contains )*
+      - [[apples]]
+    - *( linked_to )*
+    - [[shopping for apples]]
+- [[Principal Component]]
+  - *( contains )*
+  - [[Principal Component Analysis]]
+    - *( linked_to )*
+    - [[Dimensionality Reduction and Machine Learning Method]]
+    - *( linked_to )*
+    - [[Unsupervised Learning Algorithm Technique]]
+- [[When should Principal Component Analysis be used in ML?]]
   - *( linked_to )*
-  - [[Gradient-Based Optimization]]
-    - *( contains )*
-    - [[Loss Function]]
-      - *( co_occur )*
-      - [[Error Function]]
-- [[Batch Gradient Descent]]
-  - *( keyword_link )*
-  - [[Gradient Descent]]
-- [[Minimizing f(x)]]
-- [[Optimization]]
-- [[Support Vector Machines]]
-- [[Maximizing f(x)]]
-- [[Objective Function]]
+  - [[Independence of Features]]
+  - *( linked_to )*
+  - [[Fewer Features from Higher Features]]
+- [[Coronary Heart Disease (CD)]]
+  - *( co_occur )*
+  - [[Age]]
+- [[Linear Discriminant Analysis (LDA)]]
+- [[Logistic Regression]]
 
 ## 📋 All Core Concepts
-- [[function]]
-- [[convex]]
-- [[Neural Networks]]
-- [[Cost Function]]
-- [[Batch Gradient Descent]]
-- [[Convex Function]]
-- [[Machine Learning Models]]
-- [[Minimizing f(x)]]
-- [[Optimization]]
-- [[Error Function]]
-- [[Gradient Descent]]
-- [[Support Vector Machines]]
-- [[Convex Optimization]]
-- [[Linear Programming Problem]]
-- [[Loss Function]]
-- [[Maximizing f(x)]]
-- [[Objective Function]]
-- [[Gradient-Based Optimization]]
+- [[Principal Component]]
+- [[shopping for apples]]
+- [[Unsupervised Learning Algorithm Technique]]
+- [[📁 ML Index]]
+- [[Dimensionality Reduction and Machine Learning Method]]
+- [[Machine Learning]]
+- [[When should Principal Component Analysis be used in ML?]]
+- [[Introduction to Machine Learning]]
+- [[Independence of Features]]
+- [[Fewer Features from Higher Features]]
+- [[Coronary Heart Disease (CD)]]
+- [[Principal Component Analysis]]
+- [[Linear Discriminant Analysis (LDA)]]
+- [[Logistic Regression]]
+- [[Age]]
+- [[apples]]

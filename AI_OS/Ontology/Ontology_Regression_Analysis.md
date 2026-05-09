@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:38.534029'
-id: a617ee1f
+created: '2026-05-09T17:36:53.762756'
+id: 09829b0a
 links: []
-modified: '2026-05-09T17:36:38.534029'
+modified: '2026-05-09T17:36:53.762756'
 project: ''
 source: ''
 status: active
@@ -25,120 +25,79 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["root node"]
-    n1["tree-structured classifier"]
-    n2["Probability"]
-    n3["Information Gain Calculation for Outlook Cont’d"]
-    n4["Rain"]
-    n5["decision node"]
-    n6["Overcast"]
-    n7["Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6"]
-    n8["Entropy"]
-    n9["Sunny"]
-    n10["Supervised learning technique"]
-    n11["Decision Trees"]
-    n12["leaf node"]
-    n13["Tennis"]
-    n14["Rainy"]
-    n11 -->|CONTAINS| n11
-    n11 -->|CONTAINS| n10
-    n11 -->|CONTAINS| n1
-    n11 -->|CONTAINS| n5
-    n11 -->|CONTAINS| n12
-    n10 -->|CO_OCCUR| n1
-    n10 -->|CO_OCCUR| n5
-    n10 -->|CO_OCCUR| n12
-    n1 -->|CO_OCCUR| n5
-    n1 -->|CO_OCCUR| n12
-    n5 -->|CO_OCCUR| n12
-    n11 -->|LINKED_TO| n1
-    n5 -->|SEMANTIC_SIMILAR| n0
-    n11 -->|CONTAINS| n2
-    n11 -->|CONTAINS| n8
-    n11 -->|CONTAINS| n3
-    n11 -->|CONTAINS| n4
-    n11 -->|CONTAINS| n13
-    n11 -->|CONTAINS| n9
-    n11 -->|CONTAINS| n6
-    n14 -->|KEYWORD_LINK| n4
-    n11 -->|CONTAINS| n14
-    n2 -->|CO_OCCUR| n8
-    n2 -->|CO_OCCUR| n3
-    n2 -->|CO_OCCUR| n4
-    n2 -->|CO_OCCUR| n13
-    n2 -->|CO_OCCUR| n9
-    n2 -->|CO_OCCUR| n6
-    n2 -->|CO_OCCUR| n14
-    n8 -->|CO_OCCUR| n3
-    n8 -->|CO_OCCUR| n4
-    n8 -->|CO_OCCUR| n13
-    n8 -->|CO_OCCUR| n9
-    n8 -->|CO_OCCUR| n6
-    n8 -->|CO_OCCUR| n14
-    n3 -->|CO_OCCUR| n4
-    n3 -->|CO_OCCUR| n13
-    n3 -->|CO_OCCUR| n9
-    n3 -->|CO_OCCUR| n6
-    n3 -->|CO_OCCUR| n14
-    n4 -->|CO_OCCUR| n13
-    n4 -->|CO_OCCUR| n9
-    n4 -->|CO_OCCUR| n6
-    n13 -->|CO_OCCUR| n9
-    n13 -->|CO_OCCUR| n6
-    n13 -->|CO_OCCUR| n14
-    n9 -->|CO_OCCUR| n6
-    n9 -->|CO_OCCUR| n14
+    n0["λ= 1"]
+    n1["Cost function = 0 + 1 x (1.4)2"]
+    n2["Loss = 0.32 + 0.22"]
+    n3["Ridge Regression"]
+    n4["Interpretability and Minimizing Information Loss"]
+    n5["Discovering Linear Combinations of Varying Sequences"]
+    n6["λ"]
+    n7["Locating Important Characteristics"]
+    n8["λ = 1"]
+    n9["Loss"]
+    n10["PCA Why Do We Need PCA in Machine Learning?"]
+    n11["Overfitting Issues"]
+    n12["The slope of the curve = 0.7"]
+    n13["The slope of the curve= 1.4"]
+    n14["Lasso Regression"]
+    n6 -->|CO_OCCUR| n3
+    n6 -->|CO_OCCUR| n9
     n6 -->|CO_OCCUR| n14
-    n7 -->|KEYWORD_LINK| n2
+    n3 -->|CO_OCCUR| n9
+    n3 -->|CO_OCCUR| n14
+    n9 -->|CO_OCCUR| n14
+    n0 -->|KEYWORD_LINK| n6
+    n0 -->|LINKED_TO| n3
+    n8 -->|KEYWORD_LINK| n6
+    n8 -->|LINKED_TO| n14
+    n13 -->|INFERRED| n3
+    n12 -->|INFERRED| n14
+    n1 -->|LINKED_TO| n3
+    n2 -->|KEYWORD_LINK| n9
+    n2 -->|INFERRED| n14
+    n10 -->|LINKED_TO| n11
+    n4 -->|KEYWORD_LINK| n9
+    n10 -->|LINKED_TO| n4
+    n10 -->|LINKED_TO| n7
+    n10 -->|LINKED_TO| n5
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Decision Trees]]
-  - *( contains )*
-  - [[Probability]]
-    - *( co_occur )*
-    - [[Tennis]]
-      - *( co_occur )*
-      - [[Sunny]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Overcast]]
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Rainy]]
-        - *( keyword_link )*
-    - *( co_occur )*
-    - [[Entropy]]
-      - *( co_occur )*
-      - [[Information Gain Calculation for Outlook Cont’d]]
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Rain]]
-- [[root node]]
-- [[tree-structured classifier]]
+- [[Loss]]
   - *( co_occur )*
-  - [[decision node]]
-    - *( co_occur )*
-    - [[leaf node]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
-- [[Supervised learning technique]]
+  - [[Lasso Regression]]
+- [[λ= 1]]
+  - *( linked_to )*
+  - [[Ridge Regression]]
+  - *( keyword_link )*
+  - [[λ]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[Loss = 0.32 + 0.22]]
+- [[Interpretability and Minimizing Information Loss]]
+- [[Discovering Linear Combinations of Varying Sequences]]
+- [[Locating Important Characteristics]]
+- [[λ = 1]]
+- [[PCA Why Do We Need PCA in Machine Learning?]]
+  - *( linked_to )*
+  - [[Overfitting Issues]]
+- [[The slope of the curve = 0.7]]
+- [[The slope of the curve= 1.4]]
 
 ## 📋 All Core Concepts
-- [[root node]]
-- [[tree-structured classifier]]
-- [[Probability]]
-- [[Information Gain Calculation for Outlook Cont’d]]
-- [[Rain]]
-- [[decision node]]
-- [[Overcast]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
-- [[Entropy]]
-- [[Sunny]]
-- [[Supervised learning technique]]
-- [[Decision Trees]]
-- [[leaf node]]
-- [[Tennis]]
-- [[Rainy]]
+- [[λ= 1]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[Loss = 0.32 + 0.22]]
+- [[Ridge Regression]]
+- [[Interpretability and Minimizing Information Loss]]
+- [[Discovering Linear Combinations of Varying Sequences]]
+- [[λ]]
+- [[Locating Important Characteristics]]
+- [[λ = 1]]
+- [[Loss]]
+- [[PCA Why Do We Need PCA in Machine Learning?]]
+- [[Overfitting Issues]]
+- [[The slope of the curve = 0.7]]
+- [[The slope of the curve= 1.4]]
+- [[Lasso Regression]]
