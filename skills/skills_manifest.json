@@ -1,0 +1,17 @@
+{
+  "skills": [
+    {
+      "name": "convert_text_to_speech",
+      "description": "Skill from convert_text_to_speech.py",
+      "usage": "convert_text_to_speech()",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\convert_text_to_speech.py",
+      "parameters": [],
+      "category": "general",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-09T22:50:11.994618",
+      "last_used": null,
+      "use_count": 0
+    }
+  ]
+}
