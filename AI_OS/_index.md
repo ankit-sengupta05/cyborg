@@ -1718,3 +1718,5 @@ The operating layer of your vault.
 - [[AI_OS\Ontology\Ontology_Clustering_Analysis.md]] | Knowledge related to Ontology_Clustering_Analysis (type: ontology_map)
 - [[AI_OS\Ontology\Ontology_Clustering_Algorithms.md]] | Knowledge related to Ontology_Clustering_Algorithms (type: ontology_map)
 - [[skills\skills.md]] | Knowledge related to skills (type: note)
+- [[AI_OS\Ontology\Ontology_Tree-based_Models.md]] | Knowledge related to Ontology_Tree-based_Models (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Clustering.md]] | Knowledge related to Ontology_Clustering (type: ontology_map)

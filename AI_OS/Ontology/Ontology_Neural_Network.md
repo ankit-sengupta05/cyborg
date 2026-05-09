@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:19:26.825624'
-id: ccd72ad2
+created: '2026-05-09T17:32:25.241591'
+id: 6867c578
 links: []
-modified: '2026-05-09T17:19:26.825624'
+modified: '2026-05-09T17:32:25.241591'
 project: ''
 source: ''
 status: active
@@ -25,75 +25,75 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["neural network"]
-    n1["multi-layer perceptron (MLP)"]
-    n2["single layer perceptron"]
-    n3["weights update"]
-    n4["Solution?"]
-    n5["Linear inseparable"]
-    n6["binary classification"]
-    n7["Perceptron Model"]
-    n8["Perceptron"]
-    n9["weights"]
-    n10["initial weights"]
-    n11["Multi-Layer Perceptron and Its Properties"]
-    n12["•A neural  network's  goal is to adjust  weights  so that th"]
-    n13["Frank Rosenblatt"]
-    n14["Multi-Layer Perceptron"]
-    n15["errors"]
+    n0["Multi-Layer Perceptron and Its Properties"]
+    n1["Solution?"]
+    n2["Perceptron"]
+    n3["Frank Rosenblatt"]
+    n4["weights update"]
+    n5["multi-layer perceptron (MLP)"]
+    n6["Linear inseparable"]
+    n7["initial weights"]
+    n8["neural network"]
+    n9["errors"]
+    n10["Linear Separable"]
+    n11["binary classification"]
+    n12["weights"]
+    n13["•A neural  network's  goal is to adjust  weights  so that th"]
+    n14["single layer perceptron"]
+    n15["Multi-Layer Perceptron"]
     n16["Module-5"]
     n17["output"]
-    n18["Linear Separable"]
-    n12 -->|CONTAINS| n0
-    n9 -->|KEYWORD_LINK| n12
-    n12 -->|CONTAINS| n9
-    n10 -->|KEYWORD_LINK| n9
-    n12 -->|CONTAINS| n10
-    n12 -->|CONTAINS| n17
-    n12 -->|CONTAINS| n7
-    n12 -->|CONTAINS| n15
-    n3 -->|KEYWORD_LINK| n9
-    n12 -->|CONTAINS| n3
-    n12 -->|CONTAINS| n2
-    n12 -->|CONTAINS| n1
-    n0 -->|CO_OCCUR| n9
-    n0 -->|CO_OCCUR| n10
-    n0 -->|CO_OCCUR| n17
-    n0 -->|CO_OCCUR| n7
-    n0 -->|CO_OCCUR| n15
-    n0 -->|CO_OCCUR| n3
-    n0 -->|CO_OCCUR| n2
-    n0 -->|CO_OCCUR| n1
-    n9 -->|CO_OCCUR| n17
-    n9 -->|CO_OCCUR| n7
-    n9 -->|CO_OCCUR| n15
-    n9 -->|CO_OCCUR| n2
-    n9 -->|CO_OCCUR| n1
-    n10 -->|CO_OCCUR| n17
-    n10 -->|CO_OCCUR| n7
-    n10 -->|CO_OCCUR| n15
-    n10 -->|CO_OCCUR| n3
-    n10 -->|CO_OCCUR| n2
-    n10 -->|CO_OCCUR| n1
-    n17 -->|CO_OCCUR| n7
-    n17 -->|CO_OCCUR| n15
-    n17 -->|CO_OCCUR| n3
-    n17 -->|CO_OCCUR| n2
-    n17 -->|CO_OCCUR| n1
-    n7 -->|CO_OCCUR| n15
-    n7 -->|CO_OCCUR| n3
-    n7 -->|CO_OCCUR| n2
-    n7 -->|CO_OCCUR| n1
-    n15 -->|CO_OCCUR| n3
-    n15 -->|CO_OCCUR| n2
-    n15 -->|CO_OCCUR| n1
-    n3 -->|CO_OCCUR| n2
-    n3 -->|CO_OCCUR| n1
-    n2 -->|CO_OCCUR| n1
-    n0 -->|SEMANTIC_SIMILAR| n7
-    n3 -->|INFERRED| n10
-    n17 -->|SEMANTIC_SIMILAR| n7
-    n2 -->|LINKED_TO| n1
+    n18["Perceptron Model"]
+    n13 -->|CONTAINS| n8
+    n12 -->|KEYWORD_LINK| n13
+    n13 -->|CONTAINS| n12
+    n7 -->|KEYWORD_LINK| n12
+    n13 -->|CONTAINS| n7
+    n13 -->|CONTAINS| n17
+    n13 -->|CONTAINS| n18
+    n13 -->|CONTAINS| n9
+    n4 -->|KEYWORD_LINK| n12
+    n13 -->|CONTAINS| n4
+    n13 -->|CONTAINS| n14
+    n13 -->|CONTAINS| n5
+    n8 -->|CO_OCCUR| n12
+    n8 -->|CO_OCCUR| n7
+    n8 -->|CO_OCCUR| n17
+    n8 -->|CO_OCCUR| n18
+    n8 -->|CO_OCCUR| n9
+    n8 -->|CO_OCCUR| n4
+    n8 -->|CO_OCCUR| n14
+    n8 -->|CO_OCCUR| n5
+    n12 -->|CO_OCCUR| n17
+    n12 -->|CO_OCCUR| n18
+    n12 -->|CO_OCCUR| n9
+    n12 -->|CO_OCCUR| n14
+    n12 -->|CO_OCCUR| n5
+    n7 -->|CO_OCCUR| n17
+    n7 -->|CO_OCCUR| n18
+    n7 -->|CO_OCCUR| n9
+    n7 -->|CO_OCCUR| n4
+    n7 -->|CO_OCCUR| n14
+    n7 -->|CO_OCCUR| n5
+    n17 -->|CO_OCCUR| n18
+    n17 -->|CO_OCCUR| n9
+    n17 -->|CO_OCCUR| n4
+    n17 -->|CO_OCCUR| n14
+    n17 -->|CO_OCCUR| n5
+    n18 -->|CO_OCCUR| n9
+    n18 -->|CO_OCCUR| n4
+    n18 -->|CO_OCCUR| n14
+    n18 -->|CO_OCCUR| n5
+    n9 -->|CO_OCCUR| n4
+    n9 -->|CO_OCCUR| n14
+    n9 -->|CO_OCCUR| n5
+    n4 -->|CO_OCCUR| n14
+    n4 -->|CO_OCCUR| n5
+    n14 -->|CO_OCCUR| n5
+    n8 -->|SEMANTIC_SIMILAR| n18
+    n4 -->|INFERRED| n7
+    n17 -->|SEMANTIC_SIMILAR| n18
+    n14 -->|LINKED_TO| n5
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -119,37 +119,41 @@ graph TD
     - [[weights]]
       - *( co_occur )*
       - [[output]]
-- [[Solution?]]
-- [[Linear inseparable]]
-- [[binary classification]]
-- [[Perceptron]]
-  - *( co_occur )*
-  - [[Frank Rosenblatt]]
-- [[initial weights]]
 - [[Multi-Layer Perceptron and Its Properties]]
+  - *( keyword_link )*
+  - [[Perceptron]]
+    - *( co_occur )*
+    - [[Frank Rosenblatt]]
   - *( contains )*
   - [[Multi-Layer Perceptron]]
     - *( co_occur )*
     - [[Linear Separable]]
+      - *( co_occur )*
+      - [[Linear inseparable]]
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[Solution?]]
+- [[initial weights]]
+- [[binary classification]]
 - [[Module-5]]
 
 ## 📋 All Core Concepts
-- [[neural network]]
-- [[multi-layer perceptron (MLP)]]
-- [[single layer perceptron]]
-- [[weights update]]
-- [[Solution?]]
-- [[Linear inseparable]]
-- [[binary classification]]
-- [[Perceptron Model]]
-- [[Perceptron]]
-- [[weights]]
-- [[initial weights]]
 - [[Multi-Layer Perceptron and Its Properties]]
-- [[•A neural  network's  goal is to adjust  weights  so that th]]
+- [[Solution?]]
+- [[Perceptron]]
 - [[Frank Rosenblatt]]
-- [[Multi-Layer Perceptron]]
+- [[weights update]]
+- [[multi-layer perceptron (MLP)]]
+- [[Linear inseparable]]
+- [[initial weights]]
+- [[neural network]]
 - [[errors]]
+- [[Linear Separable]]
+- [[binary classification]]
+- [[weights]]
+- [[•A neural  network's  goal is to adjust  weights  so that th]]
+- [[single layer perceptron]]
+- [[Multi-Layer Perceptron]]
 - [[Module-5]]
 - [[output]]
-- [[Linear Separable]]
+- [[Perceptron Model]]

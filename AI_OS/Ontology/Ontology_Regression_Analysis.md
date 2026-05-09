@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:19:26.731095'
-id: 51c4e9f2
+created: '2026-05-09T17:32:25.187672'
+id: e9c83e35
 links: []
-modified: '2026-05-09T17:19:26.731095'
+modified: '2026-05-09T17:32:25.187672'
 project: ''
 source: ''
 status: active
@@ -25,81 +25,81 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Partial Least squares"]
-    n1["Simple linear regression"]
-    n2["Subset Selection"]
-    n3["Multivariate Regression"]
-    n4["K-Nearest Neighbor learning"]
-    n5["K-Nearest Neighbor learning"]
-    n6["λ = 1"]
-    n7["K-Nearest Neighbor learning Module"]
-    n8["Loss"]
-    n9["Ridge Regression line"]
-    n10["Linear Regression"]
-    n11["Regression"]
-    n12["LDA"]
-    n13["λ"]
-    n14["Principal Component Regression"]
-    n15["Linear Discriminant Analysis"]
-    n16["Logistic Regression"]
-    n17["Age"]
-    n18["Ridge regression line fits the model more accurately than the linear regression line."]
-    n19["Linear Discriminant Analysis (LDA)"]
-    n20["Linear Classification"]
-    n21["Logistic Regression"]
-    n22["Subset Selection Module"]
-    n23["Multiple Linear Regression"]
-    n24["Shrinkage Methods"]
-    n11 -->|KEYWORD_LINK| n21
-    n11 -->|KEYWORD_LINK| n10
-    n10 -->|CONTAINS| n11
-    n10 -->|CONTAINS| n10
-    n11 -->|SEMANTIC_SIMILAR| n10
-    n1 -->|KEYWORD_LINK| n10
-    n1 -->|KEYWORD_LINK| n11
-    n10 -->|SEMANTIC_SIMILAR| n1
-    n23 -->|KEYWORD_LINK| n10
-    n23 -->|KEYWORD_LINK| n11
-    n10 -->|SEMANTIC_SIMILAR| n23
-    n22 -->|KEYWORD_LINK| n2
-    n2 -->|CONTAINS| n22
-    n2 -->|CONTAINS| n10
-    n3 -->|KEYWORD_LINK| n11
-    n2 -->|CONTAINS| n3
-    n2 -->|CONTAINS| n24
-    n14 -->|KEYWORD_LINK| n11
-    n2 -->|CONTAINS| n14
-    n2 -->|CONTAINS| n0
-    n2 -->|CONTAINS| n20
-    n2 -->|CONTAINS| n21
-    n2 -->|CONTAINS| n12
-    n2 -->|CONTAINS| n4
-    n2 -->|CONTAINS| n2
-    n22 -->|CO_OCCUR| n10
-    n22 -->|CO_OCCUR| n3
-    n22 -->|CO_OCCUR| n24
-    n22 -->|CO_OCCUR| n14
-    n22 -->|CO_OCCUR| n0
-    n22 -->|CO_OCCUR| n20
-    n22 -->|CO_OCCUR| n21
-    n22 -->|CO_OCCUR| n12
-    n22 -->|CO_OCCUR| n4
-    n10 -->|CO_OCCUR| n3
-    n10 -->|CO_OCCUR| n24
-    n10 -->|CO_OCCUR| n14
-    n10 -->|CO_OCCUR| n0
-    n10 -->|CO_OCCUR| n20
-    n10 -->|CO_OCCUR| n21
-    n10 -->|CO_OCCUR| n12
-    n10 -->|CO_OCCUR| n4
-    n3 -->|CO_OCCUR| n24
-    n3 -->|CO_OCCUR| n14
-    n3 -->|CO_OCCUR| n0
-    n3 -->|CO_OCCUR| n20
+    n0["LDA"]
+    n1["Subset Selection"]
+    n2["K-Nearest Neighbor learning"]
+    n3["Subset Selection Module"]
+    n4["λ"]
+    n5["Regression"]
+    n6["Logistic Regression"]
+    n7["Ridge regression line fits the model more accurately than the linear regression line."]
+    n8["Principal Component Regression"]
+    n9["Loss"]
+    n10["Age"]
+    n11["Multivariate Regression"]
+    n12["Partial Least squares"]
+    n13["K-Nearest Neighbor learning Module"]
+    n14["Multiple Linear Regression"]
+    n15["Ridge Regression line"]
+    n16["Linear Discriminant Analysis"]
+    n17["λ = 1"]
+    n18["Linear Discriminant Analysis (LDA)"]
+    n19["Simple linear regression"]
+    n20["Shrinkage Methods"]
+    n21["Linear Regression"]
+    n22["Linear Classification"]
+    n23["Logistic Regression"]
+    n24["K-Nearest Neighbor learning"]
+    n5 -->|KEYWORD_LINK| n6
+    n5 -->|KEYWORD_LINK| n21
+    n21 -->|CONTAINS| n5
+    n21 -->|CONTAINS| n21
+    n5 -->|SEMANTIC_SIMILAR| n21
+    n19 -->|KEYWORD_LINK| n21
+    n19 -->|KEYWORD_LINK| n5
+    n21 -->|SEMANTIC_SIMILAR| n19
+    n14 -->|KEYWORD_LINK| n21
+    n14 -->|KEYWORD_LINK| n5
+    n21 -->|SEMANTIC_SIMILAR| n14
+    n3 -->|KEYWORD_LINK| n1
+    n1 -->|CONTAINS| n3
+    n1 -->|CONTAINS| n21
+    n11 -->|KEYWORD_LINK| n5
+    n1 -->|CONTAINS| n11
+    n1 -->|CONTAINS| n20
+    n8 -->|KEYWORD_LINK| n5
+    n1 -->|CONTAINS| n8
+    n1 -->|CONTAINS| n12
+    n1 -->|CONTAINS| n22
+    n1 -->|CONTAINS| n6
+    n1 -->|CONTAINS| n0
+    n1 -->|CONTAINS| n24
+    n1 -->|CONTAINS| n1
     n3 -->|CO_OCCUR| n21
+    n3 -->|CO_OCCUR| n11
+    n3 -->|CO_OCCUR| n20
+    n3 -->|CO_OCCUR| n8
     n3 -->|CO_OCCUR| n12
-    n3 -->|CO_OCCUR| n4
-    n24 -->|CO_OCCUR| n14
+    n3 -->|CO_OCCUR| n22
+    n3 -->|CO_OCCUR| n6
+    n3 -->|CO_OCCUR| n0
+    n3 -->|CO_OCCUR| n24
+    n21 -->|CO_OCCUR| n11
+    n21 -->|CO_OCCUR| n20
+    n21 -->|CO_OCCUR| n8
+    n21 -->|CO_OCCUR| n12
+    n21 -->|CO_OCCUR| n22
+    n21 -->|CO_OCCUR| n6
+    n21 -->|CO_OCCUR| n0
+    n21 -->|CO_OCCUR| n24
+    n11 -->|CO_OCCUR| n20
+    n11 -->|CO_OCCUR| n8
+    n11 -->|CO_OCCUR| n12
+    n11 -->|CO_OCCUR| n22
+    n11 -->|CO_OCCUR| n6
+    n11 -->|CO_OCCUR| n0
+    n11 -->|CO_OCCUR| n24
+    n20 -->|CO_OCCUR| n8
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -126,17 +126,19 @@ graph TD
       - *( co_occur )*
       - [[Principal Component Regression]]
         - *( co_occur )*
-- [[Partial Least squares]]
-  - *( co_occur )*
-  - [[Linear Classification]]
-- [[Simple linear regression]]
 - [[Subset Selection]]
-- [[Multivariate Regression]]
 - [[K-Nearest Neighbor learning]]
-- [[λ = 1]]
+- [[Subset Selection Module]]
+- [[λ]]
+- [[Age]]
   - *( keyword_link )*
-  - [[λ]]
+  - [[Shrinkage Methods]]
+    - *( co_occur )*
+    - [[Linear Classification]]
+- [[Multivariate Regression]]
+- [[Partial Least squares]]
 - [[K-Nearest Neighbor learning Module]]
+- [[Multiple Linear Regression]]
 - [[Linear Discriminant Analysis]]
   - *( keyword_link )*
   - [[Linear Discriminant Analysis (LDA)]]
@@ -144,39 +146,35 @@ graph TD
   - [[discriminant function analysis (DFA)]]
   - *( semantic_similar )*
   - [[normal discriminant analysis (NDA)]]
+- [[λ = 1]]
+- [[Simple linear regression]]
 - [[Logistic Regression]]
-  - *( referenced_by )*
-  - [[Age]]
-    - *( keyword_link )*
-    - [[Shrinkage Methods]]
   - *( contains )*
   - [[Coronary Heart Disease (CD)]]
-- [[Subset Selection Module]]
-- [[Multiple Linear Regression]]
 
 ## 📋 All Core Concepts
-- [[Partial Least squares]]
-- [[Simple linear regression]]
-- [[Subset Selection]]
-- [[Multivariate Regression]]
-- [[K-Nearest Neighbor learning]]
-- [[K-Nearest Neighbor learning]]
-- [[λ = 1]]
-- [[K-Nearest Neighbor learning Module]]
-- [[Loss]]
-- [[Ridge Regression line]]
-- [[Linear Regression]]
-- [[Regression]]
 - [[LDA]]
+- [[Subset Selection]]
+- [[K-Nearest Neighbor learning]]
+- [[Subset Selection Module]]
 - [[λ]]
-- [[Principal Component Regression]]
-- [[Linear Discriminant Analysis]]
+- [[Regression]]
 - [[Logistic Regression]]
-- [[Age]]
 - [[Ridge regression line fits the model more accurately than the linear regression line.]]
+- [[Principal Component Regression]]
+- [[Loss]]
+- [[Age]]
+- [[Multivariate Regression]]
+- [[Partial Least squares]]
+- [[K-Nearest Neighbor learning Module]]
+- [[Multiple Linear Regression]]
+- [[Ridge Regression line]]
+- [[Linear Discriminant Analysis]]
+- [[λ = 1]]
 - [[Linear Discriminant Analysis (LDA)]]
+- [[Simple linear regression]]
+- [[Shrinkage Methods]]
+- [[Linear Regression]]
 - [[Linear Classification]]
 - [[Logistic Regression]]
-- [[Subset Selection Module]]
-- [[Multiple Linear Regression]]
-- [[Shrinkage Methods]]
+- [[K-Nearest Neighbor learning]]

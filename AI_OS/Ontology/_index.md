@@ -32,3 +32,5 @@ Auto-generated index for Ontology
 - [[Ontology_Neural_Network]] | Knowledge related to Ontology_Neural_Network
 - [[Ontology_Clustering_Analysis]] | Knowledge related to Ontology_Clustering_Analysis
 - [[Ontology_Clustering_Algorithms]] | Knowledge related to Ontology_Clustering_Algorithms
+- [[Ontology_Tree-based_Models]] | Knowledge related to Ontology_Tree-based_Models
+- [[Ontology_Clustering]] | Knowledge related to Ontology_Clustering

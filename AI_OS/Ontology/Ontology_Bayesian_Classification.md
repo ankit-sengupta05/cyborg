@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:19:26.798758'
-id: 76589a82
+created: '2026-05-09T17:32:25.227520'
+id: 22edfd5f
 links: []
-modified: '2026-05-09T17:19:26.798758'
+modified: '2026-05-09T17:32:25.227520'
 project: ''
 source: ''
 status: active
@@ -25,36 +25,36 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Naive Bayes Classifier Algorithm"]
-    n1["Bayesian Classifier with Continuous Variables:  Continuous N"]
-    n2["Naive Bayesian Classifier"]
+    n0["Naïve Bayes"]
+    n1["Naive Bayes Classifier Algorithm"]
+    n2["Naive Bayes algorithm"]
     n3["Gaussian Naïve Bayes"]
     n4["Naïve Bayes with continuous variables"]
-    n5["Naive Bayes algorithm"]
-    n6["Bayesian Classifier"]
-    n7["Naïve Bayes"]
+    n5["Bayesian Classifier with Continuous Variables:  Continuous N"]
+    n6["Naive Bayesian Classifier"]
+    n7["Bayesian Classifier"]
     n8["Continuous NB"]
-    n6 -->|CONTAINS| n6
-    n6 -->|CONTAINS| n0
-    n6 -->|CONTAINS| n5
-    n6 -->|CONTAINS| n6
-    n0 -->|CO_OCCUR| n5
-    n6 -->|LINKED_TO| n0
-    n2 -->|KEYWORD_LINK| n6
-    n2 -->|SEMANTIC_SIMILAR| n6
-    n1 -->|KEYWORD_LINK| n6
-    n1 -->|CONTAINS| n6
-    n1 -->|CONTAINS| n8
-    n1 -->|CONTAINS| n7
-    n3 -->|KEYWORD_LINK| n7
-    n1 -->|CONTAINS| n3
-    n6 -->|CO_OCCUR| n8
-    n6 -->|CO_OCCUR| n7
-    n6 -->|CO_OCCUR| n3
-    n8 -->|CO_OCCUR| n7
+    n7 -->|CONTAINS| n7
+    n7 -->|CONTAINS| n1
+    n7 -->|CONTAINS| n2
+    n7 -->|CONTAINS| n7
+    n1 -->|CO_OCCUR| n2
+    n7 -->|LINKED_TO| n1
+    n6 -->|KEYWORD_LINK| n7
+    n6 -->|SEMANTIC_SIMILAR| n7
+    n5 -->|KEYWORD_LINK| n7
+    n5 -->|CONTAINS| n7
+    n5 -->|CONTAINS| n8
+    n5 -->|CONTAINS| n0
+    n3 -->|KEYWORD_LINK| n0
+    n5 -->|CONTAINS| n3
+    n7 -->|CO_OCCUR| n8
+    n7 -->|CO_OCCUR| n0
+    n7 -->|CO_OCCUR| n3
+    n8 -->|CO_OCCUR| n0
     n8 -->|CO_OCCUR| n3
-    n6 -->|SEMANTIC_SIMILAR| n8
-    n4 -->|KEYWORD_LINK| n7
+    n7 -->|SEMANTIC_SIMILAR| n8
+    n4 -->|KEYWORD_LINK| n0
     n3 -->|LINKED_TO| n4
 ```
 
@@ -77,12 +77,12 @@ graph TD
 - [[Naive Bayesian Classifier]]
 
 ## 📋 All Core Concepts
+- [[Naïve Bayes]]
 - [[Naive Bayes Classifier Algorithm]]
-- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
-- [[Naive Bayesian Classifier]]
+- [[Naive Bayes algorithm]]
 - [[Gaussian Naïve Bayes]]
 - [[Naïve Bayes with continuous variables]]
-- [[Naive Bayes algorithm]]
+- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
+- [[Naive Bayesian Classifier]]
 - [[Bayesian Classifier]]
-- [[Naïve Bayes]]
 - [[Continuous NB]]

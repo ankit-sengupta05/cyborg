@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:19:26.743735'
-id: '58500822'
+created: '2026-05-09T17:32:25.195536'
+id: 0927b76f
 links: []
-modified: '2026-05-09T17:19:26.743735'
+modified: '2026-05-09T17:32:25.195536'
 project: ''
 source: ''
 status: active
@@ -25,47 +25,47 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Dimensionality Reduction and Machine Learning Method"]
-    n1["Machine Learning Algorithms"]
-    n2["Interrelations Among a Set of Variables"]
-    n3["Exploring and Visualizing Smaller Data Sets"]
-    n4["Dimensionality Reduction"]
-    n5["Aids in Locating Important Characteristics"]
-    n6["Unsupervised Learning Algorithm Technique"]
-    n7["Working with High-Dimensional Data"]
-    n8["PCA Example"]
-    n9["PCA Why Do We Need PCA in Machine Learning?"]
-    n10["Minimizing Information Loss"]
-    n11["Principal Component"]
-    n12["Locating Important Characteristics"]
-    n13["Discovering Linear Combinations of Varying Sequences"]
-    n14["Dimensionality Reduction to Address Overfitting Issues"]
-    n15["Principal Component Analysis"]
-    n16["Aids in Discovering Linear Combinations of Varying Sequences"]
-    n15 -->|KEYWORD_LINK| n11
-    n11 -->|CONTAINS| n15
-    n15 -->|LINKED_TO| n0
-    n15 -->|LINKED_TO| n6
-    n4 -->|KEYWORD_LINK| n0
-    n15 -->|LINKED_TO| n4
-    n15 -->|LINKED_TO| n2
-    n15 -->|REFERENCED_BY| n1
-    n15 -->|LINKED_TO| n3
-    n15 -->|LINKED_TO| n10
-    n15 -->|LINKED_TO| n12
-    n15 -->|LINKED_TO| n13
-    n8 -->|REFERENCED_BY| n3
-    n8 -->|LINKED_TO| n10
-    n8 -->|LINKED_TO| n12
-    n8 -->|LINKED_TO| n13
-    n9 -->|REFERENCED_BY| n7
-    n14 -->|KEYWORD_LINK| n4
-    n9 -->|LINKED_TO| n14
-    n9 -->|LINKED_TO| n10
-    n5 -->|KEYWORD_LINK| n12
-    n9 -->|LINKED_TO| n5
-    n16 -->|KEYWORD_LINK| n13
-    n9 -->|LINKED_TO| n16
+    n0["Principal Component"]
+    n1["Dimensionality Reduction to Address Overfitting Issues"]
+    n2["Exploring and Visualizing Smaller Data Sets"]
+    n3["Unsupervised Learning Algorithm Technique"]
+    n4["PCA Example"]
+    n5["Discovering Linear Combinations of Varying Sequences"]
+    n6["Dimensionality Reduction and Machine Learning Method"]
+    n7["Machine Learning Algorithms"]
+    n8["Working with High-Dimensional Data"]
+    n9["Interrelations Among a Set of Variables"]
+    n10["Locating Important Characteristics"]
+    n11["Principal Component Analysis"]
+    n12["PCA Why Do We Need PCA in Machine Learning?"]
+    n13["Dimensionality Reduction"]
+    n14["Aids in Locating Important Characteristics"]
+    n15["Aids in Discovering Linear Combinations of Varying Sequences"]
+    n16["Minimizing Information Loss"]
+    n11 -->|KEYWORD_LINK| n0
+    n0 -->|CONTAINS| n11
+    n11 -->|LINKED_TO| n6
+    n11 -->|LINKED_TO| n3
+    n13 -->|KEYWORD_LINK| n6
+    n11 -->|LINKED_TO| n13
+    n11 -->|LINKED_TO| n9
+    n11 -->|REFERENCED_BY| n7
+    n11 -->|LINKED_TO| n2
+    n11 -->|LINKED_TO| n16
+    n11 -->|LINKED_TO| n10
+    n11 -->|LINKED_TO| n5
+    n4 -->|REFERENCED_BY| n2
+    n4 -->|LINKED_TO| n16
+    n4 -->|LINKED_TO| n10
+    n4 -->|LINKED_TO| n5
+    n12 -->|REFERENCED_BY| n8
+    n1 -->|KEYWORD_LINK| n13
+    n12 -->|LINKED_TO| n1
+    n12 -->|LINKED_TO| n16
+    n14 -->|KEYWORD_LINK| n10
+    n12 -->|LINKED_TO| n14
+    n15 -->|KEYWORD_LINK| n5
+    n12 -->|LINKED_TO| n15
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -82,37 +82,37 @@ graph TD
   - [[Dimensionality Reduction]]
   - *( linked_to )*
   - [[Exploring and Visualizing Smaller Data Sets]]
-- [[Machine Learning Algorithms]]
-- [[Interrelations Among a Set of Variables]]
-- [[Aids in Locating Important Characteristics]]
-  - *( keyword_link )*
-  - [[Locating Important Characteristics]]
+- [[Dimensionality Reduction to Address Overfitting Issues]]
 - [[Unsupervised Learning Algorithm Technique]]
-- [[Working with High-Dimensional Data]]
 - [[PCA Example]]
   - *( linked_to )*
+  - [[Locating Important Characteristics]]
+  - *( linked_to )*
   - [[Discovering Linear Combinations of Varying Sequences]]
+- [[Machine Learning Algorithms]]
+- [[Working with High-Dimensional Data]]
+- [[Interrelations Among a Set of Variables]]
 - [[PCA Why Do We Need PCA in Machine Learning?]]
   - *( linked_to )*
-  - [[Dimensionality Reduction to Address Overfitting Issues]]
+  - [[Aids in Locating Important Characteristics]]
   - *( linked_to )*
   - [[Aids in Discovering Linear Combinations of Varying Sequences]]
 
 ## 📋 All Core Concepts
+- [[Principal Component]]
+- [[Dimensionality Reduction to Address Overfitting Issues]]
+- [[Exploring and Visualizing Smaller Data Sets]]
+- [[Unsupervised Learning Algorithm Technique]]
+- [[PCA Example]]
+- [[Discovering Linear Combinations of Varying Sequences]]
 - [[Dimensionality Reduction and Machine Learning Method]]
 - [[Machine Learning Algorithms]]
+- [[Working with High-Dimensional Data]]
 - [[Interrelations Among a Set of Variables]]
-- [[Exploring and Visualizing Smaller Data Sets]]
+- [[Locating Important Characteristics]]
+- [[Principal Component Analysis]]
+- [[PCA Why Do We Need PCA in Machine Learning?]]
 - [[Dimensionality Reduction]]
 - [[Aids in Locating Important Characteristics]]
-- [[Unsupervised Learning Algorithm Technique]]
-- [[Working with High-Dimensional Data]]
-- [[PCA Example]]
-- [[PCA Why Do We Need PCA in Machine Learning?]]
-- [[Minimizing Information Loss]]
-- [[Principal Component]]
-- [[Locating Important Characteristics]]
-- [[Discovering Linear Combinations of Varying Sequences]]
-- [[Dimensionality Reduction to Address Overfitting Issues]]
-- [[Principal Component Analysis]]
 - [[Aids in Discovering Linear Combinations of Varying Sequences]]
+- [[Minimizing Information Loss]]

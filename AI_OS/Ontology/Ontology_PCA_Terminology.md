@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:19:26.757861'
-id: 50cbab47
+created: '2026-05-09T17:32:25.201760'
+id: 006c9eb7
 links: []
-modified: '2026-05-09T17:19:26.757861'
+modified: '2026-05-09T17:32:25.201760'
 project: ''
 source: ''
 status: active
@@ -25,12 +25,12 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Variance"]
+    n0["Basic Terminologies of PCA in Machine Learning?"]
     n1["Covariance"]
-    n2["Basic Terminologies of PCA in Machine Learning?"]
-    n2 -->|REFERENCED_BY| n0
-    n1 -->|KEYWORD_LINK| n0
-    n2 -->|LINKED_TO| n1
+    n2["Variance"]
+    n0 -->|REFERENCED_BY| n2
+    n1 -->|KEYWORD_LINK| n2
+    n0 -->|LINKED_TO| n1
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -43,6 +43,6 @@ graph TD
   - [[Covariance]]
 
 ## 📋 All Core Concepts
-- [[Variance]]
-- [[Covariance]]
 - [[Basic Terminologies of PCA in Machine Learning?]]
+- [[Covariance]]
+- [[Variance]]

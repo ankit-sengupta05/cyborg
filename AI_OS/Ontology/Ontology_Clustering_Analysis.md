@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:19:26.855216'
-id: 2fac9f29
+created: '2026-05-09T17:32:25.247121'
+id: 0730209d
 links: []
-modified: '2026-05-09T17:19:26.855216'
+modified: '2026-05-09T17:32:25.247121'
 project: ''
 source: ''
 status: active
@@ -25,79 +25,79 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Data"]
-    n1["limitations of unsupervised learning"]
-    n2["hierarchical clustering"]
-    n3["finance"]
-    n4["gaussian mixture models"]
-    n5["Divisive"]
-    n6["Hierarchical Clustering"]
-    n7["agglomerative clustering"]
-    n8["maximum likelihood estimation"]
-    n9["Data Preprocessing Clustering & Association Agglomerative Clustering"]
-    n10["Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering"]
-    n11["parameter estimation for gaussian mixtures"]
-    n12["centroid"]
+    n0["clustering"]
+    n1["gaussian mixture models"]
+    n2["parameter estimation for gaussian mixtures"]
+    n3["Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering"]
+    n4["Association"]
+    n5["centroid"]
+    n6["expectation maximization algorithm"]
+    n7["limitations of unsupervised learning"]
+    n8["Data Preprocessing"]
+    n9["Divisive"]
+    n10["hierarchical clustering"]
+    n11["Introduction of Clustering"]
+    n12["finance"]
     n13["k-means clustering"]
-    n14["Introduction of Clustering"]
-    n15["expectation maximization algorithm"]
+    n14["maximum likelihood estimation"]
+    n15["Data"]
     n16["Proximity Matrix"]
-    n17["Data Preprocessing Clustering & Association Hierarchical Clustering"]
-    n18["Data Preprocessing"]
-    n19["Unsupervised Learning"]
-    n20["Agglomerative"]
-    n21["clustering"]
-    n22["Association"]
-    n19 -->|CONTAINS| n19
-    n19 -->|CONTAINS| n7
-    n19 -->|CONTAINS| n2
-    n19 -->|CONTAINS| n13
-    n1 -->|KEYWORD_LINK| n19
-    n19 -->|CONTAINS| n1
-    n19 -->|CONTAINS| n4
-    n19 -->|CONTAINS| n8
-    n19 -->|CONTAINS| n11
-    n19 -->|CONTAINS| n15
-    n21 -->|KEYWORD_LINK| n7
-    n21 -->|KEYWORD_LINK| n2
-    n21 -->|KEYWORD_LINK| n13
-    n19 -->|CONTAINS| n21
-    n19 -->|CONTAINS| n12
-    n7 -->|CO_OCCUR| n2
-    n7 -->|CO_OCCUR| n13
-    n7 -->|CO_OCCUR| n1
-    n7 -->|CO_OCCUR| n4
-    n7 -->|CO_OCCUR| n8
-    n7 -->|CO_OCCUR| n11
-    n7 -->|CO_OCCUR| n15
-    n7 -->|CO_OCCUR| n12
-    n2 -->|CO_OCCUR| n13
-    n2 -->|CO_OCCUR| n1
-    n2 -->|CO_OCCUR| n4
-    n2 -->|CO_OCCUR| n8
-    n2 -->|CO_OCCUR| n11
-    n2 -->|CO_OCCUR| n15
-    n2 -->|CO_OCCUR| n12
+    n17["Hierarchical Clustering"]
+    n18["Agglomerative"]
+    n19["Data Preprocessing Clustering & Association Hierarchical Clustering"]
+    n20["Data Preprocessing Clustering & Association Agglomerative Clustering"]
+    n21["agglomerative clustering"]
+    n22["Unsupervised Learning"]
+    n22 -->|CONTAINS| n22
+    n22 -->|CONTAINS| n21
+    n22 -->|CONTAINS| n10
+    n22 -->|CONTAINS| n13
+    n7 -->|KEYWORD_LINK| n22
+    n22 -->|CONTAINS| n7
+    n22 -->|CONTAINS| n1
+    n22 -->|CONTAINS| n14
+    n22 -->|CONTAINS| n2
+    n22 -->|CONTAINS| n6
+    n0 -->|KEYWORD_LINK| n21
+    n0 -->|KEYWORD_LINK| n10
+    n0 -->|KEYWORD_LINK| n13
+    n22 -->|CONTAINS| n0
+    n22 -->|CONTAINS| n5
+    n21 -->|CO_OCCUR| n10
+    n21 -->|CO_OCCUR| n13
+    n21 -->|CO_OCCUR| n7
+    n21 -->|CO_OCCUR| n1
+    n21 -->|CO_OCCUR| n14
+    n21 -->|CO_OCCUR| n2
+    n21 -->|CO_OCCUR| n6
+    n21 -->|CO_OCCUR| n5
+    n10 -->|CO_OCCUR| n13
+    n10 -->|CO_OCCUR| n7
+    n10 -->|CO_OCCUR| n1
+    n10 -->|CO_OCCUR| n14
+    n10 -->|CO_OCCUR| n2
+    n10 -->|CO_OCCUR| n6
+    n10 -->|CO_OCCUR| n5
+    n13 -->|CO_OCCUR| n7
     n13 -->|CO_OCCUR| n1
-    n13 -->|CO_OCCUR| n4
-    n13 -->|CO_OCCUR| n8
-    n13 -->|CO_OCCUR| n11
-    n13 -->|CO_OCCUR| n15
-    n13 -->|CO_OCCUR| n12
-    n1 -->|CO_OCCUR| n4
-    n1 -->|CO_OCCUR| n8
-    n1 -->|CO_OCCUR| n11
-    n1 -->|CO_OCCUR| n15
-    n1 -->|CO_OCCUR| n21
-    n1 -->|CO_OCCUR| n12
-    n4 -->|CO_OCCUR| n8
-    n4 -->|CO_OCCUR| n11
-    n4 -->|CO_OCCUR| n15
-    n4 -->|CO_OCCUR| n21
-    n4 -->|CO_OCCUR| n12
-    n8 -->|CO_OCCUR| n11
-    n8 -->|CO_OCCUR| n15
-    n8 -->|CO_OCCUR| n21
+    n13 -->|CO_OCCUR| n14
+    n13 -->|CO_OCCUR| n2
+    n13 -->|CO_OCCUR| n6
+    n13 -->|CO_OCCUR| n5
+    n7 -->|CO_OCCUR| n1
+    n7 -->|CO_OCCUR| n14
+    n7 -->|CO_OCCUR| n2
+    n7 -->|CO_OCCUR| n6
+    n7 -->|CO_OCCUR| n0
+    n7 -->|CO_OCCUR| n5
+    n1 -->|CO_OCCUR| n14
+    n1 -->|CO_OCCUR| n2
+    n1 -->|CO_OCCUR| n6
+    n1 -->|CO_OCCUR| n0
+    n1 -->|CO_OCCUR| n5
+    n14 -->|CO_OCCUR| n2
+    n14 -->|CO_OCCUR| n6
+    n14 -->|CO_OCCUR| n0
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -132,45 +132,46 @@ graph TD
     - [[hierarchical clustering]]
   - *( co_occur )*
   - [[centroid]]
-- [[Data]]
-  - *( contains )*
-  - [[Data Preprocessing]]
-    - *( co_occur )*
-    - [[Association]]
-- [[finance]]
+- [[Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering]]
+  - *( keyword_link )*
+  - [[Data]]
+    - *( contains )*
+    - [[Data Preprocessing]]
+      - *( co_occur )*
+      - [[Association]]
+- [[expectation maximization algorithm]]
 - [[Divisive]]
+- [[Introduction of Clustering]]
+- [[finance]]
+- [[Proximity Matrix]]
 - [[Hierarchical Clustering]]
   - *( contains )*
   - [[Agglomerative]]
-- [[Data Preprocessing Clustering & Association Agglomerative Clustering]]
-- [[Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering]]
-- [[Introduction of Clustering]]
-- [[expectation maximization algorithm]]
-- [[Proximity Matrix]]
 - [[Data Preprocessing Clustering & Association Hierarchical Clustering]]
+- [[Data Preprocessing Clustering & Association Agglomerative Clustering]]
 - [[Unsupervised Learning]]
 
 ## 📋 All Core Concepts
-- [[Data]]
-- [[limitations of unsupervised learning]]
-- [[hierarchical clustering]]
-- [[finance]]
-- [[gaussian mixture models]]
-- [[Divisive]]
-- [[Hierarchical Clustering]]
-- [[agglomerative clustering]]
-- [[maximum likelihood estimation]]
-- [[Data Preprocessing Clustering & Association Agglomerative Clustering]]
-- [[Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering]]
-- [[parameter estimation for gaussian mixtures]]
-- [[centroid]]
-- [[k-means clustering]]
-- [[Introduction of Clustering]]
-- [[expectation maximization algorithm]]
-- [[Proximity Matrix]]
-- [[Data Preprocessing Clustering & Association Hierarchical Clustering]]
-- [[Data Preprocessing]]
-- [[Unsupervised Learning]]
-- [[Agglomerative]]
 - [[clustering]]
+- [[gaussian mixture models]]
+- [[parameter estimation for gaussian mixtures]]
+- [[Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering]]
 - [[Association]]
+- [[centroid]]
+- [[expectation maximization algorithm]]
+- [[limitations of unsupervised learning]]
+- [[Data Preprocessing]]
+- [[Divisive]]
+- [[hierarchical clustering]]
+- [[Introduction of Clustering]]
+- [[finance]]
+- [[k-means clustering]]
+- [[maximum likelihood estimation]]
+- [[Data]]
+- [[Proximity Matrix]]
+- [[Hierarchical Clustering]]
+- [[Agglomerative]]
+- [[Data Preprocessing Clustering & Association Hierarchical Clustering]]
+- [[Data Preprocessing Clustering & Association Agglomerative Clustering]]
+- [[agglomerative clustering]]
+- [[Unsupervised Learning]]
