@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:17.096951'
-id: 075d039c
+created: '2026-05-09T17:37:30.374688'
+id: 4e67a4bd
 links: []
-modified: '2026-05-09T17:37:17.096951'
+modified: '2026-05-09T17:37:30.374688'
 project: ''
 source: ''
 status: active
@@ -25,63 +25,59 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Ensemble learning and Random Forest"]
-    n1["decision tree algorithm"]
-    n2["consumes more time compared to a decision tree algorithm"]
-    n3["more resources required for computation"]
-    n4["handling large datasets efficiently"]
-    n5["Random Forest"]
-    n6["classification tasks"]
-    n7["regression tasks"]
-    n8["higher level of accuracy in predicting outcomes over the decision tree algorithm"]
-    n9["ensemble learning"]
-    n9 -->|KEYWORD_LINK| n0
-    n0 -->|CONTAINS| n9
-    n5 -->|KEYWORD_LINK| n0
-    n0 -->|CONTAINS| n5
-    n9 -->|CO_OCCUR| n5
-    n9 -->|LINKED_TO| n5
-    n0 -->|CONTAINS| n5
-    n0 -->|CONTAINS| n1
-    n5 -->|CO_OCCUR| n1
-    n5 -->|SEMANTIC_SIMILAR| n1
-    n5 -->|LINKED_TO| n7
-    n5 -->|LINKED_TO| n6
-    n5 -->|LINKED_TO| n4
-    n8 -->|KEYWORD_LINK| n1
-    n5 -->|SEMANTIC_SIMILAR| n8
-    n5 -->|LINKED_TO| n3
-    n2 -->|KEYWORD_LINK| n1
-    n5 -->|SEMANTIC_SIMILAR| n2
+    n0["Naive Bayes Classifier Algorithm"]
+    n1["Naive Bayes algorithm"]
+    n2["Gaussian Naïve Bayes"]
+    n3["Naïve Bayes with continuous variables"]
+    n4["Bayesian Classifier with Continuous Variables:  Continuous N"]
+    n5["Naive Bayesian Classifier"]
+    n6["Bayesian Classifier"]
+    n7["Continuous NB"]
+    n6 -->|CONTAINS| n6
+    n6 -->|CONTAINS| n0
+    n6 -->|CONTAINS| n1
+    n6 -->|CONTAINS| n6
+    n0 -->|CO_OCCUR| n1
+    n6 -->|LINKED_TO| n0
+    n5 -->|KEYWORD_LINK| n6
+    n6 -->|SEMANTIC_SIMILAR| n5
+    n4 -->|KEYWORD_LINK| n6
+    n4 -->|CONTAINS| n6
+    n4 -->|CONTAINS| n7
+    n4 -->|CONTAINS| n3
+    n4 -->|CONTAINS| n2
+    n6 -->|CO_OCCUR| n7
+    n6 -->|CO_OCCUR| n3
+    n6 -->|CO_OCCUR| n2
+    n7 -->|CO_OCCUR| n3
+    n7 -->|CO_OCCUR| n2
+    n3 -->|CO_OCCUR| n2
+    n6 -->|SEMANTIC_SIMILAR| n7
+    n3 -->|LINKED_TO| n2
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Random Forest]]
-  - *( keyword_link )*
-  - [[Ensemble learning and Random Forest]]
-    - *( contains )*
-    - [[decision tree algorithm]]
-    - *( contains )*
-    - [[ensemble learning]]
-  - *( linked_to )*
-  - [[regression tasks]]
-  - *( semantic_similar )*
-  - [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
-- [[consumes more time compared to a decision tree algorithm]]
-- [[more resources required for computation]]
-- [[handling large datasets efficiently]]
-- [[classification tasks]]
+- [[Bayesian Classifier]]
+  - *( co_occur )*
+  - [[Continuous NB]]
+    - *( co_occur )*
+    - [[Naïve Bayes with continuous variables]]
+      - *( co_occur )*
+      - [[Gaussian Naïve Bayes]]
+- [[Naive Bayes Classifier Algorithm]]
+  - *( co_occur )*
+  - [[Naive Bayes algorithm]]
+- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
+- [[Naive Bayesian Classifier]]
 
 ## 📋 All Core Concepts
-- [[Ensemble learning and Random Forest]]
-- [[decision tree algorithm]]
-- [[consumes more time compared to a decision tree algorithm]]
-- [[more resources required for computation]]
-- [[handling large datasets efficiently]]
-- [[Random Forest]]
-- [[classification tasks]]
-- [[regression tasks]]
-- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
-- [[ensemble learning]]
+- [[Naive Bayes Classifier Algorithm]]
+- [[Naive Bayes algorithm]]
+- [[Gaussian Naïve Bayes]]
+- [[Naïve Bayes with continuous variables]]
+- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
+- [[Naive Bayesian Classifier]]
+- [[Bayesian Classifier]]
+- [[Continuous NB]]

@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:15.646569'
-id: 41efac7d
+created: '2026-05-09T17:37:30.259068'
+id: 53cf044a
 links: []
-modified: '2026-05-09T17:37:15.646569'
+modified: '2026-05-09T17:37:30.259068'
 project: ''
 source: ''
 status: active
@@ -25,141 +25,146 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["clustering"]
-    n1["gaussian mixture models"]
-    n2["parameter estimation for gaussian mixtures"]
-    n3["Hierarchical Clustering"]
-    n4["Introduction"]
-    n5["Agglomerative"]
-    n6["Divisive"]
-    n7["k-means clustering"]
+    n0["A5"]
+    n1["seed"]
+    n2["A4"]
+    n3["distance matrix"]
+    n4["C3"]
+    n5["A7"]
+    n6["A8"]
+    n7["Euclidean distance"]
     n8["What is clustering?"]
-    n9["The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n."]
-    n10["K-MEANS"]
-    n11["centroid"]
-    n12["hierarchical clustering"]
-    n13["maximum likelihood estimation"]
-    n14["expectation maximization algorithm"]
-    n15["limitations of unsupervised learning"]
-    n16["agglomerative clustering"]
-    n17["Unsupervised Learning"]
-    n17 -->|CONTAINS| n17
-    n17 -->|CONTAINS| n16
-    n17 -->|CONTAINS| n12
-    n17 -->|CONTAINS| n7
-    n15 -->|KEYWORD_LINK| n17
-    n17 -->|CONTAINS| n15
-    n17 -->|CONTAINS| n1
-    n17 -->|CONTAINS| n13
-    n17 -->|CONTAINS| n2
-    n17 -->|CONTAINS| n14
-    n0 -->|KEYWORD_LINK| n16
-    n0 -->|KEYWORD_LINK| n12
-    n0 -->|KEYWORD_LINK| n7
-    n17 -->|CONTAINS| n0
-    n17 -->|CONTAINS| n11
-    n16 -->|CO_OCCUR| n12
+    n9["A1"]
+    n10["Introduction"]
+    n11["C1"]
+    n12["The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n."]
+    n13["A6"]
+    n14["A2"]
+    n15["A3"]
+    n16["K-MEANS"]
+    n17["k-means algorithm"]
+    n18["Tutorial exercises"]
+    n16 -->|CONTAINS| n10
+    n10 -->|SEMANTIC_SIMILAR| n8
+    n12 -->|KEYWORD_LINK| n16
+    n18 -->|CONTAINS| n16
+    n18 -->|CONTAINS| n7
+    n18 -->|CONTAINS| n3
+    n18 -->|CONTAINS| n1
     n16 -->|CO_OCCUR| n7
-    n16 -->|CO_OCCUR| n15
+    n16 -->|CO_OCCUR| n3
     n16 -->|CO_OCCUR| n1
-    n16 -->|CO_OCCUR| n13
-    n16 -->|CO_OCCUR| n2
-    n16 -->|CO_OCCUR| n14
-    n16 -->|CO_OCCUR| n11
-    n12 -->|CO_OCCUR| n7
-    n12 -->|CO_OCCUR| n15
-    n12 -->|CO_OCCUR| n1
-    n12 -->|CO_OCCUR| n13
-    n12 -->|CO_OCCUR| n2
-    n12 -->|CO_OCCUR| n14
-    n12 -->|CO_OCCUR| n11
-    n7 -->|CO_OCCUR| n15
+    n7 -->|CO_OCCUR| n3
     n7 -->|CO_OCCUR| n1
-    n7 -->|CO_OCCUR| n13
-    n7 -->|CO_OCCUR| n2
-    n7 -->|CO_OCCUR| n14
-    n7 -->|CO_OCCUR| n11
-    n15 -->|CO_OCCUR| n1
-    n15 -->|CO_OCCUR| n13
+    n3 -->|CO_OCCUR| n1
+    n17 -->|KEYWORD_LINK| n16
+    n17 -->|KEYWORD_LINK| n12
+    n1 -->|REFERENCED_BY| n17
+    n18 -->|CONTAINS| n9
+    n18 -->|CONTAINS| n14
+    n18 -->|CONTAINS| n15
+    n18 -->|CONTAINS| n2
+    n18 -->|CONTAINS| n0
+    n18 -->|CONTAINS| n13
+    n18 -->|CONTAINS| n5
+    n18 -->|CONTAINS| n6
+    n9 -->|CO_OCCUR| n14
+    n9 -->|CO_OCCUR| n15
+    n9 -->|CO_OCCUR| n2
+    n9 -->|CO_OCCUR| n0
+    n9 -->|CO_OCCUR| n13
+    n9 -->|CO_OCCUR| n5
+    n9 -->|CO_OCCUR| n6
+    n14 -->|CO_OCCUR| n15
+    n14 -->|CO_OCCUR| n2
+    n14 -->|CO_OCCUR| n0
+    n14 -->|CO_OCCUR| n13
+    n14 -->|CO_OCCUR| n5
+    n14 -->|CO_OCCUR| n6
     n15 -->|CO_OCCUR| n2
-    n15 -->|CO_OCCUR| n14
     n15 -->|CO_OCCUR| n0
-    n15 -->|CO_OCCUR| n11
-    n1 -->|CO_OCCUR| n13
-    n1 -->|CO_OCCUR| n2
-    n1 -->|CO_OCCUR| n14
-    n1 -->|CO_OCCUR| n0
-    n1 -->|CO_OCCUR| n11
-    n13 -->|CO_OCCUR| n2
-    n13 -->|CO_OCCUR| n14
-    n13 -->|CO_OCCUR| n0
+    n15 -->|CO_OCCUR| n13
+    n15 -->|CO_OCCUR| n5
+    n15 -->|CO_OCCUR| n6
+    n2 -->|CO_OCCUR| n0
+    n2 -->|CO_OCCUR| n13
+    n2 -->|CO_OCCUR| n5
+    n2 -->|CO_OCCUR| n6
+    n0 -->|CO_OCCUR| n13
+    n0 -->|CO_OCCUR| n5
+    n0 -->|CO_OCCUR| n6
+    n13 -->|CO_OCCUR| n5
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Unsupervised Learning]]
+- [[Tutorial exercises]]
   - *( contains )*
-  - [[clustering]]
-    - *( keyword_link )*
-    - [[k-means clustering]]
-      - *( co_occur )*
-      - [[limitations of unsupervised learning]]
-        - *( co_occur )*
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[gaussian mixture models]]
-        - *( co_occur )*
-        - *( co_occur )*
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[maximum likelihood estimation]]
-        - *( co_occur )*
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[parameter estimation for gaussian mixtures]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[expectation maximization algorithm]]
-        - *( co_occur )*
-    - *( keyword_link )*
-    - [[agglomerative clustering]]
-      - *( co_occur )*
-      - [[hierarchical clustering]]
-    - *( co_occur )*
-    - [[centroid]]
-- [[Hierarchical Clustering]]
-  - *( linked_to )*
-  - [[Agglomerative]]
-  - *( linked_to )*
-  - [[Divisive]]
-- [[Introduction]]
-  - *( semantic_similar )*
-  - [[What is clustering?]]
-- [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]]
-  - *( keyword_link )*
   - [[K-MEANS]]
+    - *( co_occur )*
+    - [[Euclidean distance]]
+      - *( co_occur )*
+      - [[seed]]
+        - *( referenced_by )*
+      - *( co_occur )*
+      - [[distance matrix]]
+    - *( contains )*
+    - [[Introduction]]
+      - *( semantic_similar )*
+      - [[What is clustering?]]
+  - *( contains )*
+  - [[A1]]
+    - *( co_occur )*
+    - [[A2]]
+      - *( co_occur )*
+      - [[A3]]
+        - *( co_occur )*
+        - *( co_occur )*
+        - *( co_occur )*
+        - *( co_occur )*
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[A4]]
+        - *( co_occur )*
+        - *( co_occur )*
+        - *( co_occur )*
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[A5]]
+        - *( co_occur )*
+        - *( co_occur )*
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[A6]]
+        - *( co_occur )*
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[A7]]
+        - *( co_occur )*
+- [[C3]]
+- [[A8]]
+- [[C1]]
+- [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]]
+- [[k-means algorithm]]
 
 ## 📋 All Core Concepts
-- [[clustering]]
-- [[gaussian mixture models]]
-- [[parameter estimation for gaussian mixtures]]
-- [[Hierarchical Clustering]]
-- [[Introduction]]
-- [[Agglomerative]]
-- [[Divisive]]
-- [[k-means clustering]]
+- [[A5]]
+- [[seed]]
+- [[A4]]
+- [[distance matrix]]
+- [[C3]]
+- [[A7]]
+- [[A8]]
+- [[Euclidean distance]]
 - [[What is clustering?]]
+- [[A1]]
+- [[Introduction]]
+- [[C1]]
 - [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]]
+- [[A6]]
+- [[A2]]
+- [[A3]]
 - [[K-MEANS]]
-- [[centroid]]
-- [[hierarchical clustering]]
-- [[maximum likelihood estimation]]
-- [[expectation maximization algorithm]]
-- [[limitations of unsupervised learning]]
-- [[agglomerative clustering]]
-- [[Unsupervised Learning]]
+- [[k-means algorithm]]
+- [[Tutorial exercises]]

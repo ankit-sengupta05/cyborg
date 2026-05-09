@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:17.077567'
-id: 12cc9f4d
+created: '2026-05-09T17:37:30.355584'
+id: a63c5f12
 links: []
-modified: '2026-05-09T17:37:17.077567'
+modified: '2026-05-09T17:37:30.355584'
 project: ''
 source: ''
 status: active
@@ -30,72 +30,76 @@ graph TD
     n2["Subset Selection"]
     n3["K-Nearest Neighbor learning"]
     n4["Subset Selection Module"]
-    n5["Regression"]
-    n6["Logistic Regression"]
-    n7["PCA Vs LDA"]
+    n5["λ"]
+    n6["Regression"]
+    n7["Logistic Regression"]
     n8["Principal Component Regression"]
-    n9["Age"]
-    n10["Multivariate Regression"]
-    n11["Partial Least squares"]
-    n12["K-Nearest Neighbor learning Module"]
-    n13["Linear Discriminant Analysis"]
-    n14["Coronary Heart Disease (CD)"]
-    n15["Linear Regression"]
-    n16["Shrinkage Methods"]
-    n17["Linear Regression"]
-    n18["Linear Classification"]
-    n19["Logistic Regression"]
-    n20["K-Nearest Neighbor learning"]
-    n17 -->|KEYWORD_LINK| n15
-    n5 -->|KEYWORD_LINK| n15
-    n5 -->|KEYWORD_LINK| n6
-    n5 -->|KEYWORD_LINK| n17
-    n17 -->|CONTAINS| n5
-    n17 -->|CONTAINS| n17
-    n5 -->|LINKED_TO| n17
+    n9["Loss"]
+    n10["Age"]
+    n11["Multivariate Regression"]
+    n12["Partial Least squares"]
+    n13["λ= 1"]
+    n14["K-Nearest Neighbor learning Module"]
+    n15["Linear Discriminant Analysis"]
+    n16["λ = 1"]
+    n17["Ridge Regression"]
+    n18["Linear Regression"]
+    n19["Shrinkage Methods"]
+    n20["Linear Regression"]
+    n21["Linear Classification"]
+    n22["Logistic Regression"]
+    n23["K-Nearest Neighbor learning"]
+    n24["Lasso Regression"]
+    n20 -->|KEYWORD_LINK| n18
+    n6 -->|KEYWORD_LINK| n18
+    n6 -->|KEYWORD_LINK| n7
+    n6 -->|KEYWORD_LINK| n20
+    n20 -->|CONTAINS| n6
+    n20 -->|CONTAINS| n20
+    n6 -->|LINKED_TO| n20
     n4 -->|KEYWORD_LINK| n2
     n2 -->|CONTAINS| n4
-    n2 -->|CONTAINS| n17
-    n10 -->|KEYWORD_LINK| n5
-    n2 -->|CONTAINS| n10
-    n2 -->|CONTAINS| n16
-    n8 -->|KEYWORD_LINK| n5
-    n2 -->|CONTAINS| n8
-    n2 -->|CONTAINS| n11
-    n2 -->|CONTAINS| n18
-    n2 -->|CONTAINS| n6
-    n2 -->|CONTAINS| n1
     n2 -->|CONTAINS| n20
+    n11 -->|KEYWORD_LINK| n6
+    n2 -->|CONTAINS| n11
+    n2 -->|CONTAINS| n19
+    n8 -->|KEYWORD_LINK| n6
+    n2 -->|CONTAINS| n8
+    n2 -->|CONTAINS| n12
+    n2 -->|CONTAINS| n21
+    n2 -->|CONTAINS| n7
+    n2 -->|CONTAINS| n1
+    n2 -->|CONTAINS| n23
     n2 -->|CONTAINS| n2
-    n4 -->|CO_OCCUR| n17
-    n4 -->|CO_OCCUR| n10
-    n4 -->|CO_OCCUR| n16
-    n4 -->|CO_OCCUR| n8
-    n4 -->|CO_OCCUR| n11
-    n4 -->|CO_OCCUR| n18
-    n4 -->|CO_OCCUR| n6
-    n4 -->|CO_OCCUR| n1
     n4 -->|CO_OCCUR| n20
-    n17 -->|CO_OCCUR| n10
-    n17 -->|CO_OCCUR| n16
-    n17 -->|CO_OCCUR| n8
-    n17 -->|CO_OCCUR| n11
-    n17 -->|CO_OCCUR| n18
-    n17 -->|CO_OCCUR| n6
-    n17 -->|CO_OCCUR| n1
-    n17 -->|CO_OCCUR| n20
-    n10 -->|CO_OCCUR| n16
-    n10 -->|CO_OCCUR| n8
-    n10 -->|CO_OCCUR| n11
-    n10 -->|CO_OCCUR| n18
-    n10 -->|CO_OCCUR| n6
-    n10 -->|CO_OCCUR| n1
-    n10 -->|CO_OCCUR| n20
-    n16 -->|CO_OCCUR| n8
-    n16 -->|CO_OCCUR| n11
-    n16 -->|CO_OCCUR| n18
-    n16 -->|CO_OCCUR| n6
-    n16 -->|CO_OCCUR| n1
+    n4 -->|CO_OCCUR| n11
+    n4 -->|CO_OCCUR| n19
+    n4 -->|CO_OCCUR| n8
+    n4 -->|CO_OCCUR| n12
+    n4 -->|CO_OCCUR| n21
+    n4 -->|CO_OCCUR| n7
+    n4 -->|CO_OCCUR| n1
+    n4 -->|CO_OCCUR| n23
+    n20 -->|CO_OCCUR| n11
+    n20 -->|CO_OCCUR| n19
+    n20 -->|CO_OCCUR| n8
+    n20 -->|CO_OCCUR| n12
+    n20 -->|CO_OCCUR| n21
+    n20 -->|CO_OCCUR| n7
+    n20 -->|CO_OCCUR| n1
+    n20 -->|CO_OCCUR| n23
+    n11 -->|CO_OCCUR| n19
+    n11 -->|CO_OCCUR| n8
+    n11 -->|CO_OCCUR| n12
+    n11 -->|CO_OCCUR| n21
+    n11 -->|CO_OCCUR| n7
+    n11 -->|CO_OCCUR| n1
+    n11 -->|CO_OCCUR| n23
+    n19 -->|CO_OCCUR| n8
+    n19 -->|CO_OCCUR| n12
+    n19 -->|CO_OCCUR| n21
+    n19 -->|CO_OCCUR| n7
+    n19 -->|CO_OCCUR| n1
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -126,14 +130,24 @@ graph TD
   - *( keyword_link )*
   - [[Subset Selection Module]]
 - [[K-Nearest Neighbor learning]]
-- [[Regression]]
-  - *( keyword_link )*
-  - [[Linear Regression]]
-- [[PCA Vs LDA]]
+- [[λ]]
+  - *( co_occur )*
+  - [[Loss]]
+    - *( co_occur )*
+    - [[Lasso Regression]]
+      - *( keyword_link )*
+      - [[Regression]]
+        - *( keyword_link )*
+  - *( co_occur )*
+  - [[Ridge Regression]]
 - [[Age]]
+- [[λ= 1]]
 - [[K-Nearest Neighbor learning Module]]
 - [[Linear Discriminant Analysis]]
-- [[Coronary Heart Disease (CD)]]
+  - *( referenced_by )*
+  - [[PCA Vs LDA]]
+- [[λ = 1]]
+- [[Linear Regression]]
 - [[Logistic Regression]]
 
 ## 📋 All Core Concepts
@@ -142,19 +156,23 @@ graph TD
 - [[Subset Selection]]
 - [[K-Nearest Neighbor learning]]
 - [[Subset Selection Module]]
+- [[λ]]
 - [[Regression]]
 - [[Logistic Regression]]
-- [[PCA Vs LDA]]
 - [[Principal Component Regression]]
+- [[Loss]]
 - [[Age]]
 - [[Multivariate Regression]]
 - [[Partial Least squares]]
+- [[λ= 1]]
 - [[K-Nearest Neighbor learning Module]]
 - [[Linear Discriminant Analysis]]
-- [[Coronary Heart Disease (CD)]]
+- [[λ = 1]]
+- [[Ridge Regression]]
 - [[Linear Regression]]
 - [[Shrinkage Methods]]
 - [[Linear Regression]]
 - [[Linear Classification]]
 - [[Logistic Regression]]
 - [[K-Nearest Neighbor learning]]
+- [[Lasso Regression]]

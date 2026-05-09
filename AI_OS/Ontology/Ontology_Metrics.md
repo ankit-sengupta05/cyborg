@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:17.118756'
-id: ed4264b6
+created: '2026-05-09T17:37:30.395058'
+id: b3ba6461
 links: []
-modified: '2026-05-09T17:37:17.118756'
+modified: '2026-05-09T17:37:30.395058'
 project: ''
 source: ''
 status: active
@@ -25,158 +25,124 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Evaluation Metrics"]
-    n1["Architecture"]
-    n2["Bayesian Classifier with Continuous Variables:  Continuous N"]
-    n3["SVM kernels and"]
-    n4["Gaussian Naïve Bayes"]
-    n5["Kernel functions"]
-    n6["SVM –Example"]
-    n7["Recall"]
-    n8["Support Vectors"]
-    n9["F1-score"]
-    n10["Bayesian Classifier"]
-    n11["Ada"]
-    n12["📁 ML Index"]
-    n13["SVM"]
-    n14["Linear Discriminant Analysis (LDA)"]
-    n15["Support Vector Machine Classification"]
-    n16["Linear Functions SVM"]
-    n17["Principal Component"]
-    n18["Boost"]
-    n19["Kernels"]
-    n20["Module 4 (Support Vector Machine)"]
-    n21["Naïve Bayes with continuous variables"]
-    n22["Ada Boost"]
-    n23["Precision"]
-    n24["Continuous NB"]
-    n17 -->|IN_FOLDER| n12
-    n14 -->|IN_FOLDER| n12
-    n22 -->|IN_FOLDER| n12
-    n11 -->|KEYWORD_LINK| n22
-    n22 -->|CONTAINS| n11
-    n18 -->|KEYWORD_LINK| n22
-    n22 -->|CONTAINS| n18
-    n11 -->|CO_OCCUR| n18
-    n11 -->|SEMANTIC_SIMILAR| n18
-    n0 -->|IN_FOLDER| n12
-    n0 -->|CONTAINS| n23
-    n0 -->|CONTAINS| n7
-    n0 -->|CONTAINS| n9
-    n23 -->|CO_OCCUR| n7
-    n23 -->|CO_OCCUR| n9
-    n7 -->|CO_OCCUR| n9
-    n20 -->|IN_FOLDER| n12
-    n20 -->|CONTAINS| n13
-    n20 -->|CONTAINS| n15
-    n13 -->|CO_OCCUR| n15
-    n13 -->|SEMANTIC_SIMILAR| n15
-    n13 -->|LINKED_TO| n5
-    n6 -->|IN_FOLDER| n12
-    n6 -->|KEYWORD_LINK| n13
-    n6 -->|CONTAINS| n13
-    n16 -->|KEYWORD_LINK| n13
-    n6 -->|CONTAINS| n16
-    n6 -->|CONTAINS| n8
-    n6 -->|CONTAINS| n1
-    n13 -->|CO_OCCUR| n8
-    n13 -->|CO_OCCUR| n1
-    n16 -->|CO_OCCUR| n8
-    n16 -->|CO_OCCUR| n1
-    n8 -->|CO_OCCUR| n1
-    n13 -->|SEMANTIC_SIMILAR| n16
-    n8 -->|LINKED_TO| n1
-    n12 -->|CROSS_THEME| n13
-    n3 -->|IN_FOLDER| n12
-    n3 -->|KEYWORD_LINK| n13
-    n3 -->|CONTAINS| n13
-    n19 -->|KEYWORD_LINK| n3
-    n3 -->|CONTAINS| n19
-    n13 -->|CO_OCCUR| n19
-    n13 -->|LINKED_TO| n19
-    n10 -->|IN_FOLDER| n12
-    n10 -->|CONTAINS| n10
-    n10 -->|CONTAINS| n10
-    n2 -->|IN_FOLDER| n12
-    n2 -->|KEYWORD_LINK| n10
-    n2 -->|CONTAINS| n10
+    n0["initial weights"]
+    n1["final verification"]
+    n2["weights update"]
+    n3["Neural Network"]
+    n4["errors"]
+    n5["Neuron"]
+    n6["output"]
+    n7["weights"]
+    n8["Perceptron Model"]
+    n9["A biological  neuron  has three  main  parts :"]
+    n10["predicted output"]
+    n11["Cell Body (Soma)"]
+    n12["Axon"]
+    n13["output recalculation"]
+    n14["•A neural  network's  goal is to adjust  weights  so that th"]
+    n15["Dendrite"]
+    n5 -->|KEYWORD_LINK| n9
+    n9 -->|CONTAINS| n5
+    n9 -->|CONTAINS| n15
+    n9 -->|CONTAINS| n11
+    n9 -->|CONTAINS| n12
+    n9 -->|CONTAINS| n3
+    n5 -->|CO_OCCUR| n15
+    n5 -->|CO_OCCUR| n11
+    n5 -->|CO_OCCUR| n12
+    n5 -->|CO_OCCUR| n3
+    n15 -->|CO_OCCUR| n11
+    n15 -->|CO_OCCUR| n12
+    n15 -->|CO_OCCUR| n3
+    n11 -->|CO_OCCUR| n12
+    n11 -->|CO_OCCUR| n3
+    n12 -->|CO_OCCUR| n3
+    n5 -->|LINKED_TO| n3
+    n14 -->|CONTAINS| n3
+    n7 -->|KEYWORD_LINK| n14
+    n14 -->|CONTAINS| n7
+    n0 -->|KEYWORD_LINK| n7
+    n14 -->|CONTAINS| n0
+    n14 -->|CONTAINS| n6
+    n14 -->|CONTAINS| n8
+    n14 -->|CONTAINS| n4
+    n2 -->|KEYWORD_LINK| n7
+    n14 -->|CONTAINS| n2
+    n13 -->|KEYWORD_LINK| n6
+    n14 -->|CONTAINS| n13
+    n3 -->|CO_OCCUR| n7
+    n3 -->|CO_OCCUR| n0
+    n3 -->|CO_OCCUR| n6
+    n3 -->|CO_OCCUR| n8
+    n3 -->|CO_OCCUR| n4
+    n3 -->|CO_OCCUR| n2
+    n3 -->|CO_OCCUR| n13
+    n7 -->|CO_OCCUR| n6
+    n7 -->|CO_OCCUR| n8
+    n7 -->|CO_OCCUR| n4
+    n7 -->|CO_OCCUR| n13
+    n0 -->|CO_OCCUR| n6
+    n0 -->|CO_OCCUR| n8
+    n0 -->|CO_OCCUR| n4
+    n0 -->|CO_OCCUR| n2
+    n0 -->|CO_OCCUR| n13
+    n6 -->|CO_OCCUR| n8
+    n6 -->|CO_OCCUR| n4
+    n6 -->|CO_OCCUR| n2
+    n8 -->|CO_OCCUR| n4
+    n8 -->|CO_OCCUR| n2
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[📁 ML Index]]
-  - *( cross_theme )*
-  - [[SVM]]
+- [[Neural Network]]
+  - *( co_occur )*
+  - [[output]]
+    - *( co_occur )*
+    - [[Perceptron Model]]
+      - *( co_occur )*
+      - [[output recalculation]]
+        - *( semantic_similar )*
+      - *( co_occur )*
+      - [[errors]]
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[weights update]]
+        - *( keyword_link )*
     - *( semantic_similar )*
-    - [[Linear Functions SVM]]
-      - *( co_occur )*
-      - [[Support Vectors]]
-        - *( co_occur )*
-        - *( linked_to )*
-      - *( co_occur )*
-      - [[Architecture]]
-    - *( co_occur )*
-    - [[Support Vector Machine Classification]]
-- [[Evaluation Metrics]]
-  - *( contains )*
-  - [[Precision]]
-    - *( co_occur )*
-    - [[Recall]]
-      - *( co_occur )*
-      - [[F1-score]]
-      - *( linked_to )*
-      - [[FPR]]
-    - *( linked_to )*
-    - [[TPR]]
-- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
+    - [[predicted output]]
+  - *( co_occur )*
+  - [[weights]]
+    - *( keyword_link )*
+    - [[•A neural  network's  goal is to adjust  weights  so that th]]
+- [[initial weights]]
+- [[final verification]]
+- [[Neuron]]
   - *( keyword_link )*
-  - [[Bayesian Classifier]]
-    - *( co_occur )*
-    - [[Continuous NB]]
-      - *( co_occur )*
-      - [[Naïve Bayes with continuous variables]]
-        - *( co_occur )*
-        - *( linked_to )*
-      - *( co_occur )*
-      - [[Gaussian Naïve Bayes]]
-- [[SVM kernels and]]
-  - *( contains )*
-  - [[Kernels]]
-- [[Kernel functions]]
-- [[SVM –Example]]
-- [[Ada]]
-  - *( keyword_link )*
-  - [[Ada Boost]]
+  - [[A biological  neuron  has three  main  parts :]]
     - *( contains )*
-    - [[Boost]]
-- [[Linear Discriminant Analysis (LDA)]]
-- [[Principal Component]]
-- [[Module 4 (Support Vector Machine)]]
+    - [[Dendrite]]
+      - *( co_occur )*
+      - [[Cell Body (Soma)]]
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[Axon]]
 
 ## 📋 All Core Concepts
-- [[Evaluation Metrics]]
-- [[Architecture]]
-- [[Bayesian Classifier with Continuous Variables:  Continuous N]]
-- [[SVM kernels and]]
-- [[Gaussian Naïve Bayes]]
-- [[Kernel functions]]
-- [[SVM –Example]]
-- [[Recall]]
-- [[Support Vectors]]
-- [[F1-score]]
-- [[Bayesian Classifier]]
-- [[Ada]]
-- [[📁 ML Index]]
-- [[SVM]]
-- [[Linear Discriminant Analysis (LDA)]]
-- [[Support Vector Machine Classification]]
-- [[Linear Functions SVM]]
-- [[Principal Component]]
-- [[Boost]]
-- [[Kernels]]
-- [[Module 4 (Support Vector Machine)]]
-- [[Naïve Bayes with continuous variables]]
-- [[Ada Boost]]
-- [[Precision]]
-- [[Continuous NB]]
+- [[initial weights]]
+- [[final verification]]
+- [[weights update]]
+- [[Neural Network]]
+- [[errors]]
+- [[Neuron]]
+- [[output]]
+- [[weights]]
+- [[Perceptron Model]]
+- [[A biological  neuron  has three  main  parts :]]
+- [[predicted output]]
+- [[Cell Body (Soma)]]
+- [[Axon]]
+- [[output recalculation]]
+- [[•A neural  network's  goal is to adjust  weights  so that th]]
+- [[Dendrite]]

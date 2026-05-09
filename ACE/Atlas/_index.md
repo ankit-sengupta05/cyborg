@@ -198,3 +198,31 @@ Map of your permanent knowledge.
 - [[Single-Layer Perceptron]] | Knowledge related to Single-Layer Perceptron
 - [[Multi-Layer Perceptron]] | Knowledge related to Multi-Layer Perceptron
 - [[Module-5 (Chunk 0)]] | Knowledge related to Module-5 (Chunk 0)
+- [[MLP]] | Knowledge related to MLP
+- [[LTU]] | Knowledge related to LTU
+- [[Multi-Layer Perceptron and Its Properties (Chunk 0)]] | Knowledge related to Multi-Layer Perceptron and Its Properties (Chunk 0)
+- [[Data Preprocessing]] | Knowledge related to Data Preprocessing
+- [[Association]] | Knowledge related to Association
+- [[Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering]] | Knowledge related to Data Preprocessing Clustering & Association Hierarchical vs. Partitional Clustering
+- [[Data Preprocessing Clustering & Association Hierarchical Clustering]] | Knowledge related to Data Preprocessing Clustering & Association Hierarchical Clustering
+- [[Data Preprocessing Clustering & Association Agglomerative Clustering]] | Knowledge related to Data Preprocessing Clustering & Association Agglomerative Clustering
+- [[Basic agglomerative hierarchical clustering algorithm]] | Knowledge related to Basic agglomerative hierarchical clustering algorithm
+- [[Data (Chunk 0)]] | Knowledge related to Data (Chunk 0)
+- [[Euclidean distance]] | Knowledge related to Euclidean distance
+- [[distance matrix]] | Knowledge related to distance matrix
+- [[seed]] | Knowledge related to seed
+- [[k-means algorithm]] | Knowledge related to k-means algorithm
+- [[Tutorial exercises (Chunk 0)]] | Knowledge related to Tutorial exercises (Chunk 0)
+- [[A1]] | Knowledge related to A1
+- [[A2]] | Knowledge related to A2
+- [[A3]] | Knowledge related to A3
+- [[A4]] | Knowledge related to A4
+- [[A5]] | Knowledge related to A5
+- [[A6]] | Knowledge related to A6
+- [[A7]] | Knowledge related to A7
+- [[A8]] | Knowledge related to A8
+- [[C1]] | Knowledge related to C1
+- [[C3]] | Knowledge related to C3
+- [[Tutorial exercises (Chunk 1)]] | Knowledge related to Tutorial exercises (Chunk 1)
+- [[finance]] | Knowledge related to finance
+- [[Guassian Mixture Models (Chunk 0)]] | Knowledge related to Guassian Mixture Models (Chunk 0)
