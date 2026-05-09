@@ -34,3 +34,5 @@ Auto-generated index for Ontology
 - [[Ontology_Clustering_Algorithms]] | Knowledge related to Ontology_Clustering_Algorithms
 - [[Ontology_Tree-based_Models]] | Knowledge related to Ontology_Tree-based_Models
 - [[Ontology_Clustering]] | Knowledge related to Ontology_Clustering
+- [[Ontology_Optimization]] | Knowledge related to Ontology_Optimization
+- [[Ontology_Optimization_Techniques]] | Knowledge related to Ontology_Optimization_Techniques

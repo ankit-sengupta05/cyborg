@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:35:54.602229'
-id: c89fad3c
+created: '2026-05-09T17:36:04.634364'
+id: 391c2e38
 links: []
-modified: '2026-05-09T17:35:54.602229'
+modified: '2026-05-09T17:36:04.634364'
 project: ''
 source: ''
 status: active
@@ -26,36 +26,31 @@ type: ontology_map
 ```mermaid
 graph TD
     n0["shopping for apples"]
-    n1["📁 ML Index"]
+    n1["Introduction to Machine Learning"]
     n2["Machine Learning"]
-    n3["Introduction to Machine Learning"]
-    n4["apples"]
-    n3 -->|IN_FOLDER| n1
-    n2 -->|KEYWORD_LINK| n3
-    n3 -->|CONTAINS| n2
-    n3 -->|CONTAINS| n4
-    n2 -->|CO_OCCUR| n4
-    n2 -->|SEMANTIC_SIMILAR| n4
-    n0 -->|KEYWORD_LINK| n4
+    n3["apples"]
+    n2 -->|KEYWORD_LINK| n1
+    n1 -->|CONTAINS| n2
+    n1 -->|CONTAINS| n3
+    n2 -->|CO_OCCUR| n3
+    n2 -->|SEMANTIC_SIMILAR| n3
+    n0 -->|KEYWORD_LINK| n3
     n2 -->|LINKED_TO| n0
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Introduction to Machine Learning]]
-  - *( contains )*
-  - [[Machine Learning]]
-    - *( co_occur )*
+- [[Machine Learning]]
+  - *( keyword_link )*
+  - [[Introduction to Machine Learning]]
+    - *( contains )*
     - [[apples]]
-    - *( linked_to )*
-    - [[shopping for apples]]
-  - *( in_folder )*
-  - [[📁 ML Index]]
+  - *( linked_to )*
+  - [[shopping for apples]]
 
 ## 📋 All Core Concepts
 - [[shopping for apples]]
-- [[📁 ML Index]]
-- [[Machine Learning]]
 - [[Introduction to Machine Learning]]
+- [[Machine Learning]]
 - [[apples]]
