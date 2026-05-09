@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:32:25.166124'
-id: 5f14c741
+created: '2026-05-09T17:35:10.808309'
+id: 1046bc47
 links: []
-modified: '2026-05-09T17:32:25.166124'
+modified: '2026-05-09T17:35:10.808309'
 project: ''
 source: ''
 status: active
@@ -20,7 +20,7 @@ type: ontology_map
 
 # Ontology: Indexing System
 
-**Summary**: A system for organizing and accessing knowledge.
+**Summary**: A system for organizing and accessing information through hierarchical indexing.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
