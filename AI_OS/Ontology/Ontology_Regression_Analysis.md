@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:43:52.185273'
-id: 95ad4379
+created: '2026-05-09T23:50:28.815717'
+id: 9ad8da47
 links: []
-modified: '2026-05-09T23:43:52.185273'
+modified: '2026-05-09T23:50:28.815717'
 project: ''
 source: ''
 status: active
@@ -20,86 +20,83 @@ type: ontology_map
 
 # Ontology: Regression Analysis
 
-**Summary**: A set of statistical methods for modeling the relationships between a dependent variable and one or more independent variables.
+**Summary**: A family of statistical methods for estimating the relationships among variables.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Linear Regression"]
-    n1["Partial Least squares"]
-    n2["Age"]
-    n3["Subset Selection"]
-    n4["K-Nearest Neighbor learning"]
-    n5["λ= 1"]
-    n6["Linear Discriminant Analysis"]
-    n7["Ridge Regression"]
-    n8["LDA"]
-    n9["Regression"]
-    n10["Principal Component Regression"]
-    n11["Lasso Regression"]
-    n12["Linear Regression"]
-    n13["Logistic Regression"]
-    n14["Subset Selection Module No. 2"]
-    n15["Subset Selection Module"]
-    n16["Multivariate Regression"]
-    n17["Loss"]
-    n18["Logistic Regression"]
-    n19["λ"]
-    n20["Linear Classification"]
-    n21["Shrinkage Methods"]
-    n22["K-Nearest Neighbor learning"]
-    n23["Linear Discriminant Analysis (LDA)"]
-    n24["K-Nearest Neighbor learning Module"]
-    n0 -->|KEYWORD_LINK| n12
-    n9 -->|KEYWORD_LINK| n12
-    n9 -->|KEYWORD_LINK| n13
-    n9 -->|KEYWORD_LINK| n0
-    n0 -->|CONTAINS| n9
-    n0 -->|CONTAINS| n0
-    n9 -->|LINKED_TO| n0
-    n15 -->|KEYWORD_LINK| n3
-    n3 -->|CONTAINS| n15
-    n3 -->|CONTAINS| n0
-    n16 -->|KEYWORD_LINK| n9
-    n3 -->|CONTAINS| n16
-    n3 -->|CONTAINS| n21
-    n10 -->|KEYWORD_LINK| n9
-    n3 -->|CONTAINS| n10
-    n3 -->|CONTAINS| n1
-    n3 -->|CONTAINS| n20
-    n3 -->|CONTAINS| n13
-    n3 -->|CONTAINS| n8
-    n3 -->|CONTAINS| n22
-    n3 -->|CONTAINS| n3
-    n15 -->|CO_OCCUR| n0
-    n15 -->|CO_OCCUR| n16
-    n15 -->|CO_OCCUR| n21
-    n15 -->|CO_OCCUR| n10
-    n15 -->|CO_OCCUR| n1
-    n15 -->|CO_OCCUR| n20
-    n15 -->|CO_OCCUR| n13
-    n15 -->|CO_OCCUR| n8
-    n15 -->|CO_OCCUR| n22
-    n0 -->|CO_OCCUR| n16
-    n0 -->|CO_OCCUR| n21
-    n0 -->|CO_OCCUR| n10
-    n0 -->|CO_OCCUR| n1
-    n0 -->|CO_OCCUR| n20
-    n0 -->|CO_OCCUR| n13
-    n0 -->|CO_OCCUR| n8
-    n0 -->|CO_OCCUR| n22
-    n16 -->|CO_OCCUR| n21
-    n16 -->|CO_OCCUR| n10
-    n16 -->|CO_OCCUR| n1
-    n16 -->|CO_OCCUR| n20
-    n16 -->|CO_OCCUR| n13
-    n16 -->|CO_OCCUR| n8
-    n16 -->|CO_OCCUR| n22
-    n21 -->|CO_OCCUR| n10
+    n0["Subset Selection Module No. 2"]
+    n1["K-Nearest Neighbor learning"]
+    n2["Linear Discriminant Analysis"]
+    n3["Subset Selection Module"]
+    n4["Principal Component Regression"]
+    n5["K-Nearest Neighbor learning Module"]
+    n6["Linear Regression"]
+    n7["Subset Selection"]
+    n8["Linear Regression"]
+    n9["Logistic Regression"]
+    n10["Coronary Heart Disease (CD)"]
+    n11["Linear Classification"]
+    n12["Regression"]
+    n13["Linear Discriminant Analysis (LDA)"]
+    n14["LDA"]
+    n15["Shrinkage Methods"]
+    n16["Age"]
+    n17["Logistic Regression"]
+    n18["PCA Vs LDA"]
+    n19["Partial Least squares"]
+    n20["K-Nearest Neighbor learning"]
+    n21["Multivariate Regression"]
+    n8 -->|KEYWORD_LINK| n6
+    n12 -->|KEYWORD_LINK| n6
+    n12 -->|KEYWORD_LINK| n17
+    n12 -->|KEYWORD_LINK| n8
+    n8 -->|CONTAINS| n12
+    n8 -->|CONTAINS| n8
+    n12 -->|LINKED_TO| n8
+    n3 -->|KEYWORD_LINK| n7
+    n7 -->|CONTAINS| n3
+    n7 -->|CONTAINS| n8
+    n21 -->|KEYWORD_LINK| n12
+    n7 -->|CONTAINS| n21
+    n7 -->|CONTAINS| n15
+    n4 -->|KEYWORD_LINK| n12
+    n7 -->|CONTAINS| n4
+    n7 -->|CONTAINS| n19
+    n7 -->|CONTAINS| n11
+    n7 -->|CONTAINS| n17
+    n7 -->|CONTAINS| n14
+    n7 -->|CONTAINS| n1
+    n7 -->|CONTAINS| n7
+    n3 -->|CO_OCCUR| n8
+    n3 -->|CO_OCCUR| n21
+    n3 -->|CO_OCCUR| n15
+    n3 -->|CO_OCCUR| n4
+    n3 -->|CO_OCCUR| n19
+    n3 -->|CO_OCCUR| n11
+    n3 -->|CO_OCCUR| n17
+    n3 -->|CO_OCCUR| n14
+    n3 -->|CO_OCCUR| n1
+    n8 -->|CO_OCCUR| n21
+    n8 -->|CO_OCCUR| n15
+    n8 -->|CO_OCCUR| n4
+    n8 -->|CO_OCCUR| n19
+    n8 -->|CO_OCCUR| n11
+    n8 -->|CO_OCCUR| n17
+    n8 -->|CO_OCCUR| n14
+    n8 -->|CO_OCCUR| n1
+    n21 -->|CO_OCCUR| n15
+    n21 -->|CO_OCCUR| n4
+    n21 -->|CO_OCCUR| n19
+    n21 -->|CO_OCCUR| n11
+    n21 -->|CO_OCCUR| n17
+    n21 -->|CO_OCCUR| n14
     n21 -->|CO_OCCUR| n1
-    n21 -->|CO_OCCUR| n20
-    n21 -->|CO_OCCUR| n13
-    n21 -->|CO_OCCUR| n8
+    n15 -->|CO_OCCUR| n4
+    n15 -->|CO_OCCUR| n19
+    n15 -->|CO_OCCUR| n11
+    n15 -->|CO_OCCUR| n17
+    n15 -->|CO_OCCUR| n14
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -126,56 +123,44 @@ graph TD
     - [[Multivariate Regression]]
       - *( co_occur )*
       - [[Shrinkage Methods]]
-- [[Age]]
-- [[K-Nearest Neighbor learning]]
-- [[λ= 1]]
-  - *( linked_to )*
-  - [[Ridge Regression]]
-    - *( co_occur )*
-    - [[Loss]]
-      - *( co_occur )*
-      - [[Lasso Regression]]
-        - *( keyword_link )*
-    - *( keyword_link )*
-    - [[Regression]]
-      - *( keyword_link )*
-      - [[Linear Regression]]
+- [[Subset Selection Module No. 2]]
   - *( keyword_link )*
-  - [[λ]]
+  - [[Subset Selection Module]]
 - [[Linear Discriminant Analysis]]
   - *( keyword_link )*
   - [[Linear Discriminant Analysis (LDA)]]
   - *( referenced_by )*
   - [[PCA Vs LDA]]
-- [[Subset Selection Module No. 2]]
-  - *( keyword_link )*
-  - [[Subset Selection Module]]
-- [[Logistic Regression]]
 - [[K-Nearest Neighbor learning Module]]
+- [[Linear Regression]]
+- [[Logistic Regression]]
+  - *( keyword_link )*
+  - [[Regression]]
+  - *( contains )*
+  - [[Age]]
+- [[Coronary Heart Disease (CD)]]
+- [[K-Nearest Neighbor learning]]
 
 ## 📋 All Core Concepts
-- [[Linear Regression]]
-- [[Partial Least squares]]
-- [[Age]]
-- [[Subset Selection]]
-- [[K-Nearest Neighbor learning]]
-- [[λ= 1]]
-- [[Linear Discriminant Analysis]]
-- [[Ridge Regression]]
-- [[LDA]]
-- [[Regression]]
-- [[Principal Component Regression]]
-- [[Lasso Regression]]
-- [[Linear Regression]]
-- [[Logistic Regression]]
 - [[Subset Selection Module No. 2]]
-- [[Subset Selection Module]]
-- [[Multivariate Regression]]
-- [[Loss]]
-- [[Logistic Regression]]
-- [[λ]]
-- [[Linear Classification]]
-- [[Shrinkage Methods]]
 - [[K-Nearest Neighbor learning]]
-- [[Linear Discriminant Analysis (LDA)]]
+- [[Linear Discriminant Analysis]]
+- [[Subset Selection Module]]
+- [[Principal Component Regression]]
 - [[K-Nearest Neighbor learning Module]]
+- [[Linear Regression]]
+- [[Subset Selection]]
+- [[Linear Regression]]
+- [[Logistic Regression]]
+- [[Coronary Heart Disease (CD)]]
+- [[Linear Classification]]
+- [[Regression]]
+- [[Linear Discriminant Analysis (LDA)]]
+- [[LDA]]
+- [[Shrinkage Methods]]
+- [[Age]]
+- [[Logistic Regression]]
+- [[PCA Vs LDA]]
+- [[Partial Least squares]]
+- [[K-Nearest Neighbor learning]]
+- [[Multivariate Regression]]

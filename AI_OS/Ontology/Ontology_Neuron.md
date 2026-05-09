@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:43:52.243874'
-id: b6f18372
+created: '2026-05-09T23:50:28.956992'
+id: a0a79fd9
 links: []
-modified: '2026-05-09T23:43:52.243874'
+modified: '2026-05-09T23:50:28.956992'
 project: ''
 source: ''
 status: active
@@ -25,72 +25,72 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Neuron"]
-    n1["Axon"]
-    n2["errors"]
-    n3["Neural Network"]
-    n4["final verification"]
-    n5["initial weights"]
-    n6["Perceptron Model"]
-    n7["Dendrite"]
-    n8["•A neural  network's  goal is to adjust  weights  so that th"]
-    n9["predicted output"]
-    n10["Cell Body (Soma)"]
-    n11["weights update"]
-    n12["A biological  neuron  has three  main  parts :"]
-    n13["output"]
-    n14["output recalculation"]
+    n0["Cell Body (Soma)"]
+    n1["initial weights"]
+    n2["A biological  neuron  has three  main  parts :"]
+    n3["•A neural  network's  goal is to adjust  weights  so that th"]
+    n4["weights update"]
+    n5["Axon"]
+    n6["output"]
+    n7["predicted output"]
+    n8["errors"]
+    n9["Neuron"]
+    n10["Neural Network"]
+    n11["output recalculation"]
+    n12["Perceptron Model"]
+    n13["Dendrite"]
+    n14["final verification"]
     n15["weights"]
-    n0 -->|KEYWORD_LINK| n12
-    n12 -->|CONTAINS| n0
-    n12 -->|CONTAINS| n7
-    n12 -->|CONTAINS| n10
-    n12 -->|CONTAINS| n1
-    n12 -->|CONTAINS| n3
-    n0 -->|CO_OCCUR| n7
+    n9 -->|KEYWORD_LINK| n2
+    n2 -->|CONTAINS| n9
+    n2 -->|CONTAINS| n13
+    n2 -->|CONTAINS| n0
+    n2 -->|CONTAINS| n5
+    n2 -->|CONTAINS| n10
+    n9 -->|CO_OCCUR| n13
+    n9 -->|CO_OCCUR| n0
+    n9 -->|CO_OCCUR| n5
+    n9 -->|CO_OCCUR| n10
+    n13 -->|CO_OCCUR| n0
+    n13 -->|CO_OCCUR| n5
+    n13 -->|CO_OCCUR| n10
+    n0 -->|CO_OCCUR| n5
     n0 -->|CO_OCCUR| n10
-    n0 -->|CO_OCCUR| n1
-    n0 -->|CO_OCCUR| n3
-    n7 -->|CO_OCCUR| n10
-    n7 -->|CO_OCCUR| n1
-    n7 -->|CO_OCCUR| n3
+    n5 -->|CO_OCCUR| n10
+    n9 -->|LINKED_TO| n10
+    n3 -->|CONTAINS| n10
+    n15 -->|KEYWORD_LINK| n3
+    n3 -->|CONTAINS| n15
+    n1 -->|KEYWORD_LINK| n15
+    n3 -->|CONTAINS| n1
+    n3 -->|CONTAINS| n6
+    n3 -->|CONTAINS| n12
+    n3 -->|CONTAINS| n8
+    n4 -->|KEYWORD_LINK| n15
+    n3 -->|CONTAINS| n4
+    n11 -->|KEYWORD_LINK| n6
+    n3 -->|CONTAINS| n11
+    n10 -->|CO_OCCUR| n15
     n10 -->|CO_OCCUR| n1
-    n10 -->|CO_OCCUR| n3
-    n1 -->|CO_OCCUR| n3
-    n0 -->|LINKED_TO| n3
-    n8 -->|CONTAINS| n3
-    n15 -->|KEYWORD_LINK| n8
-    n8 -->|CONTAINS| n15
-    n5 -->|KEYWORD_LINK| n15
-    n8 -->|CONTAINS| n5
-    n8 -->|CONTAINS| n13
-    n8 -->|CONTAINS| n6
-    n8 -->|CONTAINS| n2
-    n11 -->|KEYWORD_LINK| n15
-    n8 -->|CONTAINS| n11
-    n14 -->|KEYWORD_LINK| n13
-    n8 -->|CONTAINS| n14
-    n3 -->|CO_OCCUR| n15
-    n3 -->|CO_OCCUR| n5
-    n3 -->|CO_OCCUR| n13
-    n3 -->|CO_OCCUR| n6
-    n3 -->|CO_OCCUR| n2
-    n3 -->|CO_OCCUR| n11
-    n3 -->|CO_OCCUR| n14
-    n15 -->|CO_OCCUR| n13
+    n10 -->|CO_OCCUR| n6
+    n10 -->|CO_OCCUR| n12
+    n10 -->|CO_OCCUR| n8
+    n10 -->|CO_OCCUR| n4
+    n10 -->|CO_OCCUR| n11
     n15 -->|CO_OCCUR| n6
-    n15 -->|CO_OCCUR| n2
-    n15 -->|CO_OCCUR| n14
-    n5 -->|CO_OCCUR| n13
-    n5 -->|CO_OCCUR| n6
-    n5 -->|CO_OCCUR| n2
-    n5 -->|CO_OCCUR| n11
-    n5 -->|CO_OCCUR| n14
-    n13 -->|CO_OCCUR| n6
-    n13 -->|CO_OCCUR| n2
-    n13 -->|CO_OCCUR| n11
-    n6 -->|CO_OCCUR| n2
-    n6 -->|CO_OCCUR| n11
+    n15 -->|CO_OCCUR| n12
+    n15 -->|CO_OCCUR| n8
+    n15 -->|CO_OCCUR| n11
+    n1 -->|CO_OCCUR| n6
+    n1 -->|CO_OCCUR| n12
+    n1 -->|CO_OCCUR| n8
+    n1 -->|CO_OCCUR| n4
+    n1 -->|CO_OCCUR| n11
+    n6 -->|CO_OCCUR| n12
+    n6 -->|CO_OCCUR| n8
+    n6 -->|CO_OCCUR| n4
+    n12 -->|CO_OCCUR| n8
+    n12 -->|CO_OCCUR| n4
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -116,33 +116,31 @@ graph TD
   - [[weights]]
     - *( keyword_link )*
     - [[•A neural  network's  goal is to adjust  weights  so that th]]
-- [[Neuron]]
-  - *( keyword_link )*
-  - [[A biological  neuron  has three  main  parts :]]
-    - *( contains )*
-    - [[Dendrite]]
-      - *( co_occur )*
-      - [[Cell Body (Soma)]]
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Axon]]
-- [[final verification]]
+- [[Cell Body (Soma)]]
+  - *( co_occur )*
+  - [[Axon]]
 - [[initial weights]]
+- [[A biological  neuron  has three  main  parts :]]
+  - *( contains )*
+  - [[Neuron]]
+    - *( co_occur )*
+    - [[Dendrite]]
+- [[final verification]]
 
 ## 📋 All Core Concepts
-- [[Neuron]]
-- [[Axon]]
-- [[errors]]
-- [[Neural Network]]
-- [[final verification]]
+- [[Cell Body (Soma)]]
 - [[initial weights]]
+- [[A biological  neuron  has three  main  parts :]]
+- [[•A neural  network's  goal is to adjust  weights  so that th]]
+- [[weights update]]
+- [[Axon]]
+- [[output]]
+- [[predicted output]]
+- [[errors]]
+- [[Neuron]]
+- [[Neural Network]]
+- [[output recalculation]]
 - [[Perceptron Model]]
 - [[Dendrite]]
-- [[•A neural  network's  goal is to adjust  weights  so that th]]
-- [[predicted output]]
-- [[Cell Body (Soma)]]
-- [[weights update]]
-- [[A biological  neuron  has three  main  parts :]]
-- [[output]]
-- [[output recalculation]]
+- [[final verification]]
 - [[weights]]

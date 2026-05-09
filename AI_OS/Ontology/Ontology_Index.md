@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:43:52.115633'
-id: 2c9626f0
+created: '2026-05-09T23:50:28.724055'
+id: de1e71b8
 links: []
-modified: '2026-05-09T23:43:52.115633'
+modified: '2026-05-09T23:50:28.724055'
 project: ''
 source: ''
 status: active
@@ -25,15 +25,15 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["AI OS Index"]
-    n1["Atlas Index"]
-    n2["Vault Map"]
-    n3["Calendar Index"]
-    n4["Efforts Index"]
-    n2 -->|DIRECTORY_MAP| n1
-    n2 -->|DIRECTORY_MAP| n3
-    n2 -->|DIRECTORY_MAP| n4
-    n2 -->|DIRECTORY_MAP| n0
+    n0["Efforts Index"]
+    n1["AI OS Index"]
+    n2["Calendar Index"]
+    n3["Atlas Index"]
+    n4["Vault Map"]
+    n4 -->|DIRECTORY_MAP| n3
+    n4 -->|DIRECTORY_MAP| n2
+    n4 -->|DIRECTORY_MAP| n0
+    n4 -->|DIRECTORY_MAP| n1
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -50,8 +50,8 @@ graph TD
   - [[AI OS Index]]
 
 ## 📋 All Core Concepts
+- [[Efforts Index]]
 - [[AI OS Index]]
+- [[Calendar Index]]
 - [[Atlas Index]]
 - [[Vault Map]]
-- [[Calendar Index]]
-- [[Efforts Index]]

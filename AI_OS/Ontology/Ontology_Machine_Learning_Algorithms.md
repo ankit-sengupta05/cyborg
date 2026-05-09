@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:43:52.220908'
-id: e314e6b7
+created: '2026-05-09T23:50:28.909628'
+id: a95a37ee
 links: []
-modified: '2026-05-09T23:43:52.220908'
+modified: '2026-05-09T23:50:28.909628'
 project: ''
 source: ''
 status: active
@@ -20,39 +20,39 @@ type: ontology_map
 
 # Ontology: Machine Learning Algorithms
 
-**Summary**: Ensemble learning, Random Forests enhance predictive accuracy and efficiency in handling large datasets compared to decision trees.
+**Summary**: Ensemble learning, Random Forest combines decision trees for improved accuracy and efficiency.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["higher level of accuracy in predicting outcomes over the decision tree algorithm"]
-    n1["consumes more time compared to a decision tree algorithm"]
+    n0["Random Forest"]
+    n1["classification tasks"]
     n2["handling large datasets efficiently"]
-    n3["regression tasks"]
-    n4["decision tree algorithm"]
-    n5["classification tasks"]
-    n6["more resources required for computation"]
+    n3["more resources required for computation"]
+    n4["higher level of accuracy in predicting outcomes over the decision tree algorithm"]
+    n5["regression tasks"]
+    n6["consumes more time compared to a decision tree algorithm"]
     n7["Ensemble learning and Random Forest"]
-    n8["Random Forest"]
-    n9["ensemble learning"]
-    n9 -->|KEYWORD_LINK| n7
-    n7 -->|CONTAINS| n9
+    n8["ensemble learning"]
+    n9["decision tree algorithm"]
     n8 -->|KEYWORD_LINK| n7
     n7 -->|CONTAINS| n8
-    n9 -->|CO_OCCUR| n8
-    n9 -->|LINKED_TO| n8
-    n7 -->|CONTAINS| n8
-    n7 -->|CONTAINS| n4
-    n8 -->|CO_OCCUR| n4
-    n8 -->|SEMANTIC_SIMILAR| n4
-    n8 -->|LINKED_TO| n3
-    n8 -->|LINKED_TO| n5
-    n8 -->|LINKED_TO| n2
-    n0 -->|KEYWORD_LINK| n4
-    n8 -->|SEMANTIC_SIMILAR| n0
-    n8 -->|LINKED_TO| n6
-    n1 -->|KEYWORD_LINK| n4
-    n8 -->|SEMANTIC_SIMILAR| n1
+    n0 -->|KEYWORD_LINK| n7
+    n7 -->|CONTAINS| n0
+    n8 -->|CO_OCCUR| n0
+    n8 -->|LINKED_TO| n0
+    n7 -->|CONTAINS| n0
+    n7 -->|CONTAINS| n9
+    n0 -->|CO_OCCUR| n9
+    n0 -->|SEMANTIC_SIMILAR| n9
+    n0 -->|LINKED_TO| n5
+    n0 -->|LINKED_TO| n1
+    n0 -->|LINKED_TO| n2
+    n4 -->|KEYWORD_LINK| n9
+    n0 -->|SEMANTIC_SIMILAR| n4
+    n0 -->|LINKED_TO| n3
+    n6 -->|KEYWORD_LINK| n9
+    n0 -->|SEMANTIC_SIMILAR| n6
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -69,19 +69,19 @@ graph TD
   - [[regression tasks]]
   - *( linked_to )*
   - [[handling large datasets efficiently]]
-- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
-- [[consumes more time compared to a decision tree algorithm]]
 - [[classification tasks]]
 - [[more resources required for computation]]
+- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
+- [[consumes more time compared to a decision tree algorithm]]
 
 ## 📋 All Core Concepts
-- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
-- [[consumes more time compared to a decision tree algorithm]]
-- [[handling large datasets efficiently]]
-- [[regression tasks]]
-- [[decision tree algorithm]]
-- [[classification tasks]]
-- [[more resources required for computation]]
-- [[Ensemble learning and Random Forest]]
 - [[Random Forest]]
+- [[classification tasks]]
+- [[handling large datasets efficiently]]
+- [[more resources required for computation]]
+- [[higher level of accuracy in predicting outcomes over the decision tree algorithm]]
+- [[regression tasks]]
+- [[consumes more time compared to a decision tree algorithm]]
+- [[Ensemble learning and Random Forest]]
 - [[ensemble learning]]
+- [[decision tree algorithm]]

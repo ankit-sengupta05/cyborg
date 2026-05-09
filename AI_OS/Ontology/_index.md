@@ -40,3 +40,6 @@ Auto-generated index for Ontology
 - [[Ontology_Neural_Networks]] | Knowledge related to Ontology_Neural_Networks
 - [[Ontology_Index]] | Knowledge related to Ontology_Index
 - [[Ontology_Neuron]] | Knowledge related to Ontology_Neuron
+- [[Ontology_Model_Evaluation_and_Feature_Selection]] | Knowledge related to Ontology_Model_Evaluation_and_Feature_Selection
+- [[Ontology_Clustering_Techniques]] | Knowledge related to Ontology_Clustering_Techniques
+- [[Ontology_Bayesian_Classifier]] | Knowledge related to Ontology_Bayesian_Classifier

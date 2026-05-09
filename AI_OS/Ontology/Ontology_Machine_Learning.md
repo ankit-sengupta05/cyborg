@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:43:52.278597'
-id: e1b80c97
+created: '2026-05-09T23:50:28.982765'
+id: 523577f6
 links: []
-modified: '2026-05-09T23:43:52.278597'
+modified: '2026-05-09T23:50:28.982765'
 project: ''
 source: ''
 status: active
@@ -20,37 +20,37 @@ type: ontology_map
 
 # Ontology: Machine Learning
 
-**Summary**: A comprehensive guide to the field of machine learning, including its subfields and applications.
+**Summary**: Analyze, model, and predict using algorithms.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Machine Learning (ML)"]
-    n1["Model Selection"]
-    n2["Natural Language Processing (NLP)"]
-    n3["User"]
+    n0["Assistant"]
+    n1["User"]
+    n2["Machine Learning (ML)"]
+    n3["Reinforcement Learning"]
     n4["Supervised Learning"]
-    n5["Unsupervised Learning"]
+    n5["Dimensionality Reduction"]
     n6["Deep Learning"]
-    n7["Chat: my ml sylabus"]
-    n8["Reinforcement Learning"]
-    n9["Model Evaluation and Validation"]
-    n10["Dimensionality Reduction"]
-    n11["Assistant"]
-    n7 -->|DISCUSSES| n0
-    n7 -->|DISCUSSES| n4
-    n7 -->|DISCUSSES| n5
-    n7 -->|DISCUSSES| n8
-    n7 -->|DISCUSSES| n10
-    n7 -->|DISCUSSES| n9
-    n7 -->|DISCUSSES| n1
-    n7 -->|DISCUSSES| n6
-    n7 -->|DISCUSSES| n2
-    n0 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n4
-    n0 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n5
-    n0 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n8
-    n7 -->|DISCUSSES| n3
-    n7 -->|DISCUSSES| n11
+    n7["Natural Language Processing (NLP)"]
+    n8["Unsupervised Learning"]
+    n9["Model Selection"]
+    n10["Chat: my ml sylabus"]
+    n11["Model Evaluation and Validation"]
+    n10 -->|DISCUSSES| n2
+    n10 -->|DISCUSSES| n4
+    n10 -->|DISCUSSES| n8
+    n10 -->|DISCUSSES| n3
+    n10 -->|DISCUSSES| n5
+    n10 -->|DISCUSSES| n11
+    n10 -->|DISCUSSES| n9
+    n10 -->|DISCUSSES| n6
+    n10 -->|DISCUSSES| n7
+    n2 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n4
+    n2 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n8
+    n2 -->|DISCUSSED/DECIDED/ASSIGNED/LINKED_TO| n3
+    n10 -->|DISCUSSES| n1
+    n10 -->|DISCUSSES| n0
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -67,23 +67,23 @@ graph TD
     - [[Reinforcement Learning]]
   - *( discusses )*
   - [[Dimensionality Reduction]]
-- [[Model Selection]]
-- [[Natural Language Processing (NLP)]]
+- [[Assistant]]
 - [[User]]
 - [[Deep Learning]]
+- [[Natural Language Processing (NLP)]]
+- [[Model Selection]]
 - [[Model Evaluation and Validation]]
-- [[Assistant]]
 
 ## 📋 All Core Concepts
-- [[Machine Learning (ML)]]
-- [[Model Selection]]
-- [[Natural Language Processing (NLP)]]
-- [[User]]
-- [[Supervised Learning]]
-- [[Unsupervised Learning]]
-- [[Deep Learning]]
-- [[Chat: my ml sylabus]]
-- [[Reinforcement Learning]]
-- [[Model Evaluation and Validation]]
-- [[Dimensionality Reduction]]
 - [[Assistant]]
+- [[User]]
+- [[Machine Learning (ML)]]
+- [[Reinforcement Learning]]
+- [[Supervised Learning]]
+- [[Dimensionality Reduction]]
+- [[Deep Learning]]
+- [[Natural Language Processing (NLP)]]
+- [[Unsupervised Learning]]
+- [[Model Selection]]
+- [[Chat: my ml sylabus]]
+- [[Model Evaluation and Validation]]

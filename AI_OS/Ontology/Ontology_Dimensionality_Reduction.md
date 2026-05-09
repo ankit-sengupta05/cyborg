@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:43:52.157539'
-id: a3150636
+created: '2026-05-09T23:50:28.780381'
+id: 97566e97
 links: []
-modified: '2026-05-09T23:43:52.157539'
+modified: '2026-05-09T23:50:28.780381'
 project: ''
 source: ''
 status: active
@@ -25,59 +25,49 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Unsupervised Learning Algorithm Technique"]
-    n1["Dimensionality Reduction and Machine Learning Method"]
-    n2["Locating Important Characteristics"]
-    n3["Introduction to Machine Learning"]
-    n4["Interpretability and Minimizing Information Loss"]
-    n5["shopping for apples"]
-    n6["Principal Component Analysis"]
-    n7["Basic Terminologies of PCA in Machine Learning?"]
-    n8["Standardizing Data"]
-    n9["Covariance"]
-    n10["Discovering Linear Combinations of Varying Sequences"]
-    n11["EigenValues and EigenVectors"]
-    n12["Covariance Matrix"]
-    n13["Variance"]
-    n14["Independence of Features"]
-    n15["PCA Why Do We Need PCA in Machine Learning?"]
-    n16["Principal Component"]
-    n17["apples"]
-    n18["Machine Learning"]
-    n19["Fewer Features from Higher Features"]
-    n20["Overfitting Issues"]
-    n21["When should Principal Component Analysis be used in ML?"]
-    n18 -->|KEYWORD_LINK| n3
-    n3 -->|CONTAINS| n18
-    n3 -->|CONTAINS| n17
-    n18 -->|CO_OCCUR| n17
-    n18 -->|SEMANTIC_SIMILAR| n17
-    n5 -->|KEYWORD_LINK| n17
-    n18 -->|LINKED_TO| n5
-    n6 -->|KEYWORD_LINK| n16
-    n16 -->|CONTAINS| n6
-    n1 -->|KEYWORD_LINK| n18
-    n6 -->|LINKED_TO| n1
-    n6 -->|LINKED_TO| n0
-    n6 -->|REFERENCED_BY| n18
-    n15 -->|KEYWORD_LINK| n18
-    n15 -->|LINKED_TO| n20
-    n15 -->|LINKED_TO| n4
-    n15 -->|LINKED_TO| n2
-    n15 -->|LINKED_TO| n10
-    n21 -->|KEYWORD_LINK| n16
-    n21 -->|KEYWORD_LINK| n6
-    n21 -->|LINKED_TO| n14
-    n21 -->|LINKED_TO| n19
-    n7 -->|KEYWORD_LINK| n18
-    n7 -->|LINKED_TO| n13
-    n9 -->|KEYWORD_LINK| n13
-    n7 -->|LINKED_TO| n9
-    n7 -->|LINKED_TO| n8
-    n12 -->|KEYWORD_LINK| n13
-    n12 -->|KEYWORD_LINK| n9
-    n7 -->|LINKED_TO| n12
-    n7 -->|LINKED_TO| n11
+    n0["Dimensionality Reduction and Machine Learning Method"]
+    n1["Principal Component"]
+    n2["Basic Terminologies of PCA in Machine Learning?"]
+    n3["EigenValues and EigenVectors"]
+    n4["Variance"]
+    n5["Unsupervised Learning Algorithm Technique"]
+    n6["Standardizing Data"]
+    n7["Covariance Matrix"]
+    n8["Fewer Features from Higher Features"]
+    n9["Machine Learning"]
+    n10["apples"]
+    n11["When should Principal Component Analysis be used in ML?"]
+    n12["shopping for apples"]
+    n13["Independence of Features"]
+    n14["Principal Component Analysis"]
+    n15["Covariance"]
+    n16["Introduction to Machine Learning"]
+    n9 -->|KEYWORD_LINK| n16
+    n16 -->|CONTAINS| n9
+    n16 -->|CONTAINS| n10
+    n9 -->|CO_OCCUR| n10
+    n9 -->|SEMANTIC_SIMILAR| n10
+    n12 -->|KEYWORD_LINK| n10
+    n9 -->|LINKED_TO| n12
+    n14 -->|KEYWORD_LINK| n1
+    n1 -->|CONTAINS| n14
+    n0 -->|KEYWORD_LINK| n9
+    n14 -->|LINKED_TO| n0
+    n14 -->|LINKED_TO| n5
+    n14 -->|REFERENCED_BY| n9
+    n11 -->|KEYWORD_LINK| n1
+    n11 -->|KEYWORD_LINK| n14
+    n11 -->|LINKED_TO| n13
+    n11 -->|LINKED_TO| n8
+    n2 -->|KEYWORD_LINK| n9
+    n2 -->|LINKED_TO| n4
+    n15 -->|KEYWORD_LINK| n4
+    n2 -->|LINKED_TO| n15
+    n2 -->|LINKED_TO| n6
+    n7 -->|KEYWORD_LINK| n4
+    n7 -->|KEYWORD_LINK| n15
+    n2 -->|LINKED_TO| n7
+    n2 -->|LINKED_TO| n3
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -90,13 +80,12 @@ graph TD
     - [[apples]]
   - *( linked_to )*
   - [[shopping for apples]]
-- [[Unsupervised Learning Algorithm Technique]]
 - [[Dimensionality Reduction and Machine Learning Method]]
-- [[Locating Important Characteristics]]
-- [[Interpretability and Minimizing Information Loss]]
-- [[Principal Component Analysis]]
-  - *( keyword_link )*
-  - [[Principal Component]]
+- [[Principal Component]]
+  - *( contains )*
+  - [[Principal Component Analysis]]
+    - *( linked_to )*
+    - [[Unsupervised Learning Algorithm Technique]]
 - [[Basic Terminologies of PCA in Machine Learning?]]
   - *( linked_to )*
   - [[Variance]]
@@ -106,35 +95,27 @@ graph TD
   - [[Covariance Matrix]]
   - *( linked_to )*
   - [[Standardizing Data]]
-- [[Discovering Linear Combinations of Varying Sequences]]
 - [[EigenValues and EigenVectors]]
-- [[Independence of Features]]
-- [[PCA Why Do We Need PCA in Machine Learning?]]
-  - *( linked_to )*
-  - [[Overfitting Issues]]
 - [[Fewer Features from Higher Features]]
 - [[When should Principal Component Analysis be used in ML?]]
+  - *( linked_to )*
+  - [[Independence of Features]]
 
 ## 📋 All Core Concepts
-- [[Unsupervised Learning Algorithm Technique]]
 - [[Dimensionality Reduction and Machine Learning Method]]
-- [[Locating Important Characteristics]]
-- [[Introduction to Machine Learning]]
-- [[Interpretability and Minimizing Information Loss]]
-- [[shopping for apples]]
-- [[Principal Component Analysis]]
-- [[Basic Terminologies of PCA in Machine Learning?]]
-- [[Standardizing Data]]
-- [[Covariance]]
-- [[Discovering Linear Combinations of Varying Sequences]]
-- [[EigenValues and EigenVectors]]
-- [[Covariance Matrix]]
-- [[Variance]]
-- [[Independence of Features]]
-- [[PCA Why Do We Need PCA in Machine Learning?]]
 - [[Principal Component]]
-- [[apples]]
-- [[Machine Learning]]
+- [[Basic Terminologies of PCA in Machine Learning?]]
+- [[EigenValues and EigenVectors]]
+- [[Variance]]
+- [[Unsupervised Learning Algorithm Technique]]
+- [[Standardizing Data]]
+- [[Covariance Matrix]]
 - [[Fewer Features from Higher Features]]
-- [[Overfitting Issues]]
+- [[Machine Learning]]
+- [[apples]]
 - [[When should Principal Component Analysis be used in ML?]]
+- [[shopping for apples]]
+- [[Independence of Features]]
+- [[Principal Component Analysis]]
+- [[Covariance]]
+- [[Introduction to Machine Learning]]
