@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:32:25.235061'
-id: b72e2fe3
+created: '2026-05-09T17:37:17.133281'
+id: 9f4029ec
 links: []
-modified: '2026-05-09T17:32:25.235061'
+modified: '2026-05-09T17:37:17.133281'
 project: ''
 source: ''
 status: active
@@ -20,61 +20,45 @@ type: ontology_map
 
 # Ontology: Neuron Structure
 
-**Summary**: Explains the composition and function of a neuron.
+**Summary**: Explains the fundamental components of a neuron, including dendrites, cell body (soma), and axon.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["human brain"]
-    n1["neuron"]
-    n2["A biological  neuron  has three  main  parts :"]
-    n3["cell body (soma)"]
-    n4["axon"]
-    n5["dendrite"]
-    n1 -->|KEYWORD_LINK| n2
-    n2 -->|CONTAINS| n1
-    n2 -->|CONTAINS| n5
-    n2 -->|CONTAINS| n3
-    n2 -->|CONTAINS| n4
-    n2 -->|CONTAINS| n0
-    n1 -->|CO_OCCUR| n5
-    n1 -->|CO_OCCUR| n3
-    n1 -->|CO_OCCUR| n4
-    n1 -->|CO_OCCUR| n0
-    n5 -->|CO_OCCUR| n3
-    n5 -->|CO_OCCUR| n4
-    n5 -->|CO_OCCUR| n0
-    n3 -->|CO_OCCUR| n4
-    n3 -->|CO_OCCUR| n0
-    n4 -->|CO_OCCUR| n0
-    n1 -->|SEMANTIC_SIMILAR| n5
-    n3 -->|SEMANTIC_SIMILAR| n4
-    n0 -->|LINKED_TO| n1
+    n0["Single-Layer Perceptron"]
+    n1["Module-5"]
+    n2["Multi-Layer Perceptron"]
+    n3["Perceptron"]
+    n4["Multilayer Perceptron"]
+    n5["ANNs"]
+    n3 -->|LINKED_TO| n5
+    n1 -->|CONTAINS| n3
+    n4 -->|KEYWORD_LINK| n3
+    n3 -->|LINKED_TO| n4
+    n0 -->|KEYWORD_LINK| n3
+    n3 -->|LINKED_TO| n0
+    n2 -->|KEYWORD_LINK| n3
+    n3 -->|LINKED_TO| n2
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[A biological  neuron  has three  main  parts :]]
-  - *( contains )*
-  - [[human brain]]
-    - *( linked_to )*
-    - [[neuron]]
-      - *( co_occur )*
-      - [[dendrite]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[cell body (soma)]]
-        - *( co_occur )*
-        - *( semantic_similar )*
-      - *( co_occur )*
-      - [[axon]]
+- [[Perceptron]]
+  - *( linked_to )*
+  - [[ANNs]]
+  - *( linked_to )*
+  - [[Multilayer Perceptron]]
+  - *( linked_to )*
+  - [[Single-Layer Perceptron]]
+  - *( linked_to )*
+  - [[Multi-Layer Perceptron]]
+- [[Module-5]]
 
 ## 📋 All Core Concepts
-- [[human brain]]
-- [[neuron]]
-- [[A biological  neuron  has three  main  parts :]]
-- [[cell body (soma)]]
-- [[axon]]
-- [[dendrite]]
+- [[Single-Layer Perceptron]]
+- [[Module-5]]
+- [[Multi-Layer Perceptron]]
+- [[Perceptron]]
+- [[Multilayer Perceptron]]
+- [[ANNs]]

@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:03.734190'
-id: 45a64e3d
+created: '2026-05-09T17:37:17.077567'
+id: 12cc9f4d
 links: []
-modified: '2026-05-09T17:37:03.734190'
+modified: '2026-05-09T17:37:17.077567'
 project: ''
 source: ''
 status: active
@@ -25,154 +25,136 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)"]
-    n1["Information Gain Calculation for Outlook Cont’d"]
-    n2["Rain"]
-    n3["Instability"]
-    n4["Supervised learning technique"]
-    n5["Rainy"]
-    n6["Entropy among the three branches"]
-    n7["Overcast"]
-    n8["Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0"]
-    n9["Decision Trees"]
-    n10["Tennis"]
-    n11["root node"]
-    n12["Loss Functions"]
-    n13["tree-structured classifier"]
-    n14["Probability"]
-    n15["decision node"]
-    n16["Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)"]
-    n17["leaf node"]
-    n18["Handling Missing Values in Decision Trees"]
-    n19["Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6"]
-    n20["Entropy"]
-    n21["Sunny"]
-    n22["Entropy when overcast = 0.0"]
-    n23["Decision Trees"]
-    n24["'Insights into Decision Trees, Loss"]
-    n9 -->|CONTAINS| n9
-    n9 -->|CONTAINS| n4
-    n9 -->|CONTAINS| n13
-    n9 -->|CONTAINS| n15
-    n9 -->|CONTAINS| n17
-    n4 -->|CO_OCCUR| n13
-    n4 -->|CO_OCCUR| n15
+    n0["Subset Selection Module No. 2"]
+    n1["LDA"]
+    n2["Subset Selection"]
+    n3["K-Nearest Neighbor learning"]
+    n4["Subset Selection Module"]
+    n5["Regression"]
+    n6["Logistic Regression"]
+    n7["PCA Vs LDA"]
+    n8["Principal Component Regression"]
+    n9["Age"]
+    n10["Multivariate Regression"]
+    n11["Partial Least squares"]
+    n12["K-Nearest Neighbor learning Module"]
+    n13["Linear Discriminant Analysis"]
+    n14["Coronary Heart Disease (CD)"]
+    n15["Linear Regression"]
+    n16["Shrinkage Methods"]
+    n17["Linear Regression"]
+    n18["Linear Classification"]
+    n19["Logistic Regression"]
+    n20["K-Nearest Neighbor learning"]
+    n17 -->|KEYWORD_LINK| n15
+    n5 -->|KEYWORD_LINK| n15
+    n5 -->|KEYWORD_LINK| n6
+    n5 -->|KEYWORD_LINK| n17
+    n17 -->|CONTAINS| n5
+    n17 -->|CONTAINS| n17
+    n5 -->|LINKED_TO| n17
+    n4 -->|KEYWORD_LINK| n2
+    n2 -->|CONTAINS| n4
+    n2 -->|CONTAINS| n17
+    n10 -->|KEYWORD_LINK| n5
+    n2 -->|CONTAINS| n10
+    n2 -->|CONTAINS| n16
+    n8 -->|KEYWORD_LINK| n5
+    n2 -->|CONTAINS| n8
+    n2 -->|CONTAINS| n11
+    n2 -->|CONTAINS| n18
+    n2 -->|CONTAINS| n6
+    n2 -->|CONTAINS| n1
+    n2 -->|CONTAINS| n20
+    n2 -->|CONTAINS| n2
     n4 -->|CO_OCCUR| n17
-    n13 -->|CO_OCCUR| n15
-    n13 -->|CO_OCCUR| n17
-    n15 -->|CO_OCCUR| n17
-    n9 -->|LINKED_TO| n13
-    n15 -->|SEMANTIC_SIMILAR| n11
-    n9 -->|CONTAINS| n14
-    n9 -->|CONTAINS| n20
-    n9 -->|CONTAINS| n1
-    n9 -->|CONTAINS| n2
-    n9 -->|CONTAINS| n10
-    n9 -->|CONTAINS| n21
-    n9 -->|CONTAINS| n7
-    n5 -->|KEYWORD_LINK| n2
-    n9 -->|CONTAINS| n5
-    n14 -->|CO_OCCUR| n20
-    n14 -->|CO_OCCUR| n1
-    n14 -->|CO_OCCUR| n2
-    n14 -->|CO_OCCUR| n10
-    n14 -->|CO_OCCUR| n21
-    n14 -->|CO_OCCUR| n7
-    n14 -->|CO_OCCUR| n5
-    n20 -->|CO_OCCUR| n1
-    n20 -->|CO_OCCUR| n2
-    n20 -->|CO_OCCUR| n10
-    n20 -->|CO_OCCUR| n21
-    n20 -->|CO_OCCUR| n7
-    n20 -->|CO_OCCUR| n5
-    n1 -->|CO_OCCUR| n2
-    n1 -->|CO_OCCUR| n10
-    n1 -->|CO_OCCUR| n21
-    n1 -->|CO_OCCUR| n7
-    n1 -->|CO_OCCUR| n5
-    n2 -->|CO_OCCUR| n10
-    n2 -->|CO_OCCUR| n21
-    n2 -->|CO_OCCUR| n7
-    n10 -->|CO_OCCUR| n21
-    n10 -->|CO_OCCUR| n7
-    n10 -->|CO_OCCUR| n5
-    n21 -->|CO_OCCUR| n7
-    n21 -->|CO_OCCUR| n5
-    n7 -->|CO_OCCUR| n5
-    n19 -->|KEYWORD_LINK| n14
+    n4 -->|CO_OCCUR| n10
+    n4 -->|CO_OCCUR| n16
+    n4 -->|CO_OCCUR| n8
+    n4 -->|CO_OCCUR| n11
+    n4 -->|CO_OCCUR| n18
+    n4 -->|CO_OCCUR| n6
+    n4 -->|CO_OCCUR| n1
+    n4 -->|CO_OCCUR| n20
+    n17 -->|CO_OCCUR| n10
+    n17 -->|CO_OCCUR| n16
+    n17 -->|CO_OCCUR| n8
+    n17 -->|CO_OCCUR| n11
+    n17 -->|CO_OCCUR| n18
+    n17 -->|CO_OCCUR| n6
+    n17 -->|CO_OCCUR| n1
+    n17 -->|CO_OCCUR| n20
+    n10 -->|CO_OCCUR| n16
+    n10 -->|CO_OCCUR| n8
+    n10 -->|CO_OCCUR| n11
+    n10 -->|CO_OCCUR| n18
+    n10 -->|CO_OCCUR| n6
+    n10 -->|CO_OCCUR| n1
+    n10 -->|CO_OCCUR| n20
+    n16 -->|CO_OCCUR| n8
+    n16 -->|CO_OCCUR| n11
+    n16 -->|CO_OCCUR| n18
+    n16 -->|CO_OCCUR| n6
+    n16 -->|CO_OCCUR| n1
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Decision Trees]]
+- [[Subset Selection]]
   - *( contains )*
-  - [[Entropy]]
+  - [[Linear Regression]]
     - *( co_occur )*
-    - [[Tennis]]
+    - [[Logistic Regression]]
       - *( co_occur )*
-      - [[Sunny]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Overcast]]
+      - [[LDA]]
         - *( co_occur )*
       - *( co_occur )*
-      - [[Rainy]]
-        - *( keyword_link )*
+      - [[K-Nearest Neighbor learning]]
     - *( co_occur )*
-    - [[Rain]]
+    - [[Principal Component Regression]]
+      - *( co_occur )*
+      - [[Partial Least squares]]
+        - *( co_occur )*
+      - *( co_occur )*
+      - [[Linear Classification]]
     - *( co_occur )*
-    - [[Information Gain Calculation for Outlook Cont’d]]
-  - *( contains )*
-  - [[Probability]]
-- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
-- [[Instability]]
-  - *( semantic_similar )*
-  - [[Decision Trees]]
-- [[Supervised learning technique]]
-  - *( co_occur )*
-  - [[decision node]]
-    - *( co_occur )*
-    - [[leaf node]]
-    - *( semantic_similar )*
-    - [[root node]]
-  - *( co_occur )*
-  - [[tree-structured classifier]]
-- [[Entropy among the three branches]]
-- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
-  - *( linked_to )*
-  - [[Entropy when overcast = 0.0]]
-- [[Loss Functions]]
-  - *( co_occur )*
-  - [[Handling Missing Values in Decision Trees]]
-- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
-- [["Insights into Decision Trees, Loss]]
+    - [[Multivariate Regression]]
+      - *( co_occur )*
+      - [[Shrinkage Methods]]
+- [[Subset Selection Module No. 2]]
+  - *( keyword_link )*
+  - [[Subset Selection Module]]
+- [[K-Nearest Neighbor learning]]
+- [[Regression]]
+  - *( keyword_link )*
+  - [[Linear Regression]]
+- [[PCA Vs LDA]]
+- [[Age]]
+- [[K-Nearest Neighbor learning Module]]
+- [[Linear Discriminant Analysis]]
+- [[Coronary Heart Disease (CD)]]
+- [[Logistic Regression]]
 
 ## 📋 All Core Concepts
-- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
-- [[Information Gain Calculation for Outlook Cont’d]]
-- [[Rain]]
-- [[Instability]]
-- [[Supervised learning technique]]
-- [[Rainy]]
-- [[Entropy among the three branches]]
-- [[Overcast]]
-- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
-- [[Decision Trees]]
-- [[Tennis]]
-- [[root node]]
-- [[Loss Functions]]
-- [[tree-structured classifier]]
-- [[Probability]]
-- [[decision node]]
-- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
-- [[leaf node]]
-- [[Handling Missing Values in Decision Trees]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
-- [[Entropy]]
-- [[Sunny]]
-- [[Entropy when overcast = 0.0]]
-- [[Decision Trees]]
-- [["Insights into Decision Trees, Loss]]
+- [[Subset Selection Module No. 2]]
+- [[LDA]]
+- [[Subset Selection]]
+- [[K-Nearest Neighbor learning]]
+- [[Subset Selection Module]]
+- [[Regression]]
+- [[Logistic Regression]]
+- [[PCA Vs LDA]]
+- [[Principal Component Regression]]
+- [[Age]]
+- [[Multivariate Regression]]
+- [[Partial Least squares]]
+- [[K-Nearest Neighbor learning Module]]
+- [[Linear Discriminant Analysis]]
+- [[Coronary Heart Disease (CD)]]
+- [[Linear Regression]]
+- [[Shrinkage Methods]]
+- [[Linear Regression]]
+- [[Linear Classification]]
+- [[Logistic Regression]]
+- [[K-Nearest Neighbor learning]]

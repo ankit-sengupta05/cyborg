@@ -161,3 +161,40 @@ Map of your permanent knowledge.
 - [[Neuron]] | Knowledge related to Neuron
 - [[Dendrite]] | Knowledge related to Dendrite
 - [[Cell Body (Soma)]] | Knowledge related to Cell Body (Soma)
+- [[Axon]] | Knowledge related to Axon
+- [[Neural Network]] | Knowledge related to Neural Network
+- [[Perceptron]] | Knowledge related to Perceptron
+- [[ANNs]] | Knowledge related to ANNs
+- [[A biological  neuron  has three  main  parts : (Chunk 0)]] | Knowledge related to A biological  neuron  has three  main  parts : (Chunk 0)
+- [[weights]] | Knowledge related to weights
+- [[initial weights]] | Knowledge related to initial weights
+- [[output]] | Knowledge related to output
+- [[Perceptron Model]] | Knowledge related to Perceptron Model
+- [[errors]] | Knowledge related to errors
+- [[weights update]] | Knowledge related to weights update
+- [[output recalculation]] | Knowledge related to output recalculation
+- [[predicted output]] | Knowledge related to predicted output
+- [[final verification]] | Knowledge related to final verification
+- [[•A neural  network's  goal is to adjust  weights  so that th (Chunk 0)]] | Knowledge related to •A neural  network's  goal is to adjust  weights  so that th (Chunk 0)
+- [[agglomerative clustering]] | Knowledge related to agglomerative clustering
+- [[hierarchical clustering]] | Knowledge related to hierarchical clustering
+- [[k-means clustering]] | Knowledge related to k-means clustering
+- [[limitations of unsupervised learning]] | Knowledge related to limitations of unsupervised learning
+- [[gaussian mixture models]] | Knowledge related to gaussian mixture models
+- [[maximum likelihood estimation]] | Knowledge related to maximum likelihood estimation
+- [[parameter estimation for gaussian mixtures]] | Knowledge related to parameter estimation for gaussian mixtures
+- [[expectation maximization algorithm]] | Knowledge related to expectation maximization algorithm
+- [[clustering]] | Knowledge related to clustering
+- [[centroid]] | Knowledge related to centroid
+- [[Unsupervised Learning (Chunk 0)]] | Knowledge related to Unsupervised Learning (Chunk 0)
+- [[Agglomerative]] | Knowledge related to Agglomerative
+- [[Divisive]] | Knowledge related to Divisive
+- [[Hierarchical Clustering (Chunk 0)]] | Knowledge related to Hierarchical Clustering (Chunk 0)
+- [[Introduction]] | Knowledge related to Introduction
+- [[What is clustering?]] | Knowledge related to What is clustering?
+- [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]] | Knowledge related to The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.
+- [[K-MEANS (Chunk 0)]] | Knowledge related to K-MEANS (Chunk 0)
+- [[Multilayer Perceptron]] | Knowledge related to Multilayer Perceptron
+- [[Single-Layer Perceptron]] | Knowledge related to Single-Layer Perceptron
+- [[Multi-Layer Perceptron]] | Knowledge related to Multi-Layer Perceptron
+- [[Module-5 (Chunk 0)]] | Knowledge related to Module-5 (Chunk 0)
