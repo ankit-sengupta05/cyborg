@@ -1844,3 +1844,4 @@ The operating layer of your vault.
 - [[ACE\Atlas\Tutorial exercises (Chunk 1).md]] | Knowledge related to Tutorial exercises (Chunk 1) (type: knowledge_chunk)
 - [[ACE\Atlas\finance.md]] | Knowledge related to finance (type: note)
 - [[ACE\Atlas\Guassian Mixture Models (Chunk 0).md]] | Knowledge related to Guassian Mixture Models (Chunk 0) (type: knowledge_chunk)
+- [[Archive\Chat_hi_4a7156a1.md]] | Knowledge related to Chat_hi_4a7156a1 (type: chat_log)
