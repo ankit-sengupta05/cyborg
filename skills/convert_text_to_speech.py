@@ -1,22 +1,32 @@
-import pyttsx3
+import logging
 
-def convert_text_to_speech(text, language='en', speed=1.0):
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def execute(**kwargs):
     """
-    Convert text to speech using pyttsx3.
+    Generic function to convert text to speech.
 
     Parameters:
-        text (str): The text to be converted.
-        language (str): Language code for the desired output language (default 'en').
-        speed (float): Speed of speaking (default 1.0).
+    1. **kwargs: A dictionary containing the following parameters:
+       'text': The text to be converted to speech.
+       'language': The language of the text (default is 'en').
+       'speed': Speed of the speech in words per minute (default is 150).
+       'volume': Volume level for the speech (default is 70).
 
     Returns:
-        None
+    None
     """
-    engine = pyttsx3.init()
-    engine.setProperty('rate', int(speed * 250))
-    voices = engine.getProperty('voices')
-    engine.setProperty('voice', voices[language].id)
-    engine.say(text)
-    engine.runAndWait()
+    try:
+        # Convert text to speech using pyttsx3 library
+        import pyttsx3
 
-# Example usage: convert_text_to_speech("Hello, how are you?", language='en', speed=1.5)
+        engine = pyttsx3.init()
+        engine.say(kwargs.get('text', 'Hello, world!'))
+        engine.runAndWait()
+
+    except Exception as e:
+        logging.error(f"An error occurred: {e}")
+
+# Example usage (replace with your actual parameters)
+execute(text="Hello, how are you?", language='en', speed=180, volume=75)
