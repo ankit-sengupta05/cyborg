@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:28.666349'
-id: 56522c75
+created: '2026-05-09T17:36:38.542825'
+id: 1a3a880b
 links: []
-modified: '2026-05-09T17:36:28.666349'
+modified: '2026-05-09T17:36:38.542825'
 project: ''
 source: ''
 status: active
@@ -25,66 +25,79 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["shopping for apples"]
-    n1["Unsupervised Learning Algorithm Technique"]
-    n2["Interpretability and Minimizing Information Loss"]
-    n3["Discovering Linear Combinations of Varying Sequences"]
-    n4["Dimensionality Reduction and Machine Learning Method"]
-    n5["Introduction to Machine Learning"]
-    n6["Machine Learning"]
+    n0["λ= 1"]
+    n1["Cost function = 0 + 1 x (1.4)2"]
+    n2["Loss = 0.32 + 0.22"]
+    n3["Ridge Regression"]
+    n4["Interpretability and Minimizing Information Loss"]
+    n5["Discovering Linear Combinations of Varying Sequences"]
+    n6["λ"]
     n7["Locating Important Characteristics"]
-    n8["Principal Component Analysis"]
-    n9["PCA Why Do We Need PCA in Machine Learning?"]
-    n10["Overfitting Issues"]
-    n11["apples"]
-    n6 -->|KEYWORD_LINK| n5
-    n5 -->|CONTAINS| n6
-    n5 -->|CONTAINS| n11
-    n6 -->|CO_OCCUR| n11
-    n6 -->|SEMANTIC_SIMILAR| n11
-    n0 -->|KEYWORD_LINK| n11
-    n6 -->|LINKED_TO| n0
-    n4 -->|KEYWORD_LINK| n6
-    n8 -->|LINKED_TO| n4
-    n8 -->|LINKED_TO| n1
-    n8 -->|REFERENCED_BY| n6
-    n9 -->|KEYWORD_LINK| n6
-    n9 -->|LINKED_TO| n10
-    n9 -->|LINKED_TO| n2
-    n9 -->|LINKED_TO| n7
-    n9 -->|LINKED_TO| n3
+    n8["λ = 1"]
+    n9["Loss"]
+    n10["PCA Why Do We Need PCA in Machine Learning?"]
+    n11["Overfitting Issues"]
+    n12["The slope of the curve = 0.7"]
+    n13["The slope of the curve= 1.4"]
+    n14["Lasso Regression"]
+    n6 -->|CO_OCCUR| n3
+    n6 -->|CO_OCCUR| n9
+    n6 -->|CO_OCCUR| n14
+    n3 -->|CO_OCCUR| n9
+    n3 -->|CO_OCCUR| n14
+    n9 -->|CO_OCCUR| n14
+    n0 -->|KEYWORD_LINK| n6
+    n0 -->|LINKED_TO| n3
+    n8 -->|KEYWORD_LINK| n6
+    n8 -->|LINKED_TO| n14
+    n13 -->|INFERRED| n3
+    n12 -->|INFERRED| n14
+    n1 -->|LINKED_TO| n3
+    n2 -->|KEYWORD_LINK| n9
+    n2 -->|INFERRED| n14
+    n10 -->|LINKED_TO| n11
+    n4 -->|KEYWORD_LINK| n9
+    n10 -->|LINKED_TO| n4
+    n10 -->|LINKED_TO| n7
+    n10 -->|LINKED_TO| n5
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Machine Learning]]
+- [[Ridge Regression]]
+  - *( co_occur )*
+  - [[Lasso Regression]]
+  - *( co_occur )*
+  - [[Loss]]
+- [[λ= 1]]
   - *( keyword_link )*
-  - [[Introduction to Machine Learning]]
-    - *( contains )*
-    - [[apples]]
-  - *( linked_to )*
-  - [[shopping for apples]]
-- [[Unsupervised Learning Algorithm Technique]]
+  - [[λ]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[Loss = 0.32 + 0.22]]
 - [[Interpretability and Minimizing Information Loss]]
 - [[Discovering Linear Combinations of Varying Sequences]]
-- [[Dimensionality Reduction and Machine Learning Method]]
 - [[Locating Important Characteristics]]
-- [[Principal Component Analysis]]
+- [[λ = 1]]
 - [[PCA Why Do We Need PCA in Machine Learning?]]
   - *( linked_to )*
   - [[Overfitting Issues]]
+- [[The slope of the curve = 0.7]]
+- [[The slope of the curve= 1.4]]
 
 ## 📋 All Core Concepts
-- [[shopping for apples]]
-- [[Unsupervised Learning Algorithm Technique]]
+- [[λ= 1]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[Loss = 0.32 + 0.22]]
+- [[Ridge Regression]]
 - [[Interpretability and Minimizing Information Loss]]
 - [[Discovering Linear Combinations of Varying Sequences]]
-- [[Dimensionality Reduction and Machine Learning Method]]
-- [[Introduction to Machine Learning]]
-- [[Machine Learning]]
+- [[λ]]
 - [[Locating Important Characteristics]]
-- [[Principal Component Analysis]]
+- [[λ = 1]]
+- [[Loss]]
 - [[PCA Why Do We Need PCA in Machine Learning?]]
 - [[Overfitting Issues]]
-- [[apples]]
+- [[The slope of the curve = 0.7]]
+- [[The slope of the curve= 1.4]]
+- [[Lasso Regression]]

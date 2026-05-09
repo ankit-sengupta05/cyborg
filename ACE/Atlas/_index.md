@@ -95,3 +95,19 @@ Map of your permanent knowledge.
 - [[Linear Discriminant Analysis]] | Knowledge related to Linear Discriminant Analysis
 - [[PCA Vs LDA]] | Knowledge related to PCA Vs LDA
 - [[Linear Discriminant Analysis (LDA) (Chunk 0)]] | Knowledge related to Linear Discriminant Analysis (LDA) (Chunk 0)
+- [[Supervised learning technique]] | Knowledge related to Supervised learning technique
+- [[tree-structured classifier]] | Knowledge related to tree-structured classifier
+- [[decision node]] | Knowledge related to decision node
+- [[leaf node]] | Knowledge related to leaf node
+- [[root node]] | Knowledge related to root node
+- [[Decision Trees (Chunk 0)]] | Knowledge related to Decision Trees (Chunk 0)
+- [[Probability]] | Knowledge related to Probability
+- [[Entropy]] | Knowledge related to Entropy
+- [[Information Gain Calculation for Outlook Cont’d]] | Knowledge related to Information Gain Calculation for Outlook Cont’d
+- [[Rain]] | Knowledge related to Rain
+- [[Tennis]] | Knowledge related to Tennis
+- [[Sunny]] | Knowledge related to Sunny
+- [[Overcast]] | Knowledge related to Overcast
+- [[Rainy]] | Knowledge related to Rainy
+- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]] | Knowledge related to Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6
+- [[Decision Trees (Chunk 1)]] | Knowledge related to Decision Trees (Chunk 1)
