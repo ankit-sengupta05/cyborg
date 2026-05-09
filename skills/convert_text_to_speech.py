@@ -1,25 +1,27 @@
-import pyttsx3
+import pyautogui
 
-def execute(text):
+def execute(**kwargs):
     """
-    Convert text to speech using pyttsx3.
+    Convert text to speech using a generic method.
 
     Parameters:
-        text (str): The text that needs to be converted into speech.
-    """
-    engine = pyttsx3.init()
-    voices = engine.getProperty('voices')
-    
-    if not voices:
-        raise ValueError("No available voice")
-    
-    engine.setProperty('voice', voices[0].id)  # Using the first available voice
-    
-    rate = engine.getProperty('rate')
-    engine.setProperty('rate', rate - 50)
-    
-    engine.say(text)
-    engine.runAndWait()
+    - kwargs: A dictionary containing parameters for the conversion process.
+              The keys are 'text' (str) and 'language_code' (str).
+              Additional parameters can be added as needed.
 
-# Example usage: convert text to speech
-execute("Hello, this is a test of converting text to speech.")
+    Returns:
+    - str: The converted speech message.
+    """
+    text = kwargs.get('text')
+    language_code = kwargs.get('language_code')
+
+    if not text or not language_code:
+        return "Error: Missing required parameters."
+
+    # Convert the text to speech
+    pyautogui.speak(text, language_code)
+
+    return f"Speech for '{text}' in {language_code} has been generated."  # Placeholder response
+
+# Example usage (replace with actual contact and message)
+execute(contact="John Doe", message="Hello John!")
