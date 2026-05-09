@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:13.302836'
-id: 5fa5e032
+created: '2026-05-09T17:36:28.638834'
+id: f1ac1208
 links: []
-modified: '2026-05-09T17:36:13.302836'
+modified: '2026-05-09T17:36:28.638834'
 project: ''
 source: ''
 status: active
@@ -25,119 +25,126 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Multivariate Regression"]
-    n1["Partial Least squares"]
-    n2["LDA"]
-    n3["Subset Selection Module No. 2"]
-    n4["Logistic Regression"]
-    n5["Subset Selection"]
-    n6["Subset Selection Module"]
-    n7["Shrinkage Methods"]
-    n8["Principal Component Regression"]
-    n9["Linear Regression"]
-    n10["Linear Classification"]
-    n11["Regression"]
-    n12["Linear Regression"]
-    n13["K-Nearest Neighbor learning"]
-    n9 -->|KEYWORD_LINK| n12
-    n11 -->|KEYWORD_LINK| n12
-    n11 -->|KEYWORD_LINK| n4
-    n11 -->|KEYWORD_LINK| n9
-    n9 -->|CONTAINS| n11
-    n9 -->|CONTAINS| n9
-    n11 -->|LINKED_TO| n9
-    n6 -->|KEYWORD_LINK| n5
-    n5 -->|CONTAINS| n6
-    n5 -->|CONTAINS| n9
-    n0 -->|KEYWORD_LINK| n11
-    n5 -->|CONTAINS| n0
-    n5 -->|CONTAINS| n7
-    n8 -->|KEYWORD_LINK| n11
-    n5 -->|CONTAINS| n8
-    n5 -->|CONTAINS| n1
-    n5 -->|CONTAINS| n10
-    n5 -->|CONTAINS| n4
-    n5 -->|CONTAINS| n2
-    n5 -->|CONTAINS| n13
-    n5 -->|CONTAINS| n5
-    n6 -->|CO_OCCUR| n9
-    n6 -->|CO_OCCUR| n0
-    n6 -->|CO_OCCUR| n7
-    n6 -->|CO_OCCUR| n8
-    n6 -->|CO_OCCUR| n1
-    n6 -->|CO_OCCUR| n10
-    n6 -->|CO_OCCUR| n4
-    n6 -->|CO_OCCUR| n2
-    n6 -->|CO_OCCUR| n13
-    n9 -->|CO_OCCUR| n0
-    n9 -->|CO_OCCUR| n7
-    n9 -->|CO_OCCUR| n8
-    n9 -->|CO_OCCUR| n1
-    n9 -->|CO_OCCUR| n10
-    n9 -->|CO_OCCUR| n4
-    n9 -->|CO_OCCUR| n2
-    n9 -->|CO_OCCUR| n13
-    n0 -->|CO_OCCUR| n7
-    n0 -->|CO_OCCUR| n8
-    n0 -->|CO_OCCUR| n1
-    n0 -->|CO_OCCUR| n10
-    n0 -->|CO_OCCUR| n4
-    n0 -->|CO_OCCUR| n2
-    n0 -->|CO_OCCUR| n13
-    n7 -->|CO_OCCUR| n8
-    n7 -->|CO_OCCUR| n1
-    n7 -->|CO_OCCUR| n10
-    n7 -->|CO_OCCUR| n4
+    n0["function"]
+    n1["convex"]
+    n2["Neural Networks"]
+    n3["Cost Function"]
+    n4["Batch Gradient Descent"]
+    n5["Convex Function"]
+    n6["Machine Learning Models"]
+    n7["Minimizing f(x)"]
+    n8["Optimization"]
+    n9["Error Function"]
+    n10["Gradient Descent"]
+    n11["Support Vector Machines"]
+    n12["Convex Optimization"]
+    n13["Linear Programming Problem"]
+    n14["Loss Function"]
+    n15["Maximizing f(x)"]
+    n16["Objective Function"]
+    n17["Gradient-Based Optimization"]
+    n1 -->|KEYWORD_LINK| n12
+    n12 -->|CONTAINS| n1
+    n12 -->|CONTAINS| n0
+    n1 -->|CO_OCCUR| n0
+    n1 -->|SEMANTIC_SIMILAR| n0
+    n17 -->|CONTAINS| n17
+    n8 -->|KEYWORD_LINK| n12
+    n8 -->|KEYWORD_LINK| n17
+    n17 -->|CONTAINS| n8
+    n17 -->|CONTAINS| n7
+    n17 -->|CONTAINS| n15
+    n16 -->|KEYWORD_LINK| n0
+    n17 -->|CONTAINS| n16
+    n3 -->|KEYWORD_LINK| n0
+    n17 -->|CONTAINS| n3
+    n14 -->|KEYWORD_LINK| n0
+    n17 -->|CONTAINS| n14
+    n9 -->|KEYWORD_LINK| n0
+    n17 -->|CONTAINS| n9
+    n17 -->|CONTAINS| n12
+    n17 -->|CONTAINS| n13
+    n5 -->|KEYWORD_LINK| n1
+    n5 -->|KEYWORD_LINK| n0
+    n17 -->|CONTAINS| n5
+    n17 -->|CONTAINS| n6
+    n17 -->|CONTAINS| n2
+    n8 -->|CO_OCCUR| n7
+    n8 -->|CO_OCCUR| n15
+    n8 -->|CO_OCCUR| n16
+    n8 -->|CO_OCCUR| n3
+    n8 -->|CO_OCCUR| n14
+    n8 -->|CO_OCCUR| n9
+    n8 -->|CO_OCCUR| n13
+    n8 -->|CO_OCCUR| n5
+    n8 -->|CO_OCCUR| n6
+    n8 -->|CO_OCCUR| n2
+    n7 -->|CO_OCCUR| n15
+    n7 -->|CO_OCCUR| n16
+    n7 -->|CO_OCCUR| n3
+    n7 -->|CO_OCCUR| n14
+    n7 -->|CO_OCCUR| n9
+    n7 -->|CO_OCCUR| n12
+    n7 -->|CO_OCCUR| n13
+    n7 -->|CO_OCCUR| n5
+    n7 -->|CO_OCCUR| n6
     n7 -->|CO_OCCUR| n2
+    n15 -->|CO_OCCUR| n16
+    n15 -->|CO_OCCUR| n3
+    n15 -->|CO_OCCUR| n14
+    n15 -->|CO_OCCUR| n9
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Subset Selection]]
-  - *( contains )*
-  - [[Linear Regression]]
+- [[Cost Function]]
+  - *( co_occur )*
+  - [[Convex Optimization]]
     - *( co_occur )*
-    - [[Logistic Regression]]
+    - [[Convex Function]]
       - *( co_occur )*
-      - [[LDA]]
+      - [[Machine Learning Models]]
         - *( co_occur )*
       - *( co_occur )*
-      - [[K-Nearest Neighbor learning]]
+      - [[Neural Networks]]
+      - *( keyword_link )*
+      - [[function]]
+      - *( keyword_link )*
+      - [[convex]]
     - *( co_occur )*
-    - [[Multivariate Regression]]
+    - [[Linear Programming Problem]]
+  - *( linked_to )*
+  - [[Gradient-Based Optimization]]
+    - *( contains )*
+    - [[Loss Function]]
       - *( co_occur )*
-      - [[Principal Component Regression]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Shrinkage Methods]]
-        - *( co_occur )*
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Partial Least squares]]
-        - *( co_occur )*
-      - *( co_occur )*
-      - [[Linear Classification]]
-- [[Subset Selection Module No. 2]]
+      - [[Error Function]]
+- [[Batch Gradient Descent]]
   - *( keyword_link )*
-  - [[Subset Selection Module]]
-- [[Regression]]
-  - *( keyword_link )*
-  - [[Linear Regression]]
+  - [[Gradient Descent]]
+- [[Minimizing f(x)]]
+- [[Optimization]]
+- [[Support Vector Machines]]
+- [[Maximizing f(x)]]
+- [[Objective Function]]
 
 ## 📋 All Core Concepts
-- [[Multivariate Regression]]
-- [[Partial Least squares]]
-- [[LDA]]
-- [[Subset Selection Module No. 2]]
-- [[Logistic Regression]]
-- [[Subset Selection]]
-- [[Subset Selection Module]]
-- [[Shrinkage Methods]]
-- [[Principal Component Regression]]
-- [[Linear Regression]]
-- [[Linear Classification]]
-- [[Regression]]
-- [[Linear Regression]]
-- [[K-Nearest Neighbor learning]]
+- [[function]]
+- [[convex]]
+- [[Neural Networks]]
+- [[Cost Function]]
+- [[Batch Gradient Descent]]
+- [[Convex Function]]
+- [[Machine Learning Models]]
+- [[Minimizing f(x)]]
+- [[Optimization]]
+- [[Error Function]]
+- [[Gradient Descent]]
+- [[Support Vector Machines]]
+- [[Convex Optimization]]
+- [[Linear Programming Problem]]
+- [[Loss Function]]
+- [[Maximizing f(x)]]
+- [[Objective Function]]
+- [[Gradient-Based Optimization]]

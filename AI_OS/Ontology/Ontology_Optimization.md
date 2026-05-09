@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:36:13.292737'
-id: fd8287b0
+created: '2026-05-09T17:36:28.629409'
+id: b3307278
 links: []
-modified: '2026-05-09T17:36:13.292737'
+modified: '2026-05-09T17:36:28.629409'
 project: ''
 source: ''
 status: active
@@ -25,18 +25,18 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Batch Gradient Descent"]
-    n1["Gradient Descent"]
-    n0 -->|KEYWORD_LINK| n1
-    n0 -->|LINKED_TO| n1
+    n0["Exploring and Visualizing Data"]
+    n1["PCA Example"]
+    n1 -->|LINKED_TO| n0
 ```
 
 ## 🌳 Sequential Topic Tree
 > Shows how topics are hierarchically and sequentially related
 
-- [[Gradient Descent]]
-- [[Batch Gradient Descent]]
+- [[PCA Example]]
+  - *( linked_to )*
+  - [[Exploring and Visualizing Data]]
 
 ## 📋 All Core Concepts
-- [[Batch Gradient Descent]]
-- [[Gradient Descent]]
+- [[Exploring and Visualizing Data]]
+- [[PCA Example]]
