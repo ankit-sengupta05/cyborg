@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:50:28.796432'
-id: e4c1709a
+created: '2026-05-09T23:56:54.397228'
+id: 7fd9232b
 links: []
-modified: '2026-05-09T23:50:28.796432'
+modified: '2026-05-09T23:56:54.397228'
 project: ''
 source: ''
 status: active
@@ -26,74 +26,74 @@ type: ontology_map
 ```mermaid
 graph TD
     n0["Batch Gradient Descent"]
-    n1["Cost function = 0 + 1 x (1.4)2"]
-    n2["Minimizing f(x)"]
-    n3["Maximizing f(x)"]
-    n4["Neural Networks"]
-    n5["function"]
-    n6["Objective Function"]
-    n7["Convex Optimization"]
-    n8["Loss Function"]
-    n9["Convex Function"]
-    n10["Error Function"]
-    n11["Machine Learning Models"]
-    n12["Linear Programming Problem"]
-    n13["Gradient Descent"]
-    n14["Gradient-Based Optimization"]
-    n15["convex"]
-    n16["Optimization"]
-    n17["Cost Function"]
-    n18["Support Vector Machines"]
-    n15 -->|KEYWORD_LINK| n7
-    n7 -->|CONTAINS| n15
-    n7 -->|CONTAINS| n5
-    n15 -->|CO_OCCUR| n5
-    n15 -->|SEMANTIC_SIMILAR| n5
-    n14 -->|CONTAINS| n14
-    n16 -->|KEYWORD_LINK| n7
-    n16 -->|KEYWORD_LINK| n14
-    n14 -->|CONTAINS| n16
-    n14 -->|CONTAINS| n2
-    n14 -->|CONTAINS| n3
-    n6 -->|KEYWORD_LINK| n5
-    n14 -->|CONTAINS| n6
-    n17 -->|KEYWORD_LINK| n5
-    n14 -->|CONTAINS| n17
-    n8 -->|KEYWORD_LINK| n5
-    n14 -->|CONTAINS| n8
-    n10 -->|KEYWORD_LINK| n5
-    n14 -->|CONTAINS| n10
-    n14 -->|CONTAINS| n7
-    n14 -->|CONTAINS| n12
-    n9 -->|KEYWORD_LINK| n15
-    n9 -->|KEYWORD_LINK| n5
-    n14 -->|CONTAINS| n9
-    n14 -->|CONTAINS| n11
-    n14 -->|CONTAINS| n4
-    n16 -->|CO_OCCUR| n2
-    n16 -->|CO_OCCUR| n3
-    n16 -->|CO_OCCUR| n6
-    n16 -->|CO_OCCUR| n17
-    n16 -->|CO_OCCUR| n8
-    n16 -->|CO_OCCUR| n10
-    n16 -->|CO_OCCUR| n12
-    n16 -->|CO_OCCUR| n9
-    n16 -->|CO_OCCUR| n11
-    n16 -->|CO_OCCUR| n4
-    n2 -->|CO_OCCUR| n3
-    n2 -->|CO_OCCUR| n6
-    n2 -->|CO_OCCUR| n17
-    n2 -->|CO_OCCUR| n8
-    n2 -->|CO_OCCUR| n10
-    n2 -->|CO_OCCUR| n7
-    n2 -->|CO_OCCUR| n12
-    n2 -->|CO_OCCUR| n9
-    n2 -->|CO_OCCUR| n11
-    n2 -->|CO_OCCUR| n4
-    n3 -->|CO_OCCUR| n6
-    n3 -->|CO_OCCUR| n17
-    n3 -->|CO_OCCUR| n8
-    n3 -->|CO_OCCUR| n10
+    n1["Objective Function"]
+    n2["Loss Function"]
+    n3["Cost Function"]
+    n4["Linear Programming Problem"]
+    n5["Maximizing f(x)"]
+    n6["Convex Function"]
+    n7["Machine Learning Models"]
+    n8["Error Function"]
+    n9["Minimizing f(x)"]
+    n10["Neural Networks"]
+    n11["Optimization"]
+    n12["Cost function = 0 + 1 x (1.4)2"]
+    n13["convex"]
+    n14["Gradient Descent"]
+    n15["Support Vector Machines"]
+    n16["function"]
+    n17["Gradient-Based Optimization"]
+    n18["Convex Optimization"]
+    n13 -->|KEYWORD_LINK| n18
+    n18 -->|CONTAINS| n13
+    n18 -->|CONTAINS| n16
+    n13 -->|CO_OCCUR| n16
+    n13 -->|SEMANTIC_SIMILAR| n16
+    n17 -->|CONTAINS| n17
+    n11 -->|KEYWORD_LINK| n18
+    n11 -->|KEYWORD_LINK| n17
+    n17 -->|CONTAINS| n11
+    n17 -->|CONTAINS| n9
+    n17 -->|CONTAINS| n5
+    n1 -->|KEYWORD_LINK| n16
+    n17 -->|CONTAINS| n1
+    n3 -->|KEYWORD_LINK| n16
+    n17 -->|CONTAINS| n3
+    n2 -->|KEYWORD_LINK| n16
+    n17 -->|CONTAINS| n2
+    n8 -->|KEYWORD_LINK| n16
+    n17 -->|CONTAINS| n8
+    n17 -->|CONTAINS| n18
+    n17 -->|CONTAINS| n4
+    n6 -->|KEYWORD_LINK| n13
+    n6 -->|KEYWORD_LINK| n16
+    n17 -->|CONTAINS| n6
+    n17 -->|CONTAINS| n7
+    n17 -->|CONTAINS| n10
+    n11 -->|CO_OCCUR| n9
+    n11 -->|CO_OCCUR| n5
+    n11 -->|CO_OCCUR| n1
+    n11 -->|CO_OCCUR| n3
+    n11 -->|CO_OCCUR| n2
+    n11 -->|CO_OCCUR| n8
+    n11 -->|CO_OCCUR| n4
+    n11 -->|CO_OCCUR| n6
+    n11 -->|CO_OCCUR| n7
+    n11 -->|CO_OCCUR| n10
+    n9 -->|CO_OCCUR| n5
+    n9 -->|CO_OCCUR| n1
+    n9 -->|CO_OCCUR| n3
+    n9 -->|CO_OCCUR| n2
+    n9 -->|CO_OCCUR| n8
+    n9 -->|CO_OCCUR| n18
+    n9 -->|CO_OCCUR| n4
+    n9 -->|CO_OCCUR| n6
+    n9 -->|CO_OCCUR| n7
+    n9 -->|CO_OCCUR| n10
+    n5 -->|CO_OCCUR| n1
+    n5 -->|CO_OCCUR| n3
+    n5 -->|CO_OCCUR| n2
+    n5 -->|CO_OCCUR| n8
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -124,30 +124,30 @@ graph TD
 - [[Batch Gradient Descent]]
   - *( keyword_link )*
   - [[Gradient Descent]]
-- [[Cost function = 0 + 1 x (1.4)2]]
-- [[Minimizing f(x)]]
-- [[Maximizing f(x)]]
 - [[Objective Function]]
+- [[Maximizing f(x)]]
+- [[Minimizing f(x)]]
 - [[Optimization]]
+- [[Cost function = 0 + 1 x (1.4)2]]
 - [[Support Vector Machines]]
 
 ## 📋 All Core Concepts
 - [[Batch Gradient Descent]]
-- [[Cost function = 0 + 1 x (1.4)2]]
-- [[Minimizing f(x)]]
-- [[Maximizing f(x)]]
-- [[Neural Networks]]
-- [[function]]
 - [[Objective Function]]
-- [[Convex Optimization]]
 - [[Loss Function]]
-- [[Convex Function]]
-- [[Error Function]]
-- [[Machine Learning Models]]
-- [[Linear Programming Problem]]
-- [[Gradient Descent]]
-- [[Gradient-Based Optimization]]
-- [[convex]]
-- [[Optimization]]
 - [[Cost Function]]
+- [[Linear Programming Problem]]
+- [[Maximizing f(x)]]
+- [[Convex Function]]
+- [[Machine Learning Models]]
+- [[Error Function]]
+- [[Minimizing f(x)]]
+- [[Neural Networks]]
+- [[Optimization]]
+- [[Cost function = 0 + 1 x (1.4)2]]
+- [[convex]]
+- [[Gradient Descent]]
 - [[Support Vector Machines]]
+- [[function]]
+- [[Gradient-Based Optimization]]
+- [[Convex Optimization]]
