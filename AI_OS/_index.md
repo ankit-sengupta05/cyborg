@@ -1720,3 +1720,7 @@ The operating layer of your vault.
 - [[skills\skills.md]] | Knowledge related to skills (type: note)
 - [[AI_OS\Ontology\Ontology_Tree-based_Models.md]] | Knowledge related to Ontology_Tree-based_Models (type: ontology_map)
 - [[AI_OS\Ontology\Ontology_Clustering.md]] | Knowledge related to Ontology_Clustering (type: ontology_map)
+- [[ACE\Atlas\Machine Learning.md]] | Knowledge related to Machine Learning (type: note)
+- [[ACE\Atlas\apples.md]] | Knowledge related to apples (type: note)
+- [[ACE\Atlas\shopping for apples.md]] | Knowledge related to shopping for apples (type: note)
+- [[ACE\Atlas\Introduction to Machine Learning (Chunk 0).md]] | Knowledge related to Introduction to Machine Learning (Chunk 0) (type: knowledge_chunk)

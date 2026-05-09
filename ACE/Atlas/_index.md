@@ -17,3 +17,10 @@ type: map
 ---
 
 Map of your permanent knowledge.
+
+## Recent Knowledge
+
+- [[Machine Learning]] | Knowledge related to Machine Learning
+- [[apples]] | Knowledge related to apples
+- [[shopping for apples]] | Knowledge related to shopping for apples
+- [[Introduction to Machine Learning (Chunk 0)]] | Knowledge related to Introduction to Machine Learning (Chunk 0)
