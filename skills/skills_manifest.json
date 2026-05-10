@@ -12,6 +12,19 @@
       "created_at": "2026-05-11T04:44:41.724551",
       "last_used": null,
       "use_count": 0
+    },
+    {
+      "name": "record_audio",
+      "description": "Skill from record_audio.py",
+      "usage": "record_audio()",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\record_audio.py",
+      "parameters": [],
+      "category": "general",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-11T05:08:54.341867",
+      "last_used": null,
+      "use_count": 0
     }
   ]
 }

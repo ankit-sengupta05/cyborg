@@ -15,3 +15,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ record_audio 🤖
+
+**Description:** Skill from record_audio.py
+
+**Usage:** `record_audio()`
+
+**Used:** 0 times
+
