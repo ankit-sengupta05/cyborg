@@ -1,32 +1,21 @@
-import logging
+import pyttsx3
 
-# Set up basic configuration for logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-
-def convert_text_to_speech(text):
+def execute(text, **kwargs):
     """
-    Convert text to speech using a generic method.
+    Convert text to speech using pyttsx3.
 
     Parameters:
-    -----------
-    text: str
-        The text that needs to be converted into speech.
+    - text (str): The text to be converted into speech.
+    - kwargs: Additional keyword arguments as needed for the task.
 
     Returns:
-    --------
     None
-
-    Example Usage:
-    ---------------
-    >>> convert_text_to_speech("Hello, world!")
     """
-    # Placeholder for actual conversion logic
-    logging.info(f"Converting text '{text}' to speech...")
-    print(f"Text: {text}")
+    engine = pyttsx3.init()
+    
+    if 'text' in kwargs and isinstance(kwargs['text'], str):
+        engine.say(text)
+        engine.runAndWait()
 
-# Example usage of the function
-if __name__ == "__main__":
-    try:
-        convert_text_to_speech("Hello, world!")
-    except Exception as e:
-        logging.error(f"An error occurred: {e}")
+# Example usage (can be replaced with actual task-specific implementation)
+execute("Hello, world!", contact="John Doe", message="This is a test message.")
