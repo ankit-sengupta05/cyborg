@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T17:37:30.335897'
-id: c2f2c3fd
+created: '2026-05-10T00:04:17.427259'
+id: a78b72c7
 links: []
-modified: '2026-05-09T17:37:30.335897'
+modified: '2026-05-10T00:04:17.427259'
 project: ''
 source: ''
 status: active
@@ -20,20 +20,20 @@ type: ontology_map
 
 # Ontology: Indexing System
 
-**Summary**: A system for organizing and accessing information through hierarchical indexing.
+**Summary**: A system for categorizing and organizing knowledge.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["AI OS Index"]
-    n1["Atlas Index"]
+    n0["Calendar Index"]
+    n1["AI OS Index"]
     n2["Efforts Index"]
     n3["Vault Map"]
-    n4["Calendar Index"]
-    n3 -->|DIRECTORY_MAP| n1
+    n4["Atlas Index"]
     n3 -->|DIRECTORY_MAP| n4
-    n3 -->|DIRECTORY_MAP| n2
     n3 -->|DIRECTORY_MAP| n0
+    n3 -->|DIRECTORY_MAP| n2
+    n3 -->|DIRECTORY_MAP| n1
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -50,8 +50,8 @@ graph TD
   - [[AI OS Index]]
 
 ## 📋 All Core Concepts
+- [[Calendar Index]]
 - [[AI OS Index]]
-- [[Atlas Index]]
 - [[Efforts Index]]
 - [[Vault Map]]
-- [[Calendar Index]]
+- [[Atlas Index]]

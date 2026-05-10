@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:56:54.439110'
-id: bb218ef9
+created: '2026-05-10T00:04:17.551899'
+id: 57318b59
 links: []
-modified: '2026-05-09T23:56:54.439110'
+modified: '2026-05-10T00:04:17.551899'
 project: ''
 source: ''
 status: active
@@ -20,86 +20,86 @@ type: ontology_map
 
 # Ontology: Decision Trees
 
-**Summary**: Classification algorithm for supervised learning, decision-making process based on probability and entropy.
+**Summary**: A classification algorithm that uses tree structures to make predictions based on input features.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Tennis"]
-    n1["Handling Missing Values in Decision Trees"]
-    n2["root node"]
-    n3["Loss Functions"]
-    n4["Decision Trees"]
-    n5["Instability"]
+    n0["tree-structured classifier"]
+    n1["Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)"]
+    n2["decision node"]
+    n3["Decision Trees"]
+    n4["Information Gain Calculation for Outlook Cont’d"]
+    n5["leaf node"]
     n6["Overcast"]
-    n7["Information Gain Calculation for Outlook Cont’d"]
-    n8["Supervised learning technique"]
-    n9["tree-structured classifier"]
-    n10["Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)"]
-    n11["Decision Trees"]
-    n12["leaf node"]
-    n13["'Insights into Decision Trees, Loss"]
-    n14["Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)"]
-    n15["Rainy"]
-    n16["Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0"]
-    n17["decision node"]
-    n18["Probability"]
-    n19["Entropy"]
-    n20["Entropy among the three branches"]
-    n21["Entropy when overcast = 0.0"]
-    n22["Rain"]
-    n23["Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6"]
-    n24["Sunny"]
-    n11 -->|CONTAINS| n11
-    n11 -->|CONTAINS| n8
-    n11 -->|CONTAINS| n9
-    n11 -->|CONTAINS| n17
-    n11 -->|CONTAINS| n12
-    n8 -->|CO_OCCUR| n9
-    n8 -->|CO_OCCUR| n17
-    n8 -->|CO_OCCUR| n12
-    n9 -->|CO_OCCUR| n17
-    n9 -->|CO_OCCUR| n12
-    n17 -->|CO_OCCUR| n12
-    n11 -->|LINKED_TO| n9
-    n17 -->|SEMANTIC_SIMILAR| n2
-    n11 -->|CONTAINS| n18
-    n11 -->|CONTAINS| n19
-    n11 -->|CONTAINS| n7
-    n11 -->|CONTAINS| n22
-    n11 -->|CONTAINS| n0
-    n11 -->|CONTAINS| n24
-    n11 -->|CONTAINS| n6
-    n15 -->|KEYWORD_LINK| n22
-    n11 -->|CONTAINS| n15
-    n18 -->|CO_OCCUR| n19
-    n18 -->|CO_OCCUR| n7
-    n18 -->|CO_OCCUR| n22
-    n18 -->|CO_OCCUR| n0
-    n18 -->|CO_OCCUR| n24
-    n18 -->|CO_OCCUR| n6
-    n18 -->|CO_OCCUR| n15
-    n19 -->|CO_OCCUR| n7
+    n7["root node"]
+    n8["Sunny"]
+    n9["Tennis"]
+    n10["Handling Missing Values in Decision Trees"]
+    n11["'Insights into Decision Trees, Loss"]
+    n12["Entropy when overcast = 0.0"]
+    n13["Entropy among the three branches"]
+    n14["Rainy"]
+    n15["Loss Functions"]
+    n16["Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6"]
+    n17["Instability"]
+    n18["Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0"]
+    n19["Probability"]
+    n20["Decision Trees"]
+    n21["Supervised learning technique"]
+    n22["Entropy"]
+    n23["Rain"]
+    n24["Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)"]
+    n3 -->|CONTAINS| n3
+    n3 -->|CONTAINS| n21
+    n3 -->|CONTAINS| n0
+    n3 -->|CONTAINS| n2
+    n3 -->|CONTAINS| n5
+    n21 -->|CO_OCCUR| n0
+    n21 -->|CO_OCCUR| n2
+    n21 -->|CO_OCCUR| n5
+    n0 -->|CO_OCCUR| n2
+    n0 -->|CO_OCCUR| n5
+    n2 -->|CO_OCCUR| n5
+    n3 -->|LINKED_TO| n0
+    n2 -->|SEMANTIC_SIMILAR| n7
+    n3 -->|CONTAINS| n19
+    n3 -->|CONTAINS| n22
+    n3 -->|CONTAINS| n4
+    n3 -->|CONTAINS| n23
+    n3 -->|CONTAINS| n9
+    n3 -->|CONTAINS| n8
+    n3 -->|CONTAINS| n6
+    n14 -->|KEYWORD_LINK| n23
+    n3 -->|CONTAINS| n14
     n19 -->|CO_OCCUR| n22
-    n19 -->|CO_OCCUR| n0
-    n19 -->|CO_OCCUR| n24
+    n19 -->|CO_OCCUR| n4
+    n19 -->|CO_OCCUR| n23
+    n19 -->|CO_OCCUR| n9
+    n19 -->|CO_OCCUR| n8
     n19 -->|CO_OCCUR| n6
-    n19 -->|CO_OCCUR| n15
-    n7 -->|CO_OCCUR| n22
-    n7 -->|CO_OCCUR| n0
-    n7 -->|CO_OCCUR| n24
-    n7 -->|CO_OCCUR| n6
-    n7 -->|CO_OCCUR| n15
-    n22 -->|CO_OCCUR| n0
-    n22 -->|CO_OCCUR| n24
+    n19 -->|CO_OCCUR| n14
+    n22 -->|CO_OCCUR| n4
+    n22 -->|CO_OCCUR| n23
+    n22 -->|CO_OCCUR| n9
+    n22 -->|CO_OCCUR| n8
     n22 -->|CO_OCCUR| n6
-    n0 -->|CO_OCCUR| n24
-    n0 -->|CO_OCCUR| n6
-    n0 -->|CO_OCCUR| n15
-    n24 -->|CO_OCCUR| n6
-    n24 -->|CO_OCCUR| n15
-    n6 -->|CO_OCCUR| n15
-    n23 -->|KEYWORD_LINK| n18
+    n22 -->|CO_OCCUR| n14
+    n4 -->|CO_OCCUR| n23
+    n4 -->|CO_OCCUR| n9
+    n4 -->|CO_OCCUR| n8
+    n4 -->|CO_OCCUR| n6
+    n4 -->|CO_OCCUR| n14
+    n23 -->|CO_OCCUR| n9
+    n23 -->|CO_OCCUR| n8
+    n23 -->|CO_OCCUR| n6
+    n9 -->|CO_OCCUR| n8
+    n9 -->|CO_OCCUR| n6
+    n9 -->|CO_OCCUR| n14
+    n8 -->|CO_OCCUR| n6
+    n8 -->|CO_OCCUR| n14
+    n6 -->|CO_OCCUR| n14
+    n16 -->|KEYWORD_LINK| n19
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -126,52 +126,52 @@ graph TD
     - [[Information Gain Calculation for Outlook Cont’d]]
   - *( contains )*
   - [[Probability]]
+- [[tree-structured classifier]]
+  - *( co_occur )*
+  - [[decision node]]
+    - *( co_occur )*
+    - [[leaf node]]
+    - *( semantic_similar )*
+    - [[root node]]
+- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
 - [[Handling Missing Values in Decision Trees]]
   - *( keyword_link )*
   - [[Decision Trees]]
   - *( co_occur )*
   - [[Instability]]
-- [[root node]]
-- [[Loss Functions]]
-- [[Supervised learning technique]]
-  - *( co_occur )*
-  - [[decision node]]
-    - *( co_occur )*
-    - [[leaf node]]
-  - *( co_occur )*
-  - [[tree-structured classifier]]
-- [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
 - [["Insights into Decision Trees, Loss]]
-- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
-- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
-  - *( linked_to )*
-  - [[Entropy when overcast = 0.0]]
+  - *( contains )*
+  - [[Loss Functions]]
+- [[Entropy when overcast = 0.0]]
 - [[Entropy among the three branches]]
 - [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
+- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
+- [[Supervised learning technique]]
+- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
 
 ## 📋 All Core Concepts
-- [[Tennis]]
-- [[Handling Missing Values in Decision Trees]]
-- [[root node]]
-- [[Loss Functions]]
-- [[Decision Trees]]
-- [[Instability]]
-- [[Overcast]]
-- [[Information Gain Calculation for Outlook Cont’d]]
-- [[Supervised learning technique]]
 - [[tree-structured classifier]]
 - [[Probability of not playing tennis = 2/5 = 0.4 Probability of playing tennis = 3/5 = 0.6 Entropy when rainy = -0.6 * log2(0.6) – 0.4 * log2(0.4)]]
-- [[Decision Trees]]
-- [[leaf node]]
-- [["Insights into Decision Trees, Loss]]
-- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]
-- [[Rainy]]
-- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
 - [[decision node]]
-- [[Probability]]
-- [[Entropy]]
-- [[Entropy among the three branches]]
-- [[Entropy when overcast = 0.0]]
-- [[Rain]]
-- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
+- [[Decision Trees]]
+- [[Information Gain Calculation for Outlook Cont’d]]
+- [[leaf node]]
+- [[Overcast]]
+- [[root node]]
 - [[Sunny]]
+- [[Tennis]]
+- [[Handling Missing Values in Decision Trees]]
+- [["Insights into Decision Trees, Loss]]
+- [[Entropy when overcast = 0.0]]
+- [[Entropy among the three branches]]
+- [[Rainy]]
+- [[Loss Functions]]
+- [[Probability of playing tennis = 2/5 = 0.4 Probability of not playing tennis = 3/5 = 0.6]]
+- [[Instability]]
+- [[Probability of playing tennis = 4/4 = 1 Probability of not playing tennis = 0/4 = 0]]
+- [[Probability]]
+- [[Decision Trees]]
+- [[Supervised learning technique]]
+- [[Entropy]]
+- [[Rain]]
+- [[Entropy when sunny = -0.4 * log2(0.4) – 0.6 * log2(0.6)]]

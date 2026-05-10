@@ -43,3 +43,6 @@ Auto-generated index for Ontology
 - [[Ontology_Model_Evaluation_and_Feature_Selection]] | Knowledge related to Ontology_Model_Evaluation_and_Feature_Selection
 - [[Ontology_Clustering_Techniques]] | Knowledge related to Ontology_Clustering_Techniques
 - [[Ontology_Bayesian_Classifier]] | Knowledge related to Ontology_Bayesian_Classifier
+- [[Ontology_Statistical_Analysis]] | Knowledge related to Ontology_Statistical_Analysis
+- [[Ontology_Unsupervised_Learning]] | Knowledge related to Ontology_Unsupervised_Learning
+- [[Ontology_Model_Comparison]] | Knowledge related to Ontology_Model_Comparison

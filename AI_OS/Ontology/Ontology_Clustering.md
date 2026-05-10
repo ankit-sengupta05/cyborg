@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-09T23:56:54.490564'
-id: 1cc1ff6e
+created: '2026-05-10T00:04:17.616550'
+id: 3a1bd20c
 links: []
-modified: '2026-05-09T23:56:54.490564'
+modified: '2026-05-10T00:04:17.616550'
 project: ''
 source: ''
 status: active
@@ -20,80 +20,80 @@ type: ontology_map
 
 # Ontology: Clustering
 
-**Summary**: A method for grouping similar objects into clusters.
+**Summary**: An algorithm for grouping similar objects into clusters.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Introduction"]
-    n1["A2"]
-    n2["A8"]
-    n3["Euclidean distance"]
-    n4["C3"]
-    n5["A4"]
-    n6["distance matrix"]
-    n7["seed"]
-    n8["A5"]
-    n9["k-means algorithm"]
-    n10["A1"]
-    n11["The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n."]
-    n12["C1"]
-    n13["A6"]
-    n14["Tutorial exercises"]
-    n15["A7"]
-    n16["K-MEANS"]
-    n17["A3"]
-    n18["What is clustering?"]
-    n16 -->|CONTAINS| n0
-    n0 -->|SEMANTIC_SIMILAR| n18
-    n11 -->|KEYWORD_LINK| n16
-    n14 -->|CONTAINS| n16
-    n14 -->|CONTAINS| n3
-    n14 -->|CONTAINS| n6
-    n14 -->|CONTAINS| n7
-    n16 -->|CO_OCCUR| n3
-    n16 -->|CO_OCCUR| n6
-    n16 -->|CO_OCCUR| n7
-    n3 -->|CO_OCCUR| n6
+    n0["A3"]
+    n1["distance matrix"]
+    n2["A4"]
+    n3["K-MEANS"]
+    n4["What is clustering?"]
+    n5["A2"]
+    n6["C1"]
+    n7["Euclidean distance"]
+    n8["A8"]
+    n9["A5"]
+    n10["A6"]
+    n11["Introduction"]
+    n12["Tutorial exercises"]
+    n13["seed"]
+    n14["A7"]
+    n15["A1"]
+    n16["k-means algorithm"]
+    n17["C3"]
+    n18["The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n."]
+    n3 -->|CONTAINS| n11
+    n11 -->|SEMANTIC_SIMILAR| n4
+    n18 -->|KEYWORD_LINK| n3
+    n12 -->|CONTAINS| n3
+    n12 -->|CONTAINS| n7
+    n12 -->|CONTAINS| n1
+    n12 -->|CONTAINS| n13
     n3 -->|CO_OCCUR| n7
-    n6 -->|CO_OCCUR| n7
-    n9 -->|KEYWORD_LINK| n16
-    n9 -->|KEYWORD_LINK| n11
-    n7 -->|REFERENCED_BY| n9
-    n14 -->|CONTAINS| n10
-    n14 -->|CONTAINS| n1
-    n14 -->|CONTAINS| n17
-    n14 -->|CONTAINS| n5
-    n14 -->|CONTAINS| n8
-    n14 -->|CONTAINS| n13
-    n14 -->|CONTAINS| n15
-    n14 -->|CONTAINS| n2
-    n10 -->|CO_OCCUR| n1
-    n10 -->|CO_OCCUR| n17
-    n10 -->|CO_OCCUR| n5
-    n10 -->|CO_OCCUR| n8
-    n10 -->|CO_OCCUR| n13
-    n10 -->|CO_OCCUR| n15
-    n10 -->|CO_OCCUR| n2
-    n1 -->|CO_OCCUR| n17
-    n1 -->|CO_OCCUR| n5
-    n1 -->|CO_OCCUR| n8
+    n3 -->|CO_OCCUR| n1
+    n3 -->|CO_OCCUR| n13
+    n7 -->|CO_OCCUR| n1
+    n7 -->|CO_OCCUR| n13
     n1 -->|CO_OCCUR| n13
-    n1 -->|CO_OCCUR| n15
-    n1 -->|CO_OCCUR| n2
-    n17 -->|CO_OCCUR| n5
-    n17 -->|CO_OCCUR| n8
-    n17 -->|CO_OCCUR| n13
-    n17 -->|CO_OCCUR| n15
-    n17 -->|CO_OCCUR| n2
-    n5 -->|CO_OCCUR| n8
-    n5 -->|CO_OCCUR| n13
-    n5 -->|CO_OCCUR| n15
+    n16 -->|KEYWORD_LINK| n3
+    n16 -->|KEYWORD_LINK| n18
+    n13 -->|REFERENCED_BY| n16
+    n12 -->|CONTAINS| n15
+    n12 -->|CONTAINS| n5
+    n12 -->|CONTAINS| n0
+    n12 -->|CONTAINS| n2
+    n12 -->|CONTAINS| n9
+    n12 -->|CONTAINS| n10
+    n12 -->|CONTAINS| n14
+    n12 -->|CONTAINS| n8
+    n15 -->|CO_OCCUR| n5
+    n15 -->|CO_OCCUR| n0
+    n15 -->|CO_OCCUR| n2
+    n15 -->|CO_OCCUR| n9
+    n15 -->|CO_OCCUR| n10
+    n15 -->|CO_OCCUR| n14
+    n15 -->|CO_OCCUR| n8
+    n5 -->|CO_OCCUR| n0
     n5 -->|CO_OCCUR| n2
-    n8 -->|CO_OCCUR| n13
-    n8 -->|CO_OCCUR| n15
-    n8 -->|CO_OCCUR| n2
-    n13 -->|CO_OCCUR| n15
+    n5 -->|CO_OCCUR| n9
+    n5 -->|CO_OCCUR| n10
+    n5 -->|CO_OCCUR| n14
+    n5 -->|CO_OCCUR| n8
+    n0 -->|CO_OCCUR| n2
+    n0 -->|CO_OCCUR| n9
+    n0 -->|CO_OCCUR| n10
+    n0 -->|CO_OCCUR| n14
+    n0 -->|CO_OCCUR| n8
+    n2 -->|CO_OCCUR| n9
+    n2 -->|CO_OCCUR| n10
+    n2 -->|CO_OCCUR| n14
+    n2 -->|CO_OCCUR| n8
+    n9 -->|CO_OCCUR| n10
+    n9 -->|CO_OCCUR| n14
+    n9 -->|CO_OCCUR| n8
+    n10 -->|CO_OCCUR| n14
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -142,30 +142,30 @@ graph TD
       - *( co_occur )*
       - [[A7]]
         - *( co_occur )*
+- [[C1]]
 - [[A8]]
-- [[C3]]
 - [[k-means algorithm]]
   - *( keyword_link )*
   - [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]]
-- [[C1]]
+- [[C3]]
 
 ## 📋 All Core Concepts
-- [[Introduction]]
-- [[A2]]
-- [[A8]]
-- [[Euclidean distance]]
-- [[C3]]
-- [[A4]]
-- [[distance matrix]]
-- [[seed]]
-- [[A5]]
-- [[k-means algorithm]]
-- [[A1]]
-- [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]]
-- [[C1]]
-- [[A6]]
-- [[Tutorial exercises]]
-- [[A7]]
-- [[K-MEANS]]
 - [[A3]]
+- [[distance matrix]]
+- [[A4]]
+- [[K-MEANS]]
 - [[What is clustering?]]
+- [[A2]]
+- [[C1]]
+- [[Euclidean distance]]
+- [[A8]]
+- [[A5]]
+- [[A6]]
+- [[Introduction]]
+- [[Tutorial exercises]]
+- [[seed]]
+- [[A7]]
+- [[A1]]
+- [[k-means algorithm]]
+- [[C3]]
+- [[The k-means algorithm is an algorithm to cluster n objects based on attributes into k patitions, where k < n.]]

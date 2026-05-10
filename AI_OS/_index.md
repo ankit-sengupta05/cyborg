@@ -1850,3 +1850,6 @@ The operating layer of your vault.
 - [[AI_OS\Ontology\Ontology_Model_Evaluation_and_Feature_Selection.md]] | Knowledge related to Ontology_Model_Evaluation_and_Feature_Selection (type: ontology_map)
 - [[AI_OS\Ontology\Ontology_Clustering_Techniques.md]] | Knowledge related to Ontology_Clustering_Techniques (type: ontology_map)
 - [[AI_OS\Ontology\Ontology_Bayesian_Classifier.md]] | Knowledge related to Ontology_Bayesian_Classifier (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Statistical_Analysis.md]] | Knowledge related to Ontology_Statistical_Analysis (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Unsupervised_Learning.md]] | Knowledge related to Ontology_Unsupervised_Learning (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Model_Comparison.md]] | Knowledge related to Ontology_Model_Comparison (type: ontology_map)
