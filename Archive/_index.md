@@ -117,3 +117,4 @@ History of your mind.
 - [[Chat_machine learning sylabus_399ed11a]] | Knowledge related to Chat_machine learning sylabus_399ed11a
 - [[Chat_my ml sylabus_4a7156a1]] | Knowledge related to Chat_my ml sylabus_4a7156a1
 - [[Chat_hi_4a7156a1]] | Knowledge related to Chat_hi_4a7156a1
+- [[Chat_hi_bbf972f6]] | Knowledge related to Chat_hi_bbf972f6
