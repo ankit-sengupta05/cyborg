@@ -52,9 +52,9 @@ Auto-generated skill registry. Updated dynamically.
 **Used:** 0 times
 
 
-### ✅ record_audio_for_duration
+### ✅ record_audio_for_duration 🤖
 
-**Description:** record audio for specified duration
+**Description:** record audio for specific duration with custom filename
 
 **Usage:** `record_audio_for_duration(**kwargs)`
 
