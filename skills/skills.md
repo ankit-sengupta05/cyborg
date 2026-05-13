@@ -46,6 +46,24 @@ Auto-generated skill registry. Updated dynamically.
 **Used:** 0 times
 
 
+### ✅ text_to_speech_with_custom_voice 🤖
+
+**Description:** convert text to speech with custom voice settings
+
+**Usage:** `text_to_speech_with_custom_voice(**kwargs)`
+
+**Used:** 0 times
+
+
+### ✅ convert_image_to_text 🤖
+
+**Description:** convert image to text using OCR
+
+**Usage:** `convert_image_to_text(**kwargs)`
+
+**Used:** 0 times
+
+
 
 ## General
 
