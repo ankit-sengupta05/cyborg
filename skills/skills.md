@@ -22,18 +22,6 @@ Auto-generated skill registry. Updated dynamically.
 
 **Usage:** `text_to_speech_custom_voice(**kwargs)`
 
-**Parameters:**
-
-- `text` (str)
-
-- `voice_id` (str)
-
-- `rate` (int)
-
-- `volume` (float)
-
-- `output_file` (str)
-
 **Used:** 0 times
 
 
@@ -60,6 +48,15 @@ Auto-generated skill registry. Updated dynamically.
 **Description:** convert image to text using OCR
 
 **Usage:** `convert_image_to_text(**kwargs)`
+
+**Used:** 0 times
+
+
+### ✅ record_audio_for_duration
+
+**Description:** record audio for specified duration
+
+**Usage:** `record_audio_for_duration(**kwargs)`
 
 **Used:** 0 times
 

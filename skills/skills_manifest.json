@@ -44,32 +44,11 @@
       "description": "convert text to speech with custom voice settings",
       "usage": "text_to_speech_custom_voice(**kwargs)",
       "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\text_to_speech_custom_voice.py",
-      "parameters": [
-        {
-          "name": "text",
-          "type": "str"
-        },
-        {
-          "name": "voice_id",
-          "type": "str"
-        },
-        {
-          "name": "rate",
-          "type": "int"
-        },
-        {
-          "name": "volume",
-          "type": "float"
-        },
-        {
-          "name": "output_file",
-          "type": "str"
-        }
-      ],
+      "parameters": [],
       "category": "automation",
       "auto_created": true,
       "is_active": true,
-      "created_at": "2026-05-14T01:45:51.831440",
+      "created_at": "2026-05-14T02:34:15.475244",
       "last_used": null,
       "use_count": 0
     },
@@ -109,6 +88,19 @@
       "auto_created": true,
       "is_active": true,
       "created_at": "2026-05-14T01:51:05.238052",
+      "last_used": null,
+      "use_count": 0
+    },
+    {
+      "name": "record_audio_for_duration",
+      "description": "record audio for specified duration",
+      "usage": "record_audio_for_duration(**kwargs)",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\record_audio_for_duration.py",
+      "parameters": [],
+      "category": "automation",
+      "auto_created": false,
+      "is_active": true,
+      "created_at": null,
       "last_used": null,
       "use_count": 0
     }
