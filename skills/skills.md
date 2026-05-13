@@ -16,6 +16,27 @@ Auto-generated skill registry. Updated dynamically.
 **Used:** 0 times
 
 
+### ✅ text_to_speech_custom_voice 🤖
+
+**Description:** convert text to speech with custom voice settings
+
+**Usage:** `text_to_speech_custom_voice(**kwargs)`
+
+**Parameters:**
+
+- `text` (str)
+
+- `voice_id` (str)
+
+- `rate` (int)
+
+- `volume` (float)
+
+- `output_file` (str)
+
+**Used:** 0 times
+
+
 
 ## General
 
