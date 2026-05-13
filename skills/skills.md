@@ -5,6 +5,18 @@ Auto-generated skill registry. Updated dynamically.
 ---
 
 
+## Automation
+
+### ✅ text_to_speech_converter 🤖
+
+**Description:** convert text to speech
+
+**Usage:** `text_to_speech_converter(**kwargs)`
+
+**Used:** 0 times
+
+
+
 ## General
 
 ### ✅ convert_text_to_speech 🤖

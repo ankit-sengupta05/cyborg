@@ -25,6 +25,19 @@
       "created_at": "2026-05-11T05:08:54.341867",
       "last_used": null,
       "use_count": 0
+    },
+    {
+      "name": "text_to_speech_converter",
+      "description": "convert text to speech",
+      "usage": "text_to_speech_converter(**kwargs)",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\text_to_speech_converter.py",
+      "parameters": [],
+      "category": "automation",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-14T01:14:35.377109",
+      "last_used": null,
+      "use_count": 0
     }
   ]
 }
