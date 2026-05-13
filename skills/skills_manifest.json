@@ -72,6 +72,19 @@
       "created_at": "2026-05-14T01:45:51.831440",
       "last_used": null,
       "use_count": 0
+    },
+    {
+      "name": "describe_image_content",
+      "description": "describe image content",
+      "usage": "describe_image_content(**kwargs)",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\describe_image_content.py",
+      "parameters": [],
+      "category": "automation",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-14T01:47:17.725507",
+      "last_used": null,
+      "use_count": 0
     }
   ]
 }

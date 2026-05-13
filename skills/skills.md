@@ -37,6 +37,15 @@ Auto-generated skill registry. Updated dynamically.
 **Used:** 0 times
 
 
+### ✅ describe_image_content 🤖
+
+**Description:** describe image content
+
+**Usage:** `describe_image_content(**kwargs)`
+
+**Used:** 0 times
+
+
 
 ## General
 
