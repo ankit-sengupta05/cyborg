@@ -61,6 +61,15 @@ Auto-generated skill registry. Updated dynamically.
 **Used:** 0 times
 
 
+### ✅ describe_image_content_detailed_analysis 🤖
+
+**Description:** describe image content with detailed analysis
+
+**Usage:** `describe_image_content_detailed_analysis(**kwargs)`
+
+**Used:** 0 times
+
+
 
 ## General
 
