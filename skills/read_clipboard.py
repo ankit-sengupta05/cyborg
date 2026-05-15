@@ -7,7 +7,13 @@ try:
     # in Python scripting environments, especially when pyautogui might be overkill or fail.
     import pyperclip
 except ImportError:
+    # Instead of exiting the entire script (sys.exit(1)), we should handle this gracefully 
+    # within the module structure if possible, but since it's a hard dependency check, 
+    # printing and allowing the execution flow to potentially catch it or fail cleanly is better.
+    # For a skill module context where setup might be separate, exiting here is acceptable for demonstration, 
+    # but we will adjust the error handling slightly to make the *module* runnable if possible.
     print("Pyperclip not found. Please install it using: pip install pyperclip")
+    # We keep sys.exit(1) here because without this dependency, the core functions cannot run.
     sys.exit(1)
 
 # --- Setup Logging ---
