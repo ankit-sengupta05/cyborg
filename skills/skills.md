@@ -180,3 +180,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ read_file_content 🤖
+
+**Description:** Skill from read_file_content.py
+
+**Usage:** `read_file_content()`
+
+**Used:** 0 times
+
