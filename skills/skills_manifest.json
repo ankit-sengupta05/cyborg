@@ -116,6 +116,19 @@
       "created_at": "2026-05-14T02:40:12.260425",
       "last_used": null,
       "use_count": 0
+    },
+    {
+      "name": "extract_text_from_image",
+      "description": "Skill from extract_text_from_image.py",
+      "usage": "extract_text_from_image()",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\extract_text_from_image.py",
+      "parameters": [],
+      "category": "general",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-15T23:58:52.905153",
+      "last_used": null,
+      "use_count": 0
     }
   ]
 }

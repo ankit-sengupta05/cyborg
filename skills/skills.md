@@ -90,3 +90,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ extract_text_from_image 🤖
+
+**Description:** Skill from extract_text_from_image.py
+
+**Usage:** `extract_text_from_image()`
+
+**Used:** 0 times
+
