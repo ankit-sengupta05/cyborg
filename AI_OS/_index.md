@@ -1858,3 +1858,5 @@ The operating layer of your vault.
 - [[Archive\Chat_hi_3001634e.md]] | Knowledge related to Chat_hi_3001634e (type: chat_log)
 - [[Archive\Chat_can you describe this image_9d291b7e.md]] | Knowledge related to Chat_can you describe this image_9d291b7e (type: chat_log)
 - [[Archive\Chat_hi_7371e93b.md]] | Knowledge related to Chat_hi_7371e93b (type: chat_log)
+- [[Archive\Chat_hi_c892a8d4.md]] | Knowledge related to Chat_hi_c892a8d4 (type: chat_log)
+- [[Archive\Chat_what does this image describe_30d5b8a1.md]] | Knowledge related to Chat_what does this image describe_30d5b8a1 (type: chat_log)
