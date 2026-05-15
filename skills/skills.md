@@ -99,3 +99,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ read_system_timeend_of_turn 🤖
+
+**Description:** Skill from read_system_timeend_of_turn.py
+
+**Usage:** `read_system_timeend_of_turn()`
+
+**Used:** 0 times
+
