@@ -171,3 +171,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ open_website 🤖
+
+**Description:** Skill from open_website.py
+
+**Usage:** `open_website()`
+
+**Used:** 0 times
+
