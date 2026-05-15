@@ -108,3 +108,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ compare_images 🤖
+
+**Description:** Skill from compare_images.py
+
+**Usage:** `compare_images()`
+
+**Used:** 0 times
+

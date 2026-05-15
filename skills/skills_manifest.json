@@ -142,6 +142,19 @@
       "created_at": "2026-05-16T01:45:27.403645",
       "last_used": null,
       "use_count": 0
+    },
+    {
+      "name": "compare_images",
+      "description": "Skill from compare_images.py",
+      "usage": "compare_images()",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\compare_images.py",
+      "parameters": [],
+      "category": "general",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-16T01:52:47.906152",
+      "last_used": null,
+      "use_count": 0
     }
   ]
 }

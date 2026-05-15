@@ -1,6 +1,6 @@
 import logging
 from typing import Dict, Any
-import pyautogui
+# Removed pyautogui as it was causing the ModuleNotFoundError and is not used in the core logic simulation.
 import time
 import os
 
@@ -43,12 +43,13 @@ def compare_two_images(image_path1: str, image_path2: str, method: str = "pixel"
             result = {
                 "status": "Success",
                 "comparison_method": method,
-                "similarity_score": round(similarity * threshold, 2), # Applying threshold as a multiplier for simulation
+                # Adjusted simulation: Use the calculated similarity directly as the score for simplicity in this context.
+                "similarity_score": round(min(1.0, similarity), 2), 
                 "details": f"Simulated pixel comparison based on file size difference. Score is relative."
             }
         elif method == "hash":
             logging.warning("Hash comparison (e.g., perceptual hashing) requires specialized libraries like imagehash or OpenCV. Simulating hash comparison.")
-            # Simulate a hash match probability
+            # Simulate a hash match probability using built-in hash function for reproducibility in simulation context
             similarity = 0.85 + (abs(hash(image_path1) % 100) - abs(hash(image_path2) % 100)) / 200.0
             result = {
                 "status": "Success",
@@ -60,9 +61,8 @@ def compare_two_images(image_path1: str, image_path2: str, method: str = "pixel"
             logging.error(f"Unsupported comparison method specified: {method}")
             return {"status": "Error", "message": f"Unsupported comparison method: {method}. Choose 'pixel' or 'hash'."}
 
-        # Final check against the provided threshold (if applicable)
-        final_score = result["similarity_score"] * (1.0 if final_score <= 1.0 else 0.5) # Simple adjustment logic
-        result["threshold_check"] = f"Required minimum: {threshold}. Actual score: {round(final_score, 2)}"
+        # Simplified final check against the provided threshold (The original logic was overly complex for a simulation)
+        result["threshold_check"] = f"Required minimum: {threshold}. Actual score: {round(result['similarity_score'], 2)}"
 
         return result
 
@@ -88,11 +88,21 @@ def execute(**kwargs) -> Dict[str, Any]:
     
     # Use provided kwargs directly for flexibility
     try:
+        # Safely retrieve and cast arguments
+        image_path1 = str(kwargs.get('image_path1')) if 'image_path1' in kwargs else None
+        image_path2 = str(kwargs.get('image_path2')) if 'image_path2' in kwargs else None
+        method = str(kwargs.get('method', 'pixel'))
+        threshold = float(kwargs.get('threshold', 0.8))
+
+        # Re-validate paths before calling the core function to catch missing required arguments early
+        if not image_path1 or not image_path2:
+             raise TypeError("Both 'image_path1' and 'image_path2' are required.")
+
         result = compare_two_images(
-            image_path1=kwargs.get('image_path1'),
-            image_path2=kwargs.get('image_path2'),
-            method=kwargs.get('method', 'pixel'),
-            threshold=float(kwargs.get('threshold', 0.8))
+            image_path1=image_path1,
+            image_path2=image_path2,
+            method=method,
+            threshold=threshold
         )
         return result
     except TypeError as e:
@@ -102,7 +112,7 @@ def execute(**kwargs) -> Dict[str, Any]:
         logging.error(f"Argument value error during execution: {e}")
         return {"status": "Error", "message": f"Invalid data type for numeric parameters (threshold)."}
 
-# --- Module Metadata/Docstring Placeholder (As required by prompt structure) ---
+# --- Module Metadata/Docstring Placeholder ---
 """
 Skill: compare_images
 Description: compare_two_images
