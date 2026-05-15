@@ -7,43 +7,55 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 def execute(**kwargs):
     """
     Main entry point for the get_current_system_date skill.
+
     Retrieves and returns the current system date in a standardized format.
 
-    This function is designed to be generic, accepting no specific parameters
-    but providing a reliable system time retrieval mechanism.
-
     Args:
-        **kwargs: Keyword arguments passed to the skill (unused for this simple read operation).
+        **kwargs: Accepts any keyword arguments, though none are strictly required 
+                  for this basic function. They allow for future expansion.
 
     Returns:
         str: A formatted string representing the current date, or an error message.
     """
     try:
-        # 1. Get the current system time using standard library
-        current_date = datetime.datetime.now()
-
-        # 2. Format the output to be standardized and readable (YYYY-MM-DD format)
-        formatted_date = current_date.strftime("%Y-%m-%d")
-
+        # Use datetime module for standard system time retrieval
+        now = datetime.datetime.now()
+        
+        # Format the date into a highly readable and standardized format (YYYY-MM-DD HH:MM:SS)
+        formatted_date = now.strftime("%Y-%m-%d %H:%M:%S")
+        
         logging.info(f"Successfully retrieved system date: {formatted_date}")
-        return f"The current system date is: {formatted_date}"
+        return f"The current system date and time is: {formatted_date}"
 
     except Exception as e:
-        # 3. Robust error handling
-        error_message = f"Error retrieving the system date: {e}"
+        # Comprehensive error handling
+        error_message = f"Failed to retrieve the system date due to an unexpected error: {e}"
         logging.error(error_message)
-        return f"Failed to get the system date. Please check system time services or try again. Details: {type(e).__name__}"
+        return error_message
 
-# --- Skill Metadata Placeholder (For documentation/discovery systems) ---
-# In a real framework, this would be registered automatically.
-SKILL_METADATA = {
-    "Skill": "get_system_date",
-    "Description": "Retrieves the current date from the operating system.",
-    "Category": "automation",
-    "Usage": "get_current_system_date(**kwargs)",
-    "Parameters": "" # No parameters needed for this specific task
-}
+# --- Skill Metadata and Documentation Block (As required by prompt structure) ---
+"""
+Skill: get_system_date
+Description: Retrieves the current system date and time from the operating system.
+Category: automation
+Usage: get_system_date(**kwargs)
+Parameters: 
+    None are required, but future expansion might include timezone specification (e.g., tz='America/Los_Angeles').
+"""
 
-# To make it self-contained and runnable, we'll structure the module around the execute function.
-# If pyautogui were required, imports and safety checks would be added here.
-# Since only standard library is used, no extra dependencies are needed beyond what was imported.
+# Note on Pyautogui: Since this task only requires standard OS time retrieval, 
+# pyautogui is not necessary and has been omitted to keep the module clean and dependency-minimal.
+# If GUI interaction were needed (e.g., reading a clock widget), it would be imported here.
+# Example structure if pyautogui was needed:
+# import pyautogui
+# import time
+# def execute_gui(**kwargs):
+#     try:
+#         time.sleep(1) # Safety delay
+#         screenshot = pyautogui.screenshot()
+#         return f"Screenshot taken successfully (GUI interaction simulated)."
+#     except Exception as e:
+#         logging.error(f"Pyautogui failed: {e}")
+#         return "Error during GUI capture."
+
+# The module is self-contained and relies only on standard libraries (datetime, logging).
