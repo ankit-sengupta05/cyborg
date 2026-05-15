@@ -176,9 +176,9 @@
       "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\read_clipboard.py",
       "parameters": [],
       "category": "general",
-      "auto_created": false,
+      "auto_created": true,
       "is_active": true,
-      "created_at": null,
+      "created_at": "2026-05-16T03:11:14.656054",
       "last_used": null,
       "use_count": 0
     },

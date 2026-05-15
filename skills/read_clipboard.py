@@ -1,88 +1,61 @@
 import logging
-import sys
-from typing import Any, Dict
+import platform
+from typing import Optional
 
 try:
-    # Using pyperclip as a more standard and often preferred library for clipboard access 
-    # in Python scripting environments, especially when pyautogui might be overkill or fail.
-    import pyperclip
+    import pyautogui
 except ImportError:
-    # Instead of exiting the entire script (sys.exit(1)), we should handle this gracefully 
-    # within the module structure if possible, but since it's a hard dependency check, 
-    # printing and allowing the execution flow to potentially catch it or fail cleanly is better.
-    # For a skill module context where setup might be separate, exiting here is acceptable for demonstration, 
-    # but we will adjust the error handling slightly to make the *module* runnable if possible.
-    print("Pyperclip not found. Please install it using: pip install pyperclip")
-    # We keep sys.exit(1) here because without this dependency, the core functions cannot run.
-    sys.exit(1)
+    pyautogui = None
 
 # --- Setup Logging ---
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-def read_system_clipboard() -> str:
-    """Reads the content of the system clipboard using pyperclip."""
-    try:
-        # pyperclip handles reading text from the clipboard reliably across platforms.
-        clipboard_content = pyperclip.paste()
-        logger.info("Successfully read content from the system clipboard.")
-        return clipboard_content
-    except pyperclip.PyperclipException as e:
-        logger.error(f"Failed to read system clipboard using pyperclip: {e}")
-        # Re-raise as a RuntimeError to maintain consistency with the original structure's error handling
-        raise RuntimeError(f"Could not access the clipboard via pyperclip. Ensure necessary permissions are granted or that a clipboard manager is running. Error: {e}")
-    except Exception as e:
-        logger.error(f"An unexpected error occurred while reading the system clipboard: {e}")
-        raise RuntimeError(f"Unexpected error accessing clipboard: {e}")
-
-def execute(**kwargs) -> Dict[str, Any]:
+def execute(**kwargs) -> str:
     """
-    Main entry point for the skill module. Reads and returns the system clipboard content.
+    Reads the content from the system clipboard.
 
-    This function is designed to be generic, accepting keyword arguments 
-    though it currently only uses its core functionality (reading the clipboard).
+    This function acts as the main entry point for the 'read_clipboard' skill.
+    It attempts to read text data available on the operating system's clipboard.
 
     Args:
-        **kwargs: Arbitrary keyword arguments passed to the skill execution environment.
+        **kwargs: Keyword arguments (unused in this specific implementation, 
+                   but kept for future scalability).
 
     Returns:
-        A dictionary containing the result of the operation.
+        str: The content read from the clipboard, or an error message if reading fails.
     """
-    logger.info("--- Starting read_system_clipboard Skill Execution ---")
+    logging.info("Attempting to read system clipboard content.")
+    
+    if pyautogui is None:
+        error_msg = "PyAutoGUI library is not installed. Please install it using 'pip install pyautogui'."
+        logging.error(error_msg)
+        return f"ERROR: {error_msg}"
+
     try:
-        # The core task is reading the clipboard, which requires no external parameters 
-        # beyond what's available in the system environment.
-        content = read_system_clipboard()
+        # PyAutoGUI's paste function reads the clipboard content implicitly when used with text operations, 
+        # but for direct reading, we rely on platform-specific mechanisms or a dedicated library if available.
+        # Since pyautogui is primarily GUI automation, accessing the raw clipboard might require 'pyperclip'.
+        # For maximum compatibility using only standard/common libraries: we will use pyperclip if possible, 
+        # otherwise, we simulate the read operation and warn the user.
 
-        result = {
-            "success": True,
-            "operation": "read_system_clipboard",
-            "data": content,
-            "message": f"Clipboard successfully read. Content length: {len(content)}"
-        }
-        return result
-    except RuntimeError as e:
-        logger.error(f"Skill execution failed due to clipboard error: {e}")
-        return {
-            "success": False,
-            "operation": "read_system_clipboard",
-            "error": str(e),
-            "message": "Failed to read the system clipboard."
-        }
+        try:
+            import pyperclip
+            clipboard_content = pyperclip.paste()
+            logging.info("Successfully retrieved content using pyperclip.")
+            return clipboard_content
+        except ImportError:
+            # Fallback if pyperclip is not installed (relying only on pyautogui, which is insufficient for pure reading)
+            logging.warning("Pyperclip library not found. Falling back to a placeholder/basic read attempt.")
+            
+            # A true cross-platform, non-GUI way to read the clipboard without external libs beyond standard ones 
+            # is complex (e.g., X11 on Linux). We must rely on pyperclip or similar wrappers for robustness.
+            # For this exercise, we'll use a placeholder message indicating dependency failure if pyperclip isn't available.
+            return "ERROR: Required library 'pyperclip' not found. Please install it ('pip install pyperclip') to read the clipboard reliably."
+
     except Exception as e:
-        logger.error(f"An unexpected error occurred during skill execution: {e}")
-        return {
-            "success": False,
-            "operation": "read_system_clipboard",
-            "error": str(e),
-            "message": "An unexpected error occurred."
-        }
+        logging.error(f"An unexpected error occurred while reading the clipboard: {e}")
+        return f"ERROR: Failed to read clipboard due to an internal system error: {str(e)}"
 
-# --- Module Metadata (Self-Contained Structure) ---
-"""
-Skill: read_clipboard
-Description: Reads the content of the system clipboard.
-Category: automation
-Usage: read_clipboard(**kwargs)
-Parameters: None required for basic operation.
-"""
+# --- Skill Module Structure (Self-Contained) ---
+# The execute function serves as the primary interface, fulfilling the requirement.
+# We keep the structure clean by making 'execute' the sole public entry point.

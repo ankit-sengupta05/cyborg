@@ -127,7 +127,7 @@ Auto-generated skill registry. Updated dynamically.
 **Used:** 0 times
 
 
-### ✅ read_clipboard
+### ✅ read_clipboard 🤖
 
 **Description:** Skill from read_clipboard.py
 
