@@ -124,3 +124,5 @@ History of your mind.
 - [[Chat_hi_7371e93b]] | Knowledge related to Chat_hi_7371e93b
 - [[Chat_hi_c892a8d4]] | Knowledge related to Chat_hi_c892a8d4
 - [[Chat_what does this image describe_30d5b8a1]] | Knowledge related to Chat_what does this image describe_30d5b8a1
+- [[Chat_hi_30d5b8a1]] | Knowledge related to Chat_hi_30d5b8a1
+- [[Chat_describe the image_13783260]] | Knowledge related to Chat_describe the image_13783260
