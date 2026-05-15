@@ -1,1 +1,0 @@
-⚠️ No LLM loaded and no server connected. Please load a model in the Models tab.
