@@ -117,3 +117,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ crop_image_by_coords 🤖
+
+**Description:** Skill from crop_image_by_coords.py
+
+**Usage:** `crop_image_by_coords()`
+
+**Used:** 0 times
+
