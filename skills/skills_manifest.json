@@ -220,6 +220,19 @@
       "created_at": "2026-05-16T03:11:59.589386",
       "last_used": null,
       "use_count": 0
+    },
+    {
+      "name": "get_cpu_usage",
+      "description": "Skill from get_cpu_usage.py",
+      "usage": "get_cpu_usage()",
+      "module_path": "C:\\Users\\ankit\\Projects\\Android\\CyborgAI-main\\assets\\backend\\brain\\skills\\get_cpu_usage.py",
+      "parameters": [],
+      "category": "general",
+      "auto_created": true,
+      "is_active": true,
+      "created_at": "2026-05-16T03:19:18.452595",
+      "last_used": null,
+      "use_count": 0
     }
   ]
 }

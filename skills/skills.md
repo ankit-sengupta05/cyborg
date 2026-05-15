@@ -162,3 +162,12 @@ Auto-generated skill registry. Updated dynamically.
 
 **Used:** 0 times
 
+
+### ✅ get_cpu_usage 🤖
+
+**Description:** Skill from get_cpu_usage.py
+
+**Usage:** `get_cpu_usage()`
+
+**Used:** 0 times
+
