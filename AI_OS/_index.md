@@ -1889,11 +1889,15 @@ The operating layer of your vault.
 - [[Archive\Chat_hiiii_d9c56533.md]] | Knowledge related to Chat_hiiii_d9c56533 (type: chat_log)
 - [[Archive\Chat_describe this image_d9c56533.md]] | Knowledge related to Chat_describe this image_d9c56533 (type: chat_log)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - [[Archive\Chat_take control of my chrome and _d42d4a64.md]] | Knowledge related to Chat_take control of my chrome and _d42d4a64 (type: chat_log)
 - [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
 - [[Archive\Chat_take control of chrome and sea_d42d4a64.md]] | Knowledge related to Chat_take control of chrome and sea_d42d4a64 (type: chat_log)
 - [[Archive\Chat_take control of chrome and sea_82606aaa.md]] | Knowledge related to Chat_take control of chrome and sea_82606aaa (type: chat_log)
 - [[Archive\Chat_take control of chrome and sea_7b67ba7c.md]] | Knowledge related to Chat_take control of chrome and sea_7b67ba7c (type: chat_log)
+=======
+- [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
+>>>>>>> Stashed changes
 =======
 - [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
 >>>>>>> Stashed changes
