@@ -152,3 +152,4 @@ History of your mind.
 - [[Chat_take control of my chrome and _7f79f812]] | Knowledge related to Chat_take control of my chrome and _7f79f812
 - [[Chat_hiiii_d9c56533]] | Knowledge related to Chat_hiiii_d9c56533
 - [[Chat_describe this image_d9c56533]] | Knowledge related to Chat_describe this image_d9c56533
+- [[Chat_take control of my chrome and _d42d4a64]] | Knowledge related to Chat_take control of my chrome and _d42d4a64
