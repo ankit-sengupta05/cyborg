@@ -156,6 +156,7 @@ History of your mind.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - [[Chat_take control of my chrome and _d42d4a64]] | Knowledge related to Chat_take control of my chrome and _d42d4a64
 - [[Chat_hi_3fc88006]] | Knowledge related to Chat_hi_3fc88006
 - [[Chat_take control of chrome and sea_d42d4a64]] | Knowledge related to Chat_take control of chrome and sea_d42d4a64
@@ -176,3 +177,8 @@ History of your mind.
 =======
 - [[Chat_hi_3fc88006]] | Knowledge related to Chat_hi_3fc88006
 >>>>>>> Stashed changes
+=======
+- [[Chat_hi_3fc88006]] | Knowledge related to Chat_hi_3fc88006
+>>>>>>> Stashed changes
+
+- [[Chat_hi_test-ses]] | Knowledge related to Chat_hi_test-ses
