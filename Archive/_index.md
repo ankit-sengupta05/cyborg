@@ -146,3 +146,4 @@ History of your mind.
 - [[Chat_"C:\Users\ankit\OneDrive\Pictu_fd65a725]] | Knowledge related to Chat_"C:\Users\ankit\OneDrive\Pictu_fd65a725
 - [[Chat_hi bud_e23880bf]] | Knowledge related to Chat_hi bud_e23880bf
 - [[Chat_take controll of my chorome an_1adfe4e7]] | Knowledge related to Chat_take controll of my chorome an_1adfe4e7
+- [[Chat_Take control of my Chrome and _701ee61d]] | Knowledge related to Chat_Take control of my Chrome and _701ee61d
