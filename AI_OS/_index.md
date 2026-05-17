@@ -1887,3 +1887,4 @@ The operating layer of your vault.
 - [[Archive\Chat_take control of my chrome and _701ee61d.md]] | Knowledge related to Chat_take control of my chrome and _701ee61d (type: chat_log)
 - [[Archive\Chat_take control of my chrome and _7f79f812.md]] | Knowledge related to Chat_take control of my chrome and _7f79f812 (type: chat_log)
 - [[Archive\Chat_hiiii_d9c56533.md]] | Knowledge related to Chat_hiiii_d9c56533 (type: chat_log)
+- [[Archive\Chat_describe this image_d9c56533.md]] | Knowledge related to Chat_describe this image_d9c56533 (type: chat_log)
