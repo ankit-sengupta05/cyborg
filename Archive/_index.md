@@ -167,3 +167,4 @@ History of your mind.
 >>>>>>> Stashed changes
 
 - [[Chat_take control of chrome and sea_6eed6d83]] | Knowledge related to Chat_take control of chrome and sea_6eed6d83
+- [[Chat_take control of chrome and sea_c5e9d2ec]] | Knowledge related to Chat_take control of chrome and sea_c5e9d2ec
