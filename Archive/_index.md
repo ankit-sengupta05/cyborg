@@ -165,3 +165,5 @@ History of your mind.
 =======
 - [[Chat_hi_3fc88006]] | Knowledge related to Chat_hi_3fc88006
 >>>>>>> Stashed changes
+
+- [[Chat_take control of chrome and sea_6eed6d83]] | Knowledge related to Chat_take control of chrome and sea_6eed6d83

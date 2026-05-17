@@ -1901,3 +1901,5 @@ The operating layer of your vault.
 =======
 - [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
 >>>>>>> Stashed changes
+
+- [[Archive\Chat_take control of chrome and sea_6eed6d83.md]] | Knowledge related to Chat_take control of chrome and sea_6eed6d83 (type: chat_log)
