@@ -1895,6 +1895,7 @@ The operating layer of your vault.
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 - [[Archive\Chat_take control of my chrome and _d42d4a64.md]] | Knowledge related to Chat_take control of my chrome and _d42d4a64 (type: chat_log)
 - [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
 - [[Archive\Chat_take control of chrome and sea_d42d4a64.md]] | Knowledge related to Chat_take control of chrome and sea_d42d4a64 (type: chat_log)
@@ -1921,6 +1922,9 @@ The operating layer of your vault.
 
 - [[Archive\Chat_hi_test-ses.md]] | Knowledge related to Chat_hi_test-ses (type: chat_log)
 - [[Archive\Chat_hi_99c9771e.md]] | Knowledge related to Chat_hi_99c9771e (type: chat_log)
+=======
+- [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
+>>>>>>> Stashed changes
 =======
 - [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
 >>>>>>> Stashed changes
