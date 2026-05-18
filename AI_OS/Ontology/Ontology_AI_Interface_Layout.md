@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-18T08:06:35.804447'
-id: d921b2cc
+created: '2026-05-18T08:21:52.286542'
+id: a30f53d3
 links: []
-modified: '2026-05-18T08:06:35.804447'
+modified: '2026-05-18T08:21:52.286542'
 project: ''
 source: ''
 status: active
@@ -20,25 +20,25 @@ type: ontology_map
 
 # Ontology: AI Interface Layout
 
-**Summary**: Describes the structural components of a modern AI assistant user interface.
+**Summary**: Describes the structural components of an AI assistant's user interface.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Right Side Panels"]
-    n1["Left Sidebar"]
-    n2["Main Content Area"]
-    n3["AI Assistant Interface"]
-    n4["Bottom Bar"]
+    n0["AI Assistant Interface"]
+    n1["Bottom Bar"]
+    n2["Screenshot Analysis"]
+    n3["Right Side Panels"]
+    n4["Main Content Area"]
     n5["Chat: describe the image"]
-    n6["Screenshot Analysis"]
-    n5 -->|DISCUSSES| n3
-    n5 -->|DISCUSSES| n6
-    n5 -->|DISCUSSES| n1
-    n5 -->|DISCUSSES| n2
+    n6["Left Sidebar"]
     n5 -->|DISCUSSES| n0
+    n5 -->|DISCUSSES| n2
+    n5 -->|DISCUSSES| n6
     n5 -->|DISCUSSES| n4
-    n6 -->|DESCRIBES| n3
+    n5 -->|DISCUSSES| n3
+    n5 -->|DISCUSSES| n1
+    n2 -->|DESCRIBES| n0
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -58,10 +58,10 @@ graph TD
 - [[Bottom Bar]]
 
 ## 📋 All Core Concepts
-- [[Right Side Panels]]
-- [[Left Sidebar]]
-- [[Main Content Area]]
 - [[AI Assistant Interface]]
 - [[Bottom Bar]]
-- [[Chat: describe the image]]
 - [[Screenshot Analysis]]
+- [[Right Side Panels]]
+- [[Main Content Area]]
+- [[Chat: describe the image]]
+- [[Left Sidebar]]

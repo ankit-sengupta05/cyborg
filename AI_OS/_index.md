@@ -1992,3 +1992,9 @@ The operating layer of your vault.
 =======
 - [[Archive\Chat_hi_3fc88006.md]] | Knowledge related to Chat_hi_3fc88006 (type: chat_log)
 >>>>>>> Stashed changes
+
+- [[AI_OS\Ontology\Ontology_Classification_Algorithms.md]] | Knowledge related to Ontology_Classification_Algorithms (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_ML_Techniques_Overview.md]] | Knowledge related to Ontology_ML_Techniques_Overview (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Decision_Tree_Metrics.md]] | Knowledge related to Ontology_Decision_Tree_Metrics (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_K-Means_Clustering.md]] | Knowledge related to Ontology_K-Means_Clustering (type: ontology_map)
+- [[AI_OS\Ontology\Ontology_Image_Captioning.md]] | Knowledge related to Ontology_Image_Captioning (type: ontology_map)

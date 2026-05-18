@@ -66,3 +66,8 @@ Auto-generated index for Ontology
 - [[Ontology_Account_Access]] | Knowledge related to Ontology_Account_Access
 - [[Ontology_Fantasy_Confrontation]] | Knowledge related to Ontology_Fantasy_Confrontation
 - [[Ontology_Browser_Automation]] | Knowledge related to Ontology_Browser_Automation
+- [[Ontology_Classification_Algorithms]] | Knowledge related to Ontology_Classification_Algorithms
+- [[Ontology_ML_Techniques_Overview]] | Knowledge related to Ontology_ML_Techniques_Overview
+- [[Ontology_Decision_Tree_Metrics]] | Knowledge related to Ontology_Decision_Tree_Metrics
+- [[Ontology_K-Means_Clustering]] | Knowledge related to Ontology_K-Means_Clustering
+- [[Ontology_Image_Captioning]] | Knowledge related to Ontology_Image_Captioning

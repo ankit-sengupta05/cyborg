@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-18T08:06:35.737406'
-id: 1383ec3e
+created: '2026-05-18T08:21:52.249450'
+id: 53dd2840
 links: []
-modified: '2026-05-18T08:06:35.737406'
+modified: '2026-05-18T08:21:52.249450'
 project: ''
 source: ''
 status: active
@@ -20,86 +20,86 @@ type: ontology_map
 
 # Ontology: Conversational AI Interaction
 
-**Summary**: The entities showcase a mix of user intents, technical concepts, and specific application interactions within chat contexts.
+**Summary**: The entities primarily revolve around user-assistant dialogue, task execution, and general knowledge retrieval.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Chat: hi"]
-    n1["post an image to Instagram"]
-    n2["Chat: hi"]
-    n3["Chat: log into my insta"]
-    n4["Chat: log into my instagram"]
-    n5["log into Instagram"]
-    n6["Instagram"]
-    n7["god of war"]
-    n8["User"]
-    n9["God of War Ragnarok"]
-    n10["Chat: Take control of my Chrome and search for..."]
-    n11["browser_get_credentials"]
-    n12["Chat: what does this image describe"]
-    n13["ScreenShot-2026-1-7_19-31-13.png"]
-    n14["Chat: take controll of my chorome and research..."]
-    n15["Chat: take control of my chrome and search for..."]
-    n16["Image Description Request"]
-    n17["C:\Users\ankit\OneDrive\Pictures\God of War Ragnarok\ScreenShot-2026-1-7_19-31-13.png"]
-    n18["Instagram Story"]
-    n19["Chat: 'C:\Users\ankit\OneDrive\Pictures\God of..."]
-    n20["Chat: 'C:\Users\ankit\OneDrive\Pictures\God of..."]
-    n21["sigma pandit"]
-    n22["Assistant"]
-    n23["Chat: log into my insta gram"]
-    n24["Chat: hi bud"]
-    n8 -->|CONTACTED| n22
-    n0 -->|DISCUSSES| n8
-    n0 -->|DISCUSSES| n22
-    n12 -->|DISCUSSES| n16
-    n12 -->|DISCUSSES| n8
-    n12 -->|DISCUSSES| n22
-    n8 -->|INITIATED| n16
-    n22 -->|FAILED_TO_COMPLETE| n16
-    n8 -->|REQUESTED_ACTION| n6
-    n22 -->|LIMITATION_ON| n6
-    n3 -->|DISCUSSES| n6
-    n3 -->|DISCUSSES| n8
-    n3 -->|DISCUSSES| n22
-    n3 -->|DISCUSSES| n5
-    n22 -->|EXECUTING_TASK| n5
-    n3 -->|DISCUSSES| n11
-    n22 -->|USED_TOOL| n11
-    n4 -->|DISCUSSES| n9
-    n4 -->|DISCUSSES| n13
-    n4 -->|DISCUSSES| n18
-    n4 -->|DISCUSSES| n7
-    n13 -->|LINKED_TO| n18
-    n7 -->|ASSIGNED| n18
-    n23 -->|DISCUSSES| n6
-    n23 -->|DISCUSSES| n5
-    n23 -->|DISCUSSES| n11
-    n23 -->|DISCUSSES| n1
-    n23 -->|DISCUSSES| n17
-    n8 -->|INITIATED_TASK| n5
-    n8 -->|INITIATED_TASK| n1
-    n22 -->|PLANNING_FOR| n1
-    n17 -->|INPUT_MEDIA_FOR| n1
-    n23 -->|DISCUSSES| n21
-    n8 -->|ASSIGNED_TASK_TO| n21
-    n23 -->|DISCUSSES| n9
-    n23 -->|DISCUSSES| n13
-    n13 -->|ATTACHED_WITH_CAPTION| n7
-    n23 -->|DISCUSSES| n7
-    n13 -->|INTENDED_TO_SEND| n21
-    n9 -->|SOURCE_OF| n13
-    n20 -->|DISCUSSES| n9
+    n0["sigma pandit"]
+    n1["browser_get_credentials"]
+    n2["Chat: 'C:\Users\ankit\OneDrive\Pictures\God of..."]
+    n3["Chat: take controll of my chorome and research..."]
+    n4["Chat: hi bud"]
+    n5["Chat: take control of my chrome and search for..."]
+    n6["Chat: what does this image describe"]
+    n7["Chat: hi"]
+    n8["Chat: 'C:\Users\ankit\OneDrive\Pictures\God of..."]
+    n9["god of war"]
+    n10["Chat: log into my instagram"]
+    n11["Instagram"]
+    n12["ScreenShot-2026-1-7_19-31-13.png"]
+    n13["Chat: hi"]
+    n14["Image Description Request"]
+    n15["C:\Users\ankit\OneDrive\Pictures\God of War Ragnarok\ScreenShot-2026-1-7_19-31-13.png"]
+    n16["log into Instagram"]
+    n17["Instagram Story"]
+    n18["Chat: log into my insta gram"]
+    n19["Chat: Take control of my Chrome and search for..."]
+    n20["Chat: log into my insta"]
+    n21["User"]
+    n22["God of War Ragnarok"]
+    n23["post an image to Instagram"]
+    n24["Assistant"]
+    n21 -->|CONTACTED| n24
+    n13 -->|DISCUSSES| n21
+    n13 -->|DISCUSSES| n24
+    n6 -->|DISCUSSES| n14
+    n6 -->|DISCUSSES| n21
+    n6 -->|DISCUSSES| n24
+    n21 -->|INITIATED| n14
+    n24 -->|FAILED_TO_COMPLETE| n14
+    n21 -->|REQUESTED_ACTION| n11
+    n24 -->|LIMITATION_ON| n11
+    n20 -->|DISCUSSES| n11
     n20 -->|DISCUSSES| n21
-    n20 -->|DISCUSSES| n17
-    n20 -->|DISCUSSES| n7
-    n17 -->|SENT_TO| n21
-    n7 -->|CAPTION/CONTEXT| n17
-    n19 -->|DISCUSSES| n17
-    n19 -->|DISCUSSES| n21
-    n19 -->|DISCUSSES| n7
-    n14 -->|DISCUSSES| n8
+    n20 -->|DISCUSSES| n24
+    n20 -->|DISCUSSES| n16
+    n24 -->|EXECUTING_TASK| n16
+    n20 -->|DISCUSSES| n1
+    n24 -->|USED_TOOL| n1
+    n10 -->|DISCUSSES| n22
+    n10 -->|DISCUSSES| n12
+    n10 -->|DISCUSSES| n17
+    n10 -->|DISCUSSES| n9
+    n12 -->|LINKED_TO| n17
+    n9 -->|ASSIGNED| n17
+    n18 -->|DISCUSSES| n11
+    n18 -->|DISCUSSES| n16
+    n18 -->|DISCUSSES| n1
+    n18 -->|DISCUSSES| n23
+    n18 -->|DISCUSSES| n15
+    n21 -->|INITIATED_TASK| n16
+    n21 -->|INITIATED_TASK| n23
+    n24 -->|PLANNING_FOR| n23
+    n15 -->|INPUT_MEDIA_FOR| n23
+    n18 -->|DISCUSSES| n0
+    n21 -->|ASSIGNED_TASK_TO| n0
+    n18 -->|DISCUSSES| n22
+    n18 -->|DISCUSSES| n12
+    n12 -->|ATTACHED_WITH_CAPTION| n9
+    n18 -->|DISCUSSES| n9
+    n12 -->|INTENDED_TO_SEND| n0
+    n22 -->|SOURCE_OF| n12
+    n8 -->|DISCUSSES| n22
+    n8 -->|DISCUSSES| n0
+    n8 -->|DISCUSSES| n15
+    n8 -->|DISCUSSES| n9
+    n15 -->|SENT_TO| n0
+    n9 -->|CAPTION/CONTEXT| n15
+    n2 -->|DISCUSSES| n15
+    n2 -->|DISCUSSES| n0
+    n2 -->|DISCUSSES| n9
+    n3 -->|DISCUSSES| n21
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -132,55 +132,19 @@ graph TD
   - [[post an image to Instagram]]
   - *( executing_task )*
   - [[log into Instagram]]
-- [[Chat: hi]]
+- [[browser_get_credentials]]
+- [[Chat: "C:\Users\ankit\OneDrive\Pictures\God of...]]
+- [[Chat: take controll of my chorome and research...]]
   - *( discusses )*
   - [[User]]
-  - *( discusses )*
-  - [[support vector machines (SVM)]]
-  - *( discusses )*
-  - [[principal component analysis (PCA)]]
-  - *( discusses )*
-  - [[Machine Learning concepts]]
-- [[Chat: hi]]
-  - *( discusses )*
-  - [[blackholes]]
-  - *( discusses )*
-  - [[web search]]
-- [[Chat: log into my insta]]
-  - *( discusses )*
-  - [[browser_get_credentials]]
-- [[Chat: log into my instagram]]
-- [[Chat: Take control of my Chrome and search for...]]
-  - *( discusses )*
-  - [[Data Scientist jobs in New York]]
-  - *( discusses )*
-  - [[LinkedIn]]
-  - *( discusses )*
-  - [[Job Listings Search]]
-- [[Chat: what does this image describe]]
-  - *( discusses )*
-  - [[Image Description Request]]
-  - *( discusses )*
-  - [[Missing Image Input]]
-- [[Chat: take controll of my chorome and research...]]
   - *( discusses )*
   - [[Job Search]]
   - *( discusses )*
   - [[New York]]
   - *( discusses )*
+  - [[LinkedIn]]
+  - *( discusses )*
   - [[Assistant/Model]]
-- [[Chat: take control of my chrome and search for...]]
-  - *( discusses )*
-  - [[take control of my chrome and search for jobs]]
-  - *( discusses )*
-  - [[web_search_and_open]]
-  - *( discusses )*
-  - [[tax laws for freelancers]]
-  - *( discusses )*
-  - [[sde intern role job listings]]
-  - *( discusses )*
-  - [[open_chrome_and_navigate]]
-- [[Chat: "C:\Users\ankit\OneDrive\Pictures\God of...]]
 - [[Chat: hi bud]]
   - *( discusses )*
   - [[Cyborg]]
@@ -192,30 +156,65 @@ graph TD
   - [[latest jobs]]
   - *( discusses )*
   - [[Search knowledge]]
+- [[Chat: take control of my chrome and search for...]]
+  - *( discusses )*
+  - [[take control of my chrome and search for jobs]]
+  - *( discusses )*
+  - [[web_search_and_open]]
+  - *( discusses )*
+  - [[tax laws for freelancers]]
+  - *( discusses )*
+  - [[sde intern role job listings]]
+  - *( discusses )*
+  - [[open_chrome_and_navigate]]
+- [[Chat: what does this image describe]]
+  - *( discusses )*
+  - [[Image Description Request]]
+  - *( discusses )*
+  - [[Missing Image Input]]
+- [[Chat: hi]]
+  - *( discusses )*
+  - [[blackholes]]
+  - *( discusses )*
+  - [[web search]]
+- [[Chat: log into my instagram]]
+- [[Chat: hi]]
+  - *( discusses )*
+  - [[support vector machines (SVM)]]
+  - *( discusses )*
+  - [[principal component analysis (PCA)]]
+  - *( discusses )*
+  - [[Machine Learning concepts]]
+- [[Chat: Take control of my Chrome and search for...]]
+  - *( discusses )*
+  - [[Data Scientist jobs in New York]]
+  - *( discusses )*
+  - [[Job Listings Search]]
+- [[Chat: log into my insta]]
 
 ## 📋 All Core Concepts
-- [[Chat: hi]]
-- [[post an image to Instagram]]
-- [[Chat: hi]]
-- [[Chat: log into my insta]]
-- [[Chat: log into my instagram]]
-- [[log into Instagram]]
-- [[Instagram]]
-- [[god of war]]
-- [[User]]
-- [[God of War Ragnarok]]
-- [[Chat: Take control of my Chrome and search for...]]
+- [[sigma pandit]]
 - [[browser_get_credentials]]
-- [[Chat: what does this image describe]]
-- [[ScreenShot-2026-1-7_19-31-13.png]]
+- [[Chat: "C:\Users\ankit\OneDrive\Pictures\God of...]]
 - [[Chat: take controll of my chorome and research...]]
+- [[Chat: hi bud]]
 - [[Chat: take control of my chrome and search for...]]
+- [[Chat: what does this image describe]]
+- [[Chat: hi]]
+- [[Chat: "C:\Users\ankit\OneDrive\Pictures\God of...]]
+- [[god of war]]
+- [[Chat: log into my instagram]]
+- [[Instagram]]
+- [[ScreenShot-2026-1-7_19-31-13.png]]
+- [[Chat: hi]]
 - [[Image Description Request]]
 - [[C:\Users\ankit\OneDrive\Pictures\God of War Ragnarok\ScreenShot-2026-1-7_19-31-13.png]]
+- [[log into Instagram]]
 - [[Instagram Story]]
-- [[Chat: "C:\Users\ankit\OneDrive\Pictures\God of...]]
-- [[Chat: "C:\Users\ankit\OneDrive\Pictures\God of...]]
-- [[sigma pandit]]
-- [[Assistant]]
 - [[Chat: log into my insta gram]]
-- [[Chat: hi bud]]
+- [[Chat: Take control of my Chrome and search for...]]
+- [[Chat: log into my insta]]
+- [[User]]
+- [[God of War Ragnarok]]
+- [[post an image to Instagram]]
+- [[Assistant]]

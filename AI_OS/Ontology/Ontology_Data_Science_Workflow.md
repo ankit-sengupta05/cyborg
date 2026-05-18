@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-18T08:06:35.829963'
-id: 05ff2444
+created: '2026-05-18T08:21:52.293450'
+id: 60a16c1d
 links: []
-modified: '2026-05-18T08:06:35.829963'
+modified: '2026-05-18T08:21:52.293450'
 project: ''
 source: ''
 status: active
@@ -25,24 +25,24 @@ type: ontology_map
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["Data Visualization Dashboard (Stock/Chart View)"]
-    n1["Chat: what does these image describe or repres..."]
-    n2["Data Analysis"]
-    n3["Code Editor / Terminal View"]
-    n4["Advanced Data Science & Development Dashboard"]
-    n5["Tesla Stock Chart"]
-    n6["Software Engineering"]
-    n7["AI/ML Workflow Management"]
-    n1 -->|DISCUSSES| n4
-    n1 -->|DISCUSSES| n6
-    n1 -->|DISCUSSES| n2
-    n1 -->|DISCUSSES| n7
-    n1 -->|DISCUSSES| n3
-    n1 -->|DISCUSSES| n0
-    n1 -->|DISCUSSES| n5
-    n4 -->|LINKED_TO| n6
-    n4 -->|LINKED_TO| n2
-    n4 -->|LINKED_TO| n7
+    n0["Advanced Data Science & Development Dashboard"]
+    n1["Tesla Stock Chart"]
+    n2["Chat: what does these image describe or repres..."]
+    n3["Data Visualization Dashboard (Stock/Chart View)"]
+    n4["Code Editor / Terminal View"]
+    n5["Software Engineering"]
+    n6["AI/ML Workflow Management"]
+    n7["Data Analysis"]
+    n2 -->|DISCUSSES| n0
+    n2 -->|DISCUSSES| n5
+    n2 -->|DISCUSSES| n7
+    n2 -->|DISCUSSES| n6
+    n2 -->|DISCUSSES| n4
+    n2 -->|DISCUSSES| n3
+    n2 -->|DISCUSSES| n1
+    n0 -->|LINKED_TO| n5
+    n0 -->|LINKED_TO| n7
+    n0 -->|LINKED_TO| n6
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -59,15 +59,15 @@ graph TD
     - [[AI/ML Workflow Management]]
   - *( discusses )*
   - [[Code Editor / Terminal View]]
-- [[Data Visualization Dashboard (Stock/Chart View)]]
 - [[Tesla Stock Chart]]
+- [[Data Visualization Dashboard (Stock/Chart View)]]
 
 ## 📋 All Core Concepts
-- [[Data Visualization Dashboard (Stock/Chart View)]]
-- [[Chat: what does these image describe or repres...]]
-- [[Data Analysis]]
-- [[Code Editor / Terminal View]]
 - [[Advanced Data Science & Development Dashboard]]
 - [[Tesla Stock Chart]]
+- [[Chat: what does these image describe or repres...]]
+- [[Data Visualization Dashboard (Stock/Chart View)]]
+- [[Code Editor / Terminal View]]
 - [[Software Engineering]]
 - [[AI/ML Workflow Management]]
+- [[Data Analysis]]

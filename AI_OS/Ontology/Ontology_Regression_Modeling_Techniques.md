@@ -2,10 +2,10 @@
 aliases: []
 area: ''
 backlinks: []
-created: '2026-05-18T08:06:35.506726'
-id: 6c3d0345
+created: '2026-05-18T08:21:52.184139'
+id: 783ef9c7
 links: []
-modified: '2026-05-18T08:06:35.506726'
+modified: '2026-05-18T08:21:52.184139'
 project: ''
 source: ''
 status: active
@@ -20,86 +20,86 @@ type: ontology_map
 
 # Ontology: Regression Modeling Techniques
 
-**Summary**: This collection focuses on various statistical methods for modeling relationships and making predictions.
+**Summary**: This collection focuses on various statistical methods for modeling relationships, including linear and logistic regression variants.
 
 ## 🗺️ Visual Concept Map
 ```mermaid
 graph TD
-    n0["λ"]
-    n1["Linear Discriminant Analysis (LDA)"]
-    n2["Lasso Regression"]
-    n3["Linear Discriminant Analysis"]
-    n4["Linear Regression"]
-    n5["Linear Classification"]
-    n6["λ = 1"]
-    n7["λ= 1"]
-    n8["Subset Selection"]
-    n9["K-Nearest Neighbor learning Module"]
-    n10["Subset Selection Module"]
-    n11["Logistic Regression"]
-    n12["Principal Component Regression"]
-    n13["K-Nearest Neighbor learning"]
+    n0["PCA Why Do We Need PCA in Machine Learning?"]
+    n1["Partial Least squares"]
+    n2["Subset Selection Module No. 2"]
+    n3["K-Nearest Neighbor learning Module"]
+    n4["Subset Selection"]
+    n5["Shrinkage Methods"]
+    n6["Logistic Regression"]
+    n7["Subset Selection Module"]
+    n8["LDA"]
+    n9["Principal Component Regression"]
+    n10["Linear Regression"]
+    n11["K-Nearest Neighbor learning"]
+    n12["Age"]
+    n13["Linear Discriminant Analysis"]
     n14["Logistic Regression"]
-    n15["Ridge Regression"]
-    n16["Linear Regression"]
-    n17["LDA"]
-    n18["Shrinkage Methods"]
-    n19["Age"]
-    n20["Regression"]
-    n21["Partial Least squares"]
-    n22["K-Nearest Neighbor learning"]
-    n23["Multivariate Regression"]
-    n24["Subset Selection Module No. 2"]
-    n4 -->|KEYWORD_LINK| n16
-    n20 -->|KEYWORD_LINK| n16
-    n20 -->|KEYWORD_LINK| n14
-    n20 -->|KEYWORD_LINK| n4
-    n4 -->|CONTAINS| n20
+    n15["Linear Classification"]
+    n16["Regression"]
+    n17["Multivariate Regression"]
+    n18["Lasso Regression"]
+    n19["Linear Regression"]
+    n20["Loss"]
+    n21["Linear Discriminant Analysis (LDA)"]
+    n22["λ"]
+    n23["K-Nearest Neighbor learning"]
+    n24["Ridge Regression"]
+    n19 -->|KEYWORD_LINK| n10
+    n16 -->|KEYWORD_LINK| n10
+    n16 -->|KEYWORD_LINK| n6
+    n16 -->|KEYWORD_LINK| n19
+    n19 -->|CONTAINS| n16
+    n19 -->|CONTAINS| n19
+    n16 -->|LINKED_TO| n19
+    n7 -->|KEYWORD_LINK| n4
+    n4 -->|CONTAINS| n7
+    n4 -->|CONTAINS| n19
+    n17 -->|KEYWORD_LINK| n16
+    n4 -->|CONTAINS| n17
+    n4 -->|CONTAINS| n5
+    n9 -->|KEYWORD_LINK| n16
+    n4 -->|CONTAINS| n9
+    n4 -->|CONTAINS| n1
+    n4 -->|CONTAINS| n15
+    n4 -->|CONTAINS| n6
+    n4 -->|CONTAINS| n8
+    n4 -->|CONTAINS| n23
     n4 -->|CONTAINS| n4
-    n20 -->|LINKED_TO| n4
-    n10 -->|KEYWORD_LINK| n8
-    n8 -->|CONTAINS| n10
-    n8 -->|CONTAINS| n4
-    n23 -->|KEYWORD_LINK| n20
-    n8 -->|CONTAINS| n23
-    n8 -->|CONTAINS| n18
-    n12 -->|KEYWORD_LINK| n20
-    n8 -->|CONTAINS| n12
-    n8 -->|CONTAINS| n21
-    n8 -->|CONTAINS| n5
-    n8 -->|CONTAINS| n14
-    n8 -->|CONTAINS| n17
-    n8 -->|CONTAINS| n13
-    n8 -->|CONTAINS| n8
-    n10 -->|CO_OCCUR| n4
-    n10 -->|CO_OCCUR| n23
-    n10 -->|CO_OCCUR| n18
-    n10 -->|CO_OCCUR| n12
-    n10 -->|CO_OCCUR| n21
-    n10 -->|CO_OCCUR| n5
-    n10 -->|CO_OCCUR| n14
-    n10 -->|CO_OCCUR| n17
-    n10 -->|CO_OCCUR| n13
-    n4 -->|CO_OCCUR| n23
-    n4 -->|CO_OCCUR| n18
-    n4 -->|CO_OCCUR| n12
-    n4 -->|CO_OCCUR| n21
-    n4 -->|CO_OCCUR| n5
-    n4 -->|CO_OCCUR| n14
-    n4 -->|CO_OCCUR| n17
-    n4 -->|CO_OCCUR| n13
-    n23 -->|CO_OCCUR| n18
-    n23 -->|CO_OCCUR| n12
-    n23 -->|CO_OCCUR| n21
-    n23 -->|CO_OCCUR| n5
-    n23 -->|CO_OCCUR| n14
-    n23 -->|CO_OCCUR| n17
-    n23 -->|CO_OCCUR| n13
-    n18 -->|CO_OCCUR| n12
-    n18 -->|CO_OCCUR| n21
-    n18 -->|CO_OCCUR| n5
-    n18 -->|CO_OCCUR| n14
-    n18 -->|CO_OCCUR| n17
+    n7 -->|CO_OCCUR| n19
+    n7 -->|CO_OCCUR| n17
+    n7 -->|CO_OCCUR| n5
+    n7 -->|CO_OCCUR| n9
+    n7 -->|CO_OCCUR| n1
+    n7 -->|CO_OCCUR| n15
+    n7 -->|CO_OCCUR| n6
+    n7 -->|CO_OCCUR| n8
+    n7 -->|CO_OCCUR| n23
+    n19 -->|CO_OCCUR| n17
+    n19 -->|CO_OCCUR| n5
+    n19 -->|CO_OCCUR| n9
+    n19 -->|CO_OCCUR| n1
+    n19 -->|CO_OCCUR| n15
+    n19 -->|CO_OCCUR| n6
+    n19 -->|CO_OCCUR| n8
+    n19 -->|CO_OCCUR| n23
+    n17 -->|CO_OCCUR| n5
+    n17 -->|CO_OCCUR| n9
+    n17 -->|CO_OCCUR| n1
+    n17 -->|CO_OCCUR| n15
+    n17 -->|CO_OCCUR| n6
+    n17 -->|CO_OCCUR| n8
+    n17 -->|CO_OCCUR| n23
+    n5 -->|CO_OCCUR| n9
+    n5 -->|CO_OCCUR| n1
+    n5 -->|CO_OCCUR| n15
+    n5 -->|CO_OCCUR| n6
+    n5 -->|CO_OCCUR| n8
 ```
 
 ## 🌳 Sequential Topic Tree
@@ -126,53 +126,62 @@ graph TD
     - [[Multivariate Regression]]
       - *( co_occur )*
       - [[Shrinkage Methods]]
+- [[PCA Why Do We Need PCA in Machine Learning?]]
+  - *( linked_to )*
+  - [[Interpretability and Minimizing Information Loss]]
+    - *( keyword_link )*
+    - [[Loss]]
+      - *( co_occur )*
+      - [[Lasso Regression]]
+        - *( keyword_link )*
+  - *( linked_to )*
+  - [[Overfitting Issues]]
+  - *( linked_to )*
+  - [[Locating Important Characteristics]]
+  - *( linked_to )*
+  - [[Discovering Linear Combinations of Varying Sequences]]
+- [[Subset Selection Module No. 2]]
+  - *( keyword_link )*
+  - [[Subset Selection Module]]
+- [[K-Nearest Neighbor learning Module]]
+- [[Linear Regression]]
+- [[K-Nearest Neighbor learning]]
+- [[Age]]
+- [[Linear Discriminant Analysis]]
+  - *( keyword_link )*
+  - [[Linear Discriminant Analysis (LDA)]]
+  - *( referenced_by )*
+  - [[PCA Vs LDA]]
+- [[Logistic Regression]]
+  - *( keyword_link )*
+  - [[Regression]]
 - [[λ]]
   - *( co_occur )*
   - [[Ridge Regression]]
-    - *( keyword_link )*
-    - [[Regression]]
-      - *( keyword_link )*
-      - [[Linear Regression]]
-    - *( co_occur )*
-    - [[Lasso Regression]]
-- [[Linear Discriminant Analysis (LDA)]]
-  - *( contains )*
-  - [[Linear Discriminant Analysis]]
-    - *( referenced_by )*
-    - [[PCA Vs LDA]]
-- [[λ = 1]]
-- [[λ= 1]]
-- [[K-Nearest Neighbor learning Module]]
-- [[Subset Selection Module]]
-- [[Logistic Regression]]
-  - *( contains )*
-  - [[Age]]
-- [[K-Nearest Neighbor learning]]
-- [[Subset Selection Module No. 2]]
 
 ## 📋 All Core Concepts
-- [[λ]]
-- [[Linear Discriminant Analysis (LDA)]]
-- [[Lasso Regression]]
-- [[Linear Discriminant Analysis]]
-- [[Linear Regression]]
-- [[Linear Classification]]
-- [[λ = 1]]
-- [[λ= 1]]
-- [[Subset Selection]]
-- [[K-Nearest Neighbor learning Module]]
-- [[Subset Selection Module]]
-- [[Logistic Regression]]
-- [[Principal Component Regression]]
-- [[K-Nearest Neighbor learning]]
-- [[Logistic Regression]]
-- [[Ridge Regression]]
-- [[Linear Regression]]
-- [[LDA]]
-- [[Shrinkage Methods]]
-- [[Age]]
-- [[Regression]]
+- [[PCA Why Do We Need PCA in Machine Learning?]]
 - [[Partial Least squares]]
-- [[K-Nearest Neighbor learning]]
-- [[Multivariate Regression]]
 - [[Subset Selection Module No. 2]]
+- [[K-Nearest Neighbor learning Module]]
+- [[Subset Selection]]
+- [[Shrinkage Methods]]
+- [[Logistic Regression]]
+- [[Subset Selection Module]]
+- [[LDA]]
+- [[Principal Component Regression]]
+- [[Linear Regression]]
+- [[K-Nearest Neighbor learning]]
+- [[Age]]
+- [[Linear Discriminant Analysis]]
+- [[Logistic Regression]]
+- [[Linear Classification]]
+- [[Regression]]
+- [[Multivariate Regression]]
+- [[Lasso Regression]]
+- [[Linear Regression]]
+- [[Loss]]
+- [[Linear Discriminant Analysis (LDA)]]
+- [[λ]]
+- [[K-Nearest Neighbor learning]]
+- [[Ridge Regression]]
